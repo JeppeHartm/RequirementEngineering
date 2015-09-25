@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-09-22T10:24:54.647+0200" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
+  <creator name="" timeCreated="2015-09-22T10:09:30.159+0200" uniqueID="8afaac80-b054-45e3-9053-e1b5e80299b1" id="" email="" initials="">
+    <cost name="Cost" kind=""/>
+    <benefit name="Cost" kind=""/>
+  </creator>
+  <changeList/>
+  <responsibleUser name="" timeCreated="2015-09-22T10:15:36.286+0200" uniqueID="760d0bd8-f9d8-407a-ad00-3f2dc6e81bb1">
+    <cost name="Cost" kind=""/>
+    <benefit name="Cost" kind=""/>
+  </responsibleUser>
+  <cost name="Cost" kind=""/>
+  <benefit name="Cost" kind=""/>
+  <users comment="s145328">
+    <user name="Niclas Horstad" timeCreated="2015-09-22T10:13:05.691+0200" uniqueID="5c539a33-2420-465e-9d09-76083f067d29" id="Author" skype="lingling.pikarius" email="niclas.horstad@gmail.com" phoneNumber="42677963">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </user>
+  </users>
+  <users comment="s060186">
+    <user name="Martin Vestager Ottesen" timeCreated="2015-09-22T10:13:42.390+0200" uniqueID="94b8b5d1-d583-488c-a4fb-58eea348539e" id="Speaker" skype="" email="martin_v_ottesen@hotmail.com" phoneNumber="50919936">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </user>
+  </users>
+  <users comment="s113618">
+    <user name="Tobias Brasch" timeCreated="2015-09-22T10:16:38.185+0200" uniqueID="7f494d9a-2272-4240-80bb-5edba96ed61e" id="Toolsmith" skype="" email="tobiasbrasch@gmail.com" phoneNumber="40370826">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </user>
+  </users>
+  <users comment="s072188">
+    <user name="Marianne Louis-Hansen" timeCreated="2015-09-22T10:19:16.431+0200" uniqueID="e51524ac-d3e1-4277-af8d-83e8eebd57fd" id="Secretary" email="mariannelouis-hansen@gmail.com" phoneNumber="22799496">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </user>
+  </users>
+  <users comment="s103458">
+    <user name="Jeppe Hartmund" timeCreated="2015-09-22T10:20:02.252+0200" uniqueID="deac8ee3-000c-4bff-a6db-13aa0394f7d2" id="Mascot" email="jeppe.hartmund@gmail.com" phoneNumber="22985026">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </user>
+  </users>
+  <information>
+    <fragments xsi:type="text:FormattedText" text=""/>
+  </information>
+  <Listofopenedfilesinproject href="Stakeholders.red#3b50cf6d-3145-4e7c-b2e3-9098d65466a9"/>
+</project:Project>
