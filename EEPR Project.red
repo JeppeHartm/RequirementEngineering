@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:document="dk.dtu.imm.red.core.element.document" xmlns:file="dk.dtu.imm.red.core.file" xmlns:persona="dk.dtu.imm.red.specificationelements.persona" xmlns:text="dk.dtu.imm.red.core.text" label="" name="EEPR Project.red" elementKind="unspecified" description="Contains details about the stakeholders of our project" timeCreated="2015-09-22T10:24:31.274+0200" lastModified="2015-10-06T12:11:06.108+0200" uniqueID="3b50cf6d-3145-4e7c-b2e3-9098d65466a9" workPackage="">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:document="dk.dtu.imm.red.core.element.document" xmlns:file="dk.dtu.imm.red.core.file" xmlns:persona="dk.dtu.imm.red.specificationelements.persona" xmlns:text="dk.dtu.imm.red.core.text" label="" name="EEPR Project.red" elementKind="unspecified" description="Contains details about the stakeholders of our project" timeCreated="2015-09-22T10:24:31.274+0200" lastModified="2015-10-09T13:40:11.524+0200" uniqueID="3b50cf6d-3145-4e7c-b2e3-9098d65466a9" workPackage="">
   <creator name="Niclas" timeCreated="2015-09-22T10:24:31.274+0200" uniqueID="f094f1a0-04ed-4865-b671-1b9394ec0008" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -89,6 +89,58 @@
         <benefit name="Cost" kind=""/>
       </panels>
       <panels timeCreated="2015-10-06T12:06:20.174+0200" uniqueID="03145751-8ee9-45c4-a37a-5d8b24c2c178" caption="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </panels>
+      <conclusion>
+        <fragments xsi:type="text:FormattedText" text=""/>
+      </conclusion>
+    </storyboards>
+    <capabilities>
+      <fragments xsi:type="text:FormattedText" text=""/>
+    </capabilities>
+    <constraints>
+      <fragments xsi:type="text:FormattedText" text=""/>
+    </constraints>
+  </contents>
+  <contents xsi:type="persona:Persona" label="EMT-Elin" name="Elin J&#xf6;ttedahl" elementKind="unspecified" description="" timeCreated="2015-10-09T13:39:52.819+0200" lastModified="2015-10-09T13:40:11.524+0200" uniqueID="e97d70d5-46e7-481d-aab2-245fa814ed84" workPackage="" job="EMT-Paramedic">
+    <creator name="" timeCreated="2015-10-09T13:39:52.819+0200" uniqueID="42fb4b3a-a0e9-434a-b58a-e397a1467138" id="" email="" initials="">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </creator>
+    <changeList/>
+    <responsibleUser name="" timeCreated="2015-10-09T13:40:11.508+0200" uniqueID="5c32a8ef-65bf-4132-a2ce-4657bf7cfe64">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </responsibleUser>
+    <cost name="Cost" kind=""/>
+    <benefit name="Cost" kind=""/>
+    <longDescription>
+      <fragments xsi:type="text:FormattedText" text=""/>
+    </longDescription>
+    <storyboards timeCreated="2015-10-09T13:39:53.069+0200" uniqueID="9b358563-f031-40ce-bdad-71de2bcc8f87">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <introduction>
+        <fragments xsi:type="text:FormattedText" text=""/>
+      </introduction>
+      <panels timeCreated="2015-10-09T13:39:53.225+0200" uniqueID="175f816d-d59a-4ce1-bae2-a2abdb86a257" caption="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </panels>
+      <panels timeCreated="2015-10-09T13:39:53.225+0200" uniqueID="ac36f0da-ce88-495e-bd4e-a7f851c45aec" caption="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </panels>
+      <panels timeCreated="2015-10-09T13:39:53.225+0200" uniqueID="d1cfc337-f557-4d9c-8873-d2fb299b431b" caption="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </panels>
+      <panels timeCreated="2015-10-09T13:39:53.225+0200" uniqueID="c45bcaa8-1118-4d29-8886-fdb8a60f496d" caption="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </panels>
+      <panels timeCreated="2015-10-09T13:39:53.225+0200" uniqueID="1177f0e2-5b7f-4b5f-8b3d-15258f0f1fc6" caption="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </panels>
