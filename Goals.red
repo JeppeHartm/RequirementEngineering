@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-10-24T01:49:53.568+0200" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-10-26T00:08:39.058+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
   <creator name="" timeCreated="2015-10-09T15:12:51.753+0200" uniqueID="d9b978f0-3f5c-4a36-9a3b-dd781ad5a814" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -9,7 +9,7 @@
   <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-10-24T01:47:48.650+0200" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="EU" timeCreated="2015-10-24T01:05:43.447+0200" lastModified="2015-10-24T01:12:04.362+0200" uniqueID="5ff4c2d5-6a82-496c-b242-5bf59c279c6e">
+    <contents xsi:type="folder:Folder" name="EU" timeCreated="2015-10-24T01:05:43.447+0200" lastModified="2015-10-24T01:12:04.362+0200" uniqueID="5ff4c2d5-6a82-496c-b242-5bf59c279c6e" specialType="Goal">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <contents xsi:type="goal:Goal" label="G0" name="Expansion" elementKind="Business" description="To expand the EU collaboration with an international healthcare system" timeCreated="2015-10-24T00:58:47.067+0200" lastModified="2015-10-24T01:06:47.591+0200" uniqueID="d400135a-cd31-4e08-864c-2e8270b81009" workPackage="">
