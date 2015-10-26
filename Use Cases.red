@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:usecase="dk.dtu.imm.red.specificationelements.usecase" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-10-26T00:08:39.074+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:usecase="dk.dtu.imm.red.specificationelements.usecase" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-10-26T11:45:34.490+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
   <creator name="" timeCreated="2015-10-25T23:34:33.747+0100" uniqueID="995552ba-a761-4b48-ab60-a7a6353dc7d6" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-10-26T00:08:38.958+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
+  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-10-26T11:36:47.313+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
     <creator name="" timeCreated="2015-10-25T23:51:08.678+0100" uniqueID="e4c78e85-1c34-4b1d-8349-8d0acce375c3">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -99,7 +99,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_GA" name="Grant Access to journal" elementKind="unspecified" description="" timeCreated="2015-10-25T23:46:37.615+0100" lastModified="2015-10-26T00:04:28.976+0100" uniqueID="09ff7c0d-3f6d-4ac4-a04e-a3660ac25e58" workPackage="" parameter="" trigger="" outcome="" result="">
+    <contents xsi:type="usecase:Usecase" label="UC_GA" name="Grant Access to journal" elementKind="SystemUseCase" description="User grants medical professionals access to journal" timeCreated="2015-10-25T23:46:37.615+0100" lastModified="2015-10-26T10:40:50.396+0100" uniqueID="09ff7c0d-3f6d-4ac4-a04e-a3660ac25e58" workPackage="" parameter="Medical professional ID" trigger="Medical professional requests journal" outcome="" result="-">
       <creator name="" timeCreated="2015-10-26T00:04:28.968+0100" uniqueID="7ed72aaf-83f7-40a3-9857-350355f3724a">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -111,6 +111,8 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Benefit" kind=""/>
+      <preConditions>User logged in</preConditions>
+      <postConditions>Medical professional has access to journal</postConditions>
       <longDescription>
         <fragments xsi:type="text:FormattedText" text=""/>
       </longDescription>
@@ -123,7 +125,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_RA" name="Remove access to journal" elementKind="unspecified" description="" timeCreated="2015-10-25T23:47:00.594+0100" lastModified="2015-10-26T00:05:05.039+0100" uniqueID="c118698a-86e4-4d81-8e73-f2ae87d76b3f" workPackage="" parameter="" trigger="" outcome="" result="">
+    <contents xsi:type="usecase:Usecase" label="UC_RA" name="Remove access to journal" elementKind="SystemUseCase" description="User removes user from access to journal" timeCreated="2015-10-25T23:47:00.594+0100" lastModified="2015-10-26T10:43:34.052+0100" uniqueID="c118698a-86e4-4d81-8e73-f2ae87d76b3f" workPackage="" parameter="User ID" trigger="" outcome="" result="-">
       <creator name="" timeCreated="2015-10-25T23:47:15.844+0100" uniqueID="fa64e46f-fc60-44e9-9877-ba0d18538ed3">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -135,6 +137,8 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Benefit" kind=""/>
+      <preConditions>User logged in</preConditions>
+      <postConditions>User no longer has access to journal</postConditions>
       <longDescription>
         <fragments xsi:type="text:FormattedText" text=""/>
       </longDescription>
@@ -148,7 +152,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_NC" name="Notify patient or doctor about changes to journal" elementKind="unspecified" description="" timeCreated="2015-10-25T23:48:08.951+0100" lastModified="2015-10-26T00:05:39.261+0100" uniqueID="63bf3851-bc70-4f3e-8f9b-66aee401fcd9" workPackage="" parameter="" trigger="" outcome="" result="">
+    <contents xsi:type="usecase:Usecase" label="UC_NC" name="Notify patient or doctor about changes to journal" elementKind="SystemUseCase" description="Medical professionals sends notification about treatment or other" timeCreated="2015-10-25T23:48:08.951+0100" lastModified="2015-10-26T11:36:47.313+0100" uniqueID="63bf3851-bc70-4f3e-8f9b-66aee401fcd9" workPackage="" parameter="Patient ID" trigger="" outcome="" result="-">
       <creator name="" timeCreated="2015-10-26T00:05:39.245+0100" uniqueID="2fb97388-a19d-4855-a5c0-fc26c8620fbb">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -160,6 +164,8 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Benefit" kind=""/>
+      <preConditions>Medical professional logged in</preConditions>
+      <postConditions>Patient or/and doctor notified</postConditions>
       <longDescription>
         <fragments xsi:type="text:FormattedText" text=""/>
       </longDescription>
@@ -171,7 +177,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_CA" name="Connect journal to auxiliary device" elementKind="unspecified" description="" timeCreated="2015-10-25T23:49:05.093+0100" lastModified="2015-10-26T00:07:32.032+0100" uniqueID="76b75723-f9ec-4f71-8a47-f53b79264896" workPackage="" parameter="" trigger="" outcome="" result="">
+    <contents xsi:type="usecase:Usecase" label="UC_CA" name="Connect journal to auxiliary device" elementKind="SystemUseCase" description="Assigns auxiliary device to patient journal" timeCreated="2015-10-25T23:49:05.093+0100" lastModified="2015-10-26T11:25:19.523+0100" uniqueID="76b75723-f9ec-4f71-8a47-f53b79264896" workPackage="" parameter="Patient ID, Auxiliary ID" trigger="Device connected to computer" outcome="" result="-">
       <creator name="" timeCreated="2015-10-26T00:06:09.608+0100" uniqueID="0107d440-1ec4-4267-b3de-dcd0394b54f0">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -183,6 +189,8 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Benefit" kind=""/>
+      <preConditions>Medical professional logged in</preConditions>
+      <postConditions>Auxiliary device connected to journal</postConditions>
       <longDescription>
         <fragments xsi:type="text:FormattedText" text=""/>
       </longDescription>
@@ -195,7 +203,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_AU" name="Auxiliary device updates journal" elementKind="unspecified" description="" timeCreated="2015-10-25T23:50:03.763+0100" lastModified="2015-10-26T00:07:23.838+0100" uniqueID="1fb595cc-039d-4ad1-b2d9-0e0db41f2e25" workPackage="" parameter="" trigger="" outcome="" result="">
+    <contents xsi:type="usecase:Usecase" label="UC_AU" name="Auxiliary device updates journal" elementKind="SystemUseCase" description="Auxiliary device updates measured data in journal." timeCreated="2015-10-25T23:50:03.763+0100" lastModified="2015-10-26T11:35:10.185+0100" uniqueID="1fb595cc-039d-4ad1-b2d9-0e0db41f2e25" workPackage="" parameter="Patient ID" trigger="Auxiliary device measured data" outcome="" result="-">
       <creator name="" timeCreated="2015-10-25T23:50:37.845+0100" uniqueID="c566b968-f3e1-4cba-bf0f-a30df906600a">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -207,6 +215,8 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Benefit" kind=""/>
+      <preConditions>Auxiliary device connected</preConditions>
+      <postConditions>Measured data updated in journal</postConditions>
       <longDescription>
         <fragments xsi:type="text:FormattedText" text=""/>
       </longDescription>
@@ -217,7 +227,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_UJ" name="Update journal" elementKind="unspecified" description="" timeCreated="2015-10-25T23:50:30.170+0100" lastModified="2015-10-26T00:07:53.960+0100" uniqueID="1ecd6dcb-72e1-4434-bfe4-4a6671edeae8" workPackage="" parameter="" trigger="" outcome="" result="">
+    <contents xsi:type="usecase:Usecase" label="UC_UJ" name="Update journal" elementKind="SystemUseCase" description="User updates journal data" timeCreated="2015-10-25T23:50:30.170+0100" lastModified="2015-10-26T11:28:24.631+0100" uniqueID="1ecd6dcb-72e1-4434-bfe4-4a6671edeae8" workPackage="" parameter="Patient ID" trigger="" outcome="" result="-">
       <creator name="" timeCreated="2015-10-26T00:07:53.940+0100" uniqueID="905926b8-0eff-434b-9947-ee88ebcf17ee">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -229,6 +239,8 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Benefit" kind=""/>
+      <preConditions>User logged in</preConditions>
+      <postConditions>Journal updated</postConditions>
       <longDescription>
         <fragments xsi:type="text:FormattedText" text=""/>
       </longDescription>
@@ -240,7 +252,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_AU" name="Autherize user" elementKind="unspecified" description="" timeCreated="2015-10-25T23:52:20.601+0100" lastModified="2015-10-26T00:08:38.958+0100" uniqueID="eeebcb0c-373d-47cb-819a-41a7722184a8" workPackage="" parameter="" trigger="" outcome="" result="">
+    <contents xsi:type="usecase:Usecase" label="UC_AU" name="Autherize user" elementKind="SystemUseCase" description="User authenticates him self" timeCreated="2015-10-25T23:52:20.601+0100" lastModified="2015-10-26T11:36:35.878+0100" uniqueID="eeebcb0c-373d-47cb-819a-41a7722184a8" workPackage="" parameter="User ID" trigger="Requests data" outcome="" result="-">
       <creator name="" timeCreated="2015-10-26T00:08:38.942+0100" uniqueID="49fa26a5-10a5-455e-93e6-512127360196">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -252,6 +264,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Benefit" kind=""/>
+      <postConditions>User autherized</postConditions>
       <longDescription>
         <fragments xsi:type="text:FormattedText" text=""/>
       </longDescription>
@@ -262,6 +275,32 @@
         <Actors href="Actors.red#e017bc5d-7203-4e99-bb01-74fdb028fc76"/>
         <Actors href="Actors.red#18deae08-2713-4698-8841-2af12615c6a5"/>
         <Actors href="Actors.red#bbba8053-b3d6-4a8a-aad7-55d8afd2bc5d"/>
+      </PrimaryReferences>
+      <SecondaryReferences/>
+      <incidence name="Incidence"/>
+      <duration name="Duration"/>
+    </contents>
+    <contents xsi:type="usecase:Usecase" label="UC_RAJ" name="Request access to journal" elementKind="SystemUseCase" description="Medical professional requests access to patient journal" timeCreated="2015-10-26T10:38:53.846+0100" lastModified="2015-10-26T11:36:28.318+0100" uniqueID="43d529f8-8031-47f5-b4d8-30bb98d9ef04" workPackage="" parameter="Patient ID" trigger="Medical professional requests journal" outcome="" result="-">
+      <creator name="" timeCreated="2015-10-26T10:39:24.569+0100" uniqueID="587944af-ec64-4b6e-9c09-35c0c55a2e30">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-10-26T10:39:24.569+0100" uniqueID="55ee36a0-03c1-40ea-8af5-ce0b12b6d125">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Benefit" kind=""/>
+      <preConditions>Medical professional logged in</preConditions>
+      <longDescription>
+        <fragments xsi:type="text:FormattedText" text=""/>
+      </longDescription>
+      <PrimaryReferences>
+        <Actors href="Actors.red#76f76a58-4918-4c1f-aa1e-61abf36360b9"/>
+        <Actors href="Actors.red#d4e8063e-bf1b-4bfd-8b24-fb9a011998a6"/>
+        <Actors href="Actors.red#e017bc5d-7203-4e99-bb01-74fdb028fc76"/>
+        <Actors href="Actors.red#18deae08-2713-4698-8841-2af12615c6a5"/>
       </PrimaryReferences>
       <SecondaryReferences/>
       <incidence name="Incidence"/>
