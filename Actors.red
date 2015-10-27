@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-10-26T11:45:34.498+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-10-27T11:26:47.348+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
   <creator name="" timeCreated="2015-10-25T23:55:01.962+0100" uniqueID="d54afc51-2949-4c49-ae29-27c1ce1832b2" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-10-26T00:07:03.670+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
+  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-10-27T10:02:36.621+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="configuration:Actor" label="GP" name="General Pratitioners" elementKind="unspecified" description="" timeCreated="2015-10-25T23:58:30.990+0100" lastModified="2015-10-25T23:59:26.300+0100" uniqueID="76f76a58-4918-4c1f-aa1e-61abf36360b9" workPackage="" code="">
@@ -46,11 +46,16 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" label="MP" name="Medical Professionals" description="" timeCreated="2015-10-26T00:00:51.584+0100" lastModified="2015-10-26T00:00:51.596+0100" uniqueID="18deae08-2713-4698-8841-2af12615c6a5" code="">
+    <contents xsi:type="configuration:Actor" label="MP" name="Medical Professionals" elementKind="unspecified" description="" timeCreated="2015-10-26T00:00:51.584+0100" lastModified="2015-10-27T10:02:36.621+0100" uniqueID="18deae08-2713-4698-8841-2af12615c6a5" workPackage="" code="">
       <creator name="" timeCreated="2015-10-26T00:00:51.584+0100" uniqueID="9af50967-05c4-4bd8-9275-113775132bf0" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-10-27T10:02:36.606+0100" uniqueID="848b971f-515b-4ce5-be3d-e08bec09ae9f">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>

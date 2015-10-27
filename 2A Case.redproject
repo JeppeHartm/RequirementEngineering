@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-10-25T23:55:02.114+0100" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-10-27T10:05:17.323+0100" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
   <creator name="" timeCreated="2015-09-22T10:09:30.159+0200" uniqueID="8afaac80-b054-45e3-9053-e1b5e80299b1" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -11,7 +11,7 @@
   </responsibleUser>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <users comment="s145328">
+  <users comment="s145328, dropped out of the course">
     <user name="Niclas Horstad" timeCreated="2015-09-22T10:13:05.691+0200" uniqueID="5c539a33-2420-465e-9d09-76083f067d29" id="Author" skype="lingling.pikarius" email="niclas.horstad@gmail.com" phoneNumber="42677963">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -36,7 +36,7 @@
     </user>
   </users>
   <users comment="s103458">
-    <user name="Jeppe Hartmund" timeCreated="2015-09-22T10:20:02.252+0200" uniqueID="deac8ee3-000c-4bff-a6db-13aa0394f7d2" id="Mascot" email="jeppe.hartmund@gmail.com" phoneNumber="22985026">
+    <user name="Jeppe Hartmund" timeCreated="2015-09-22T10:20:02.252+0200" uniqueID="deac8ee3-000c-4bff-a6db-13aa0394f7d2" id="Author" email="jeppe.hartmund@gmail.com" phoneNumber="22985026">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </user>
@@ -52,4 +52,5 @@
   <Listofopenedfilesinproject href="Requirements.red#860524c9-2ceb-40fd-b393-c4295419b81b"/>
   <Listofopenedfilesinproject href="Use%20Cases.red#372a3c93-e1f6-4ffe-b833-4bf548fb7e50"/>
   <Listofopenedfilesinproject href="Actors.red#544e7fd8-22ce-4ea7-b020-00309079bbab"/>
+  <Listofopenedfilesinproject href="Glossary.red#4f7e72eb-18e3-4892-9ed9-f1dcf54ae8a9"/>
 </project:Project>
