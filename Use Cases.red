@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:usecase="dk.dtu.imm.red.specificationelements.usecase" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-10-30T13:15:21.177+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:usecase="dk.dtu.imm.red.specificationelements.usecase" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-10-31T23:04:29.737+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
   <creator name="" timeCreated="2015-10-25T23:34:33.747+0100" uniqueID="995552ba-a761-4b48-ab60-a7a6353dc7d6" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-10-26T11:36:47.313+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
+  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-10-31T23:04:29.430+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
     <creator name="" timeCreated="2015-10-25T23:51:08.678+0100" uniqueID="e4c78e85-1c34-4b1d-8349-8d0acce375c3">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -47,7 +47,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_RA" name="Record Action" elementKind="SystemUseCase" description="After an action is taken the the user records the action in the system." timeCreated="2015-10-25T23:41:01.607+0100" lastModified="2015-10-26T00:03:14.226+0100" uniqueID="7c8f71de-505b-4ab4-9b0e-dd0be3670d65" workPackage="" type="SystemUseCase" parameter="Patient ID, Action ID" trigger="Medical action taken" outcome="" result="-">
+    <contents xsi:type="usecase:Usecase" label="UC_RA" name="Record Action" elementKind="SystemUseCase" description="After an action is taken the the user records the action in the system." timeCreated="2015-10-25T23:41:01.607+0100" lastModified="2015-10-31T23:04:29.430+0100" uniqueID="7c8f71de-505b-4ab4-9b0e-dd0be3670d65" workPackage="" type="SystemUseCase" parameter="Patient ID, Action ID" trigger="Medical action taken" outcome="" result="-">
       <creator name="" timeCreated="2015-10-25T23:41:11.458+0100" uniqueID="896cb82e-9db9-48b2-9629-29c77a6846c4">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -203,7 +203,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="usecase:Usecase" label="UC_AU" name="Auxiliary device updates journal" elementKind="SystemUseCase" description="Auxiliary device updates measured data in journal." timeCreated="2015-10-25T23:50:03.763+0100" lastModified="2015-10-26T11:35:10.185+0100" uniqueID="1fb595cc-039d-4ad1-b2d9-0e0db41f2e25" workPackage="" parameter="Patient ID" trigger="Auxiliary device measured data" outcome="" result="-">
+    <contents xsi:type="usecase:Usecase" label="UC_AUJ" name="Auxiliary device updates journal" elementKind="SystemUseCase" description="Auxiliary device updates measured data in journal." timeCreated="2015-10-25T23:50:03.763+0100" lastModified="2015-10-30T15:33:00.851+0100" uniqueID="1fb595cc-039d-4ad1-b2d9-0e0db41f2e25" workPackage="" parameter="Patient ID" trigger="Auxiliary device measured data" outcome="" result="-">
       <creator name="" timeCreated="2015-10-25T23:50:37.845+0100" uniqueID="c566b968-f3e1-4cba-bf0f-a30df906600a">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -306,7 +306,7 @@
       <incidence name="Incidence"/>
       <duration name="Duration"/>
     </contents>
-    <contents xsi:type="folder:Folder" name="Scenarios" timeCreated="2015-10-25T23:39:22.197+0100" lastModified="2015-10-25T23:50:41.754+0100" uniqueID="4eee3c67-4a3f-4b9f-be47-bb5f4acc2120">
+    <contents xsi:type="folder:Folder" name="Scenarios" timeCreated="2015-10-25T23:39:22.197+0100" lastModified="2015-10-30T15:35:17.014+0100" uniqueID="4eee3c67-4a3f-4b9f-be47-bb5f4acc2120">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-10-27T10:05:17.323+0100" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-10-30T16:38:10.242+0100" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
   <creator name="" timeCreated="2015-09-22T10:09:30.159+0200" uniqueID="8afaac80-b054-45e3-9053-e1b5e80299b1" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -53,4 +53,6 @@
   <Listofopenedfilesinproject href="Use%20Cases.red#372a3c93-e1f6-4ffe-b833-4bf548fb7e50"/>
   <Listofopenedfilesinproject href="Actors.red#544e7fd8-22ce-4ea7-b020-00309079bbab"/>
   <Listofopenedfilesinproject href="Glossary.red#4f7e72eb-18e3-4892-9ed9-f1dcf54ae8a9"/>
+  <Listofopenedfilesinproject href="Diagrams.red#9139d8ba-a1a2-4304-bc69-7d1cf119d27d"/>
+  <Listofopenedfilesinproject href="Vision.red#a2503e9c-bd37-41ab-95d4-2fe3c458b0fb"/>
 </project:Project>
