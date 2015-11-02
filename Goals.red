@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-10-30T13:15:21.114+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-02T14:26:15.031+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
   <creator name="" timeCreated="2015-10-09T15:12:51.753+0200" uniqueID="d9b978f0-3f5c-4a36-9a3b-dd781ad5a814" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-10-24T01:47:48.650+0200" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
+  <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-11-01T19:21:17.425+0100" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="folder:Folder" name="EU" timeCreated="2015-10-24T01:05:43.447+0200" lastModified="2015-10-24T01:12:04.362+0200" uniqueID="5ff4c2d5-6a82-496c-b242-5bf59c279c6e" specialType="Goal">
@@ -69,6 +69,8 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </creator>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#6501fc8a-7285-4b58-8654-a6a80d5caee2"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#f5eb63e5-c0bd-467b-a6d6-f246c6e6bdfa"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:05:27.365+0200" uniqueID="a933121b-bb1f-48ed-b2e9-a900c46f0cfb">
           <cost name="Cost" kind=""/>
@@ -86,6 +88,8 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </creator>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#3742a27c-305a-4568-a9ae-1d38b7a69adf"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#baf9f44f-29db-4058-aefd-8598594d4483"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:05:25.795+0200" uniqueID="89d4cd3c-c0fe-464e-b84d-85a2f05fbe1a">
           <cost name="Cost" kind=""/>
@@ -149,10 +153,10 @@
         </explanation>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="EUMC" timeCreated="2015-10-24T01:10:59.964+0200" lastModified="2015-10-24T01:19:23.838+0200" uniqueID="13d6e862-9e7c-4737-972b-d012bb0379cb">
+    <contents xsi:type="folder:Folder" name="EUMC" timeCreated="2015-10-24T01:10:59.964+0200" lastModified="2015-11-01T19:21:17.425+0100" uniqueID="13d6e862-9e7c-4737-972b-d012bb0379cb">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="goal:Goal" label="G8" name="Improve health" elementKind="Strategic" description="To improve the health of the country's citizens" timeCreated="2015-10-24T01:12:35.206+0200" lastModified="2015-10-24T01:12:51.610+0200" uniqueID="f91d3be6-12dd-43c0-b089-5ad27fedabf2" workPackage="">
+      <contents xsi:type="goal:Goal" label="G8" name="Improve health" elementKind="Strategic" description="To improve the health of the country's citizens" timeCreated="2015-10-24T01:12:35.206+0200" lastModified="2015-11-01T19:21:17.425+0100" uniqueID="f91d3be6-12dd-43c0-b089-5ad27fedabf2" workPackage="">
         <partOf xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#ad3ec231-1d85-421d-83a6-a05552ba5f8a"/>
         <creator name="" timeCreated="2015-10-24T01:12:35.206+0200" uniqueID="c3519ade-509c-4e3b-843b-b4877145f91a" id="" email="" initials="">
           <cost name="Cost" kind=""/>
@@ -260,6 +264,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </creator>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#25b69de9-0d6b-4375-a53e-8ea70d46f5c0"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:19:23.814+0200" uniqueID="cac46f5c-97e8-4354-913c-edec7e155ec3">
           <cost name="Cost" kind=""/>
@@ -281,6 +286,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </creator>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#c7b4f4d9-d199-4108-8d5a-f4e99e53fde5"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:22:57.967+0200" uniqueID="0256b329-b4a4-45af-a952-02d926dff392">
           <cost name="Cost" kind=""/>
@@ -314,6 +320,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </creator>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#df0616e3-ab46-43c2-90b4-b8247493b161"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:24:22.102+0200" uniqueID="7548dfdd-a384-4cd4-b80c-e3a2d1fdabb3">
           <cost name="Cost" kind=""/>
@@ -352,6 +359,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </creator>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#36fb916f-ecab-4dab-bcb0-e8742bc8786c"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:27:03.787+0200" uniqueID="fbe5cfa1-9b89-41a5-b77b-27f875827d89">
           <cost name="Cost" kind=""/>
@@ -449,7 +457,7 @@
         </explanation>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="C" timeCreated="2015-10-24T01:32:23.805+0200" lastModified="2015-10-24T01:38:21.621+0200" uniqueID="20c3e1a4-3831-44f5-be45-8bc917f03414">
+    <contents xsi:type="folder:Folder" name="C" timeCreated="2015-10-24T01:32:23.805+0200" lastModified="2015-11-01T19:09:28.792+0100" uniqueID="20c3e1a4-3831-44f5-be45-8bc917f03414">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <contents xsi:type="goal:Goal" label="G25" name="Accurate treatment" elementKind="Strategic" description="To receive better, faster, and more accurate treatment" timeCreated="2015-10-24T01:34:06.891+0200" lastModified="2015-10-24T01:34:20.141+0200" uniqueID="51f9b89d-dfb1-42e2-b326-aea801d1e1ee" workPackage="">
@@ -458,6 +466,8 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </creator>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#07b36af4-dcf9-4cb6-a41d-ea7f41e084a8"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#acca7bc4-20a1-4ffd-969c-a4c2bc9e1913"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:34:20.117+0200" uniqueID="148f97f7-f75b-4de8-912a-e47b98e5e4a1">
           <cost name="Cost" kind=""/>
@@ -519,6 +529,14 @@
         <explanation>
           <fragments xsi:type="text:FormattedText" text=""/>
         </explanation>
+      </contents>
+      <contents xsi:type="goal:Goal" label="G28_5" name="Privacy" description="To ensure private information is kept private i.e. only people authorized to read are allowed to do so." timeCreated="2015-11-01T19:09:28.773+0100" lastModified="2015-11-01T19:09:28.792+0100" uniqueID="6ba27452-3f07-4b69-8269-9bb223e21076">
+        <creator name="" timeCreated="2015-11-01T19:09:28.773+0100" uniqueID="c919bbd7-c9c8-4069-b328-b203f3353dcd" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
       </contents>
     </contents>
     <contents xsi:type="folder:Folder" name="D" timeCreated="2015-10-24T01:37:09.117+0200" lastModified="2015-10-24T01:47:48.650+0200" uniqueID="f41166d6-8d41-4011-847e-a4bebc271565">
