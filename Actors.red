@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-03T09:34:55.353+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-03T11:29:10.531+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
   <creator name="" timeCreated="2015-10-25T23:55:01.962+0100" uniqueID="d54afc51-2949-4c49-ae29-27c1ce1832b2" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-11-03T09:34:55.265+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
+  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-11-03T11:11:21.176+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="configuration:Actor" label="GP" name="General Pratitioners" elementKind="unspecified" description="" timeCreated="2015-10-25T23:58:30.990+0100" lastModified="2015-10-25T23:59:26.300+0100" uniqueID="76f76a58-4918-4c1f-aa1e-61abf36360b9" workPackage="" code="">
@@ -92,6 +92,32 @@
       </creator>
       <changeList/>
       <responsibleUser name="" timeCreated="2015-11-03T09:34:16.701+0100" uniqueID="15bf06a3-c2e6-46fa-bfb1-dbbbaa2e44f5">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/organisation.png" label="ECC" name="Emergency Call Center" elementKind="organisation" description="" timeCreated="2015-11-03T11:09:21.035+0100" lastModified="2015-11-03T11:09:59.525+0100" uniqueID="c36244da-399f-4f85-9b4c-10c9890ef45d" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-03T11:09:21.035+0100" uniqueID="1a815824-2d95-42bd-a678-cbc13aa46d3d" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-03T11:09:29.349+0100" uniqueID="7db9b3fb-dd7a-4e8a-8149-773e0ccb4cc2">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/system.png" label="SC" name="Smar-Card" elementKind="system" description="" timeCreated="2015-11-03T11:11:09.193+0100" lastModified="2015-11-03T11:11:21.176+0100" uniqueID="1ba95e6a-2ee4-481c-8e73-37d477c47c32" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-03T11:11:09.193+0100" uniqueID="b1649690-ebd8-4db3-9496-6b196345a20a" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-03T11:11:21.160+0100" uniqueID="9ed027d1-0454-4661-bac6-712e05d1918f">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
