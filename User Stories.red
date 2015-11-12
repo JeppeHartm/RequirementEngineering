@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" name="User Stories.red" timeCreated="2015-10-09T15:23:29.186+0200" lastModified="2015-11-03T11:29:10.406+0100" uniqueID="c4748c91-7a5b-4f9f-b57e-c182f0e4818d">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" name="User Stories.red" timeCreated="2015-10-09T15:23:29.186+0200" lastModified="2015-11-12T10:55:58.842+0100" uniqueID="c4748c91-7a5b-4f9f-b57e-c182f0e4818d">
   <creator name="" timeCreated="2015-10-09T15:23:29.186+0200" uniqueID="d2a4fc57-93f7-4431-9926-a48402ba9719" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="User Stories" timeCreated="2015-10-09T13:51:30.125+0200" lastModified="2015-10-24T01:49:53.400+0200" uniqueID="8121ea5f-edbb-446a-ab80-0fc896af1a67">
+  <contents xsi:type="folder:Folder" name="User Stories" timeCreated="2015-10-09T13:51:30.125+0200" lastModified="2015-11-12T10:55:27.299+0100" uniqueID="8121ea5f-edbb-446a-ab80-0fc896af1a67">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="ucScenario:Scenario" label="S1" name="Hurt individual" elementKind="unspecified" description="" timeCreated="2015-10-09T13:53:39.123+0200" lastModified="2015-10-24T01:49:42.093+0200" uniqueID="b04bf494-088f-4ee7-bbf3-b9752d678c17" workPackage="">
