@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Might not be used.red" timeCreated="2015-11-10T11:05:54.614+0100" lastModified="2015-11-12T08:21:41.480+0100" uniqueID="dcf94b46-946f-4068-8e5f-30e6f2b30287">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Might not be used.red" timeCreated="2015-11-10T11:05:54.614+0100" lastModified="2015-11-12T10:41:43.474+0100" uniqueID="dcf94b46-946f-4068-8e5f-30e6f2b30287">
   <creator name="" timeCreated="2015-11-10T11:05:54.614+0100" uniqueID="b42d8602-d23b-47be-9fff-090425a1eda3" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="MNBU_Goals" timeCreated="2015-11-10T11:06:11.636+0100" lastModified="2015-11-10T11:06:28.915+0100" uniqueID="e37aeaf9-a91b-4e14-9800-dfeffc7f7f83">
+  <contents xsi:type="folder:Folder" name="MNBU_Goals" timeCreated="2015-11-10T11:06:11.636+0100" lastModified="2015-11-12T10:34:44.600+0100" uniqueID="e37aeaf9-a91b-4e14-9800-dfeffc7f7f83">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Not neccesary" timeCreated="2015-11-10T10:43:35.376+0100" lastModified="2015-11-10T11:06:28.915+0100" uniqueID="1309cbfe-9ccd-47d9-a0ec-891553e70224" workPackage="" specialType="Goal">
+    <contents xsi:type="folder:Folder" name="Not neccesary" timeCreated="2015-11-10T10:43:35.376+0100" lastModified="2015-11-12T10:34:44.600+0100" uniqueID="1309cbfe-9ccd-47d9-a0ec-891553e70224" workPackage="" specialType="Goal">
       <creator name="" timeCreated="2015-11-10T10:58:30.747+0100" uniqueID="ad1ff399-529b-45ad-a0ca-4e4016dac7c5">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -21,6 +21,56 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <contents xsi:type="goal:Goal" label="G34" name="Database structure" elementKind="Solution" description="To create a rigid database structure with proper redundency and safety properties" timeCreated="2015-10-24T01:43:40.896+0200" lastModified="2015-11-12T10:34:44.600+0100" uniqueID="03226c8d-4066-44da-a943-d1fbb4d0a8ca" workPackage="">
+        <partOf xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#1c364f43-de53-462b-ac39-a3c500aea757"/>
+        <creator name="" timeCreated="2015-10-24T01:43:40.896+0200" uniqueID="cbd931df-3fbd-4c58-b417-c8520e38dd6e" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-24T01:43:56.923+0200" uniqueID="e51884ff-bf76-4c69-bbbd-d1267777fd92">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <explanation>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </explanation>
+      </contents>
+      <contents xsi:type="goal:Goal" label="G26" name="Lives" elementKind="Strategic" description="To save more lives" timeCreated="2015-10-24T01:34:48.320+0200" lastModified="2015-11-12T10:24:57.075+0100" uniqueID="234577d0-d399-4e46-8e08-134cf384b6f7" workPackage="">
+        <partOf xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#0799af8b-5c9e-44ea-b660-85c492980bae"/>
+        <creator name="" timeCreated="2015-10-24T01:34:48.320+0200" uniqueID="104fb443-220d-4673-b31f-cce2ef6f3b68" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-24T01:34:58.043+0200" uniqueID="d322e051-aed7-40e8-b224-016557739090">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <explanation>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </explanation>
+      </contents>
+      <contents xsi:type="goal:Goal" label="G16" name="Standardisation" elementKind="Solution" description="To create standardisation processes" timeCreated="2015-10-24T01:23:35.609+0200" lastModified="2015-11-12T10:19:55.196+0100" uniqueID="91eac6fe-548b-4f44-82d1-8f3a0d9a95e8" workPackage="">
+        <creator name="" timeCreated="2015-10-24T01:23:35.609+0200" uniqueID="d0fd72f0-026b-40af-8146-9c9643875587" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-24T01:24:29.114+0200" uniqueID="ec7182b4-e5f1-4001-83a7-9f13d697509a">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <explanation>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </explanation>
+      </contents>
       <contents xsi:type="goal:Goal" label="G39" name="Self-realisation" elementKind="Strategic" description="To seek personal self-realisation (idealistic)" timeCreated="2015-10-24T01:47:39.778+0200" lastModified="2015-11-10T10:56:00.740+0100" uniqueID="ca0bb380-dfd9-48b1-aa8c-c0a77adcb419" workPackage="">
         <partOf xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#1c364f43-de53-462b-ac39-a3c500aea757"/>
         <creator name="" timeCreated="2015-10-24T01:47:39.778+0200" uniqueID="c679ebca-7342-4858-a169-e522f21e8ffe" id="" email="" initials="">
