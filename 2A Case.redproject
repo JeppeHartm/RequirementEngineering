@@ -45,15 +45,15 @@
     <fragments xsi:type="text:FormattedText" text=""/>
   </information>
   <Listofopenedfilesinproject href="EEPR Project.red#3b50cf6d-3145-4e7c-b2e3-9098d65466a9"/>
-  <Listofopenedfilesinproject href="User%20Stories.red#c4748c91-7a5b-4f9f-b57e-c182f0e4818d"/>
+  <Listofopenedfilesinproject href="Vision.red#a2503e9c-bd37-41ab-95d4-2fe3c458b0fb"/>
   <Listofopenedfilesinproject href="Stakeholder.red#7ed63d01-a336-4895-aecf-2f647c3791e8"/>
   <Listofopenedfilesinproject href="Goals.red#5f089f1c-e823-4035-9d35-b2dceb6033d5"/>
   <Listofopenedfilesinproject href="Presonas.red#421261d8-31e1-4574-a4ce-409b0ba46e09"/>
+  <Listofopenedfilesinproject href="User%20Stories.red#c4748c91-7a5b-4f9f-b57e-c182f0e4818d"/>
   <Listofopenedfilesinproject href="Requirements.red#860524c9-2ceb-40fd-b393-c4295419b81b"/>
-  <Listofopenedfilesinproject href="Use%20Cases.red#372a3c93-e1f6-4ffe-b833-4bf548fb7e50"/>
   <Listofopenedfilesinproject href="Actors.red#544e7fd8-22ce-4ea7-b020-00309079bbab"/>
-  <Listofopenedfilesinproject href="Glossary.red#4f7e72eb-18e3-4892-9ed9-f1dcf54ae8a9"/>
+  <Listofopenedfilesinproject href="Use%20Cases.red#372a3c93-e1f6-4ffe-b833-4bf548fb7e50"/>
   <Listofopenedfilesinproject href="Diagrams.red#9139d8ba-a1a2-4304-bc69-7d1cf119d27d"/>
-  <Listofopenedfilesinproject href="Vision.red#a2503e9c-bd37-41ab-95d4-2fe3c458b0fb"/>
+  <Listofopenedfilesinproject href="Glossary.red#4f7e72eb-18e3-4892-9ed9-f1dcf54ae8a9"/>
   <Listofopenedfilesinproject href="Might%20not%20be%20used.red#dcf94b46-946f-4068-8e5f-30e6f2b30287"/>
 </project:Project>
