@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:persona="dk.dtu.imm.red.specificationelements.persona" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Might not be used.red" timeCreated="2015-11-10T11:05:54.614+0100" lastModified="2015-11-12T10:55:58.974+0100" uniqueID="dcf94b46-946f-4068-8e5f-30e6f2b30287">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:persona="dk.dtu.imm.red.specificationelements.persona" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Might not be used.red" timeCreated="2015-11-10T11:05:54.614+0100" lastModified="2015-11-12T12:25:52.778+0100" uniqueID="dcf94b46-946f-4068-8e5f-30e6f2b30287">
   <creator name="" timeCreated="2015-11-10T11:05:54.614+0100" uniqueID="b42d8602-d23b-47be-9fff-090425a1eda3" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -114,10 +114,10 @@
       </constraints>
     </contents>
   </contents>
-  <contents xsi:type="folder:Folder" name="MNBU_Goals" timeCreated="2015-11-10T11:06:11.636+0100" lastModified="2015-11-12T10:34:44.600+0100" uniqueID="e37aeaf9-a91b-4e14-9800-dfeffc7f7f83">
+  <contents xsi:type="folder:Folder" name="MNBU_Goals" timeCreated="2015-11-10T11:06:11.636+0100" lastModified="2015-11-12T12:22:48.341+0100" uniqueID="e37aeaf9-a91b-4e14-9800-dfeffc7f7f83">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Not neccesary" timeCreated="2015-11-10T10:43:35.376+0100" lastModified="2015-11-12T10:34:44.600+0100" uniqueID="1309cbfe-9ccd-47d9-a0ec-891553e70224" workPackage="" specialType="Goal">
+    <contents xsi:type="folder:Folder" name="Not neccesary" timeCreated="2015-11-10T10:43:35.376+0100" lastModified="2015-11-12T12:22:48.341+0100" uniqueID="1309cbfe-9ccd-47d9-a0ec-891553e70224" workPackage="" specialType="Goal">
       <creator name="" timeCreated="2015-11-10T10:58:30.747+0100" uniqueID="ad1ff399-529b-45ad-a0ca-4e4016dac7c5">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -129,6 +129,57 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <contents xsi:type="goal:Goal" label="SOG_DH" name="Data handling" elementKind="Solution" description="To grant easier data handling" timeCreated="2015-10-24T01:26:59.283+0200" lastModified="2015-11-12T12:22:48.341+0100" uniqueID="2b6dc1a9-9c48-4f5e-8ad8-569da49c40a3" workPackage="">
+        <creator name="" timeCreated="2015-10-24T01:26:59.283+0200" uniqueID="b0a6d619-fd9f-47ea-96b0-bc0ab5c90aab" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#36fb916f-ecab-4dab-bcb0-e8742bc8786c"/>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-24T01:27:03.787+0200" uniqueID="fbe5cfa1-9b89-41a5-b77b-27f875827d89">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <explanation>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </explanation>
+      </contents>
+      <contents xsi:type="goal:Goal" label="G5" name="Standardization" elementKind="Business" description="To create improved standardization within the medical industry across the EU" timeCreated="2015-10-24T01:03:37.218+0200" lastModified="2015-11-12T11:52:04.685+0100" uniqueID="2ccdf092-d57f-4579-8188-29a412ea7899" workPackage="">
+        <partOf xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#d56236c9-99e2-4a3e-9525-a0bc7ac79fbd"/>
+        <creator name="" timeCreated="2015-10-24T01:03:37.218+0200" uniqueID="71d9b04e-759c-487f-8234-b2381ca5d2b3" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-24T01:05:23.480+0200" uniqueID="9b33db96-1292-4bf6-a9f1-b1b567152604">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <explanation>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </explanation>
+      </contents>
+      <contents xsi:type="goal:Goal" label="MSG_M" name="Maximize" elementKind="Strategic" description="To maximise the size of the healthy work force" timeCreated="2015-10-24T01:14:02.631+0200" lastModified="2015-11-12T11:12:06.815+0100" uniqueID="f238ebe7-2edf-4254-9cd2-b1974c1dd192" workPackage="">
+        <partOf xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#ad3ec231-1d85-421d-83a6-a05552ba5f8a"/>
+        <creator name="" timeCreated="2015-10-24T01:14:02.631+0200" uniqueID="041bf7d7-550f-4ac9-a6a4-bfce8c04f7c4" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-24T01:14:26.317+0200" uniqueID="7fe10259-e30c-4f11-859e-c9ea5d20573c">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <explanation>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </explanation>
+      </contents>
       <contents xsi:type="goal:Goal" label="G34" name="Database structure" elementKind="Solution" description="To create a rigid database structure with proper redundency and safety properties" timeCreated="2015-10-24T01:43:40.896+0200" lastModified="2015-11-12T10:34:44.600+0100" uniqueID="03226c8d-4066-44da-a943-d1fbb4d0a8ca" workPackage="">
         <partOf xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#1c364f43-de53-462b-ac39-a3c500aea757"/>
         <creator name="" timeCreated="2015-10-24T01:43:40.896+0200" uniqueID="cbd931df-3fbd-4c58-b417-c8520e38dd6e" id="" email="" initials="">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-12T10:55:58.928+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-12T12:25:52.748+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
   <creator name="" timeCreated="2015-10-20T10:06:51.100+0200" uniqueID="e21ef682-4a97-4e1c-a80c-f7fb294722b7" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -549,7 +549,7 @@
         <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-01T19:31:17.258+0100" uniqueID="36fb916f-ecab-4dab-bcb0-e8742bc8786c">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
-          <toElement xsi:type="goal:Goal" href="Goals.red#2b6dc1a9-9c48-4f5e-8ad8-569da49c40a3"/>
+          <toElement xsi:type="goal:Goal" href="Might%20not%20be%20used.red#2b6dc1a9-9c48-4f5e-8ad8-569da49c40a3"/>
         </relatesTo>
         <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-01T19:31:17.262+0100" uniqueID="acca7bc4-20a1-4ffd-969c-a4c2bc9e1913">
           <cost name="Cost" kind=""/>
