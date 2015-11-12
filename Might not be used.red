@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:persona="dk.dtu.imm.red.specificationelements.persona" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Might not be used.red" timeCreated="2015-11-10T11:05:54.614+0100" lastModified="2015-11-12T12:25:52.778+0100" uniqueID="dcf94b46-946f-4068-8e5f-30e6f2b30287">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:persona="dk.dtu.imm.red.specificationelements.persona" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Might not be used.red" timeCreated="2015-11-10T11:05:54.614+0100" lastModified="2015-11-12T13:48:51.846+0100" uniqueID="dcf94b46-946f-4068-8e5f-30e6f2b30287">
   <creator name="" timeCreated="2015-11-10T11:05:54.614+0100" uniqueID="b42d8602-d23b-47be-9fff-090425a1eda3" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -114,7 +114,11 @@
       </constraints>
     </contents>
   </contents>
-  <contents xsi:type="folder:Folder" name="MNBU_Goals" timeCreated="2015-11-10T11:06:11.636+0100" lastModified="2015-11-12T12:22:48.341+0100" uniqueID="e37aeaf9-a91b-4e14-9800-dfeffc7f7f83">
+  <contents xsi:type="folder:Folder" name="MNBU" timeCreated="2015-11-12T13:46:53.874+0100" lastModified="2015-11-12T13:48:51.846+0100" uniqueID="a0425f76-b7d4-48c0-8c73-d8eba22427a2">
+    <cost name="Cost" kind=""/>
+    <benefit name="Cost" kind=""/>
+  </contents>
+  <contents xsi:type="folder:Folder" name="MNBU_Goals" timeCreated="2015-11-10T11:06:11.636+0100" lastModified="2015-11-12T13:48:51.836+0100" uniqueID="e37aeaf9-a91b-4e14-9800-dfeffc7f7f83">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="folder:Folder" name="Not neccesary" timeCreated="2015-11-10T10:43:35.376+0100" lastModified="2015-11-12T12:22:48.341+0100" uniqueID="1309cbfe-9ccd-47d9-a0ec-891553e70224" workPackage="" specialType="Goal">
