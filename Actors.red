@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-12T12:25:52.765+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-13T16:13:08.965+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
   <creator name="" timeCreated="2015-10-25T23:55:01.962+0100" uniqueID="d54afc51-2949-4c49-ae29-27c1ce1832b2" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-11-03T11:11:21.176+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
+  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-11-13T16:11:35.751+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="configuration:Actor" label="GP" name="General Pratitioners" elementKind="unspecified" description="" timeCreated="2015-10-25T23:58:30.990+0100" lastModified="2015-10-25T23:59:26.300+0100" uniqueID="76f76a58-4918-4c1f-aa1e-61abf36360b9" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="GP" name="General Pratitioners" elementKind="role" subtypeOf="e017bc5d-7203-4e99-bb01-74fdb028fc76" description="" timeCreated="2015-10-25T23:58:30.990+0100" lastModified="2015-11-13T16:11:35.751+0100" uniqueID="76f76a58-4918-4c1f-aa1e-61abf36360b9" workPackage="" code="">
       <creator name="" timeCreated="2015-10-25T23:58:30.990+0100" uniqueID="15e7b874-60c5-4109-be8b-9c78914e75dd" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -22,37 +22,65 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" label="EMT" name="Emergency Medical Technician" description="" timeCreated="2015-10-25T23:59:21.927+0100" lastModified="2015-10-25T23:59:21.935+0100" uniqueID="d4e8063e-bf1b-4bfd-8b24-fb9a011998a6" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="EMT" name="Emergency Medical Technician" elementKind="role" subtypeOf="18deae08-2713-4698-8841-2af12615c6a5" description="" timeCreated="2015-10-25T23:59:21.927+0100" lastModified="2015-11-13T16:11:35.606+0100" uniqueID="d4e8063e-bf1b-4bfd-8b24-fb9a011998a6" workPackage="" code="">
       <creator name="" timeCreated="2015-10-25T23:59:21.927+0100" uniqueID="7ba8c3ec-a785-4dfd-ac55-f70d2de759c1" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-13T16:06:59.731+0100" uniqueID="90d814e6-12ec-431e-b653-7a844cdb5278">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" label="P" name="Patients" description="" timeCreated="2015-10-25T23:59:44.663+0100" lastModified="2015-10-25T23:59:44.675+0100" uniqueID="4273cde5-89c8-456d-be10-d30d1c5d5596" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="P" name="Patients" elementKind="role" description="" timeCreated="2015-10-25T23:59:44.663+0100" lastModified="2015-11-13T16:07:48.351+0100" uniqueID="4273cde5-89c8-456d-be10-d30d1c5d5596" workPackage="" code="">
       <creator name="" timeCreated="2015-10-25T23:59:44.663+0100" uniqueID="fef59fad-2208-4bfb-8e50-a20a3f7d5c80" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-13T16:06:59.877+0100" uniqueID="15c38e83-99dc-42ee-85ad-529153ce02ef">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" label="DR" name="Doctors" description="" timeCreated="2015-10-26T00:00:06.475+0100" lastModified="2015-10-26T00:00:06.505+0100" uniqueID="e017bc5d-7203-4e99-bb01-74fdb028fc76" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="DR" name="Doctors" elementKind="role" subtypeOf="18deae08-2713-4698-8841-2af12615c6a5" description="" timeCreated="2015-10-26T00:00:06.475+0100" lastModified="2015-11-13T16:11:35.405+0100" uniqueID="e017bc5d-7203-4e99-bb01-74fdb028fc76" workPackage="" code="">
       <creator name="" timeCreated="2015-10-26T00:00:06.475+0100" uniqueID="9d804050-24df-43f0-b12b-1738c82f3bb8" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-13T16:07:00.167+0100" uniqueID="e3523600-bc5a-4494-a2f9-1f251318ea3a">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" label="MP" name="Medical Professionals" elementKind="unspecified" description="" timeCreated="2015-10-26T00:00:51.584+0100" lastModified="2015-10-27T10:02:36.621+0100" uniqueID="18deae08-2713-4698-8841-2af12615c6a5" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="MP" name="Medical Professionals" elementKind="group" description="" timeCreated="2015-10-26T00:00:51.584+0100" lastModified="2015-11-13T16:07:00.025+0100" uniqueID="18deae08-2713-4698-8841-2af12615c6a5" workPackage="" code="">
       <creator name="" timeCreated="2015-10-26T00:00:51.584+0100" uniqueID="9af50967-05c4-4bd8-9275-113775132bf0" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
       <responsibleUser name="" timeCreated="2015-10-27T10:02:36.606+0100" uniqueID="848b971f-515b-4ce5-be3d-e08bec09ae9f">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="NC" name="Nurce" elementKind="role" subtypeOf="18deae08-2713-4698-8841-2af12615c6a5" description="" timeCreated="2015-11-13T16:09:41.639+0100" lastModified="2015-11-13T16:11:35.250+0100" uniqueID="c6d1adfd-40ce-43ce-92f8-8b3ea93a3157" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-13T16:09:41.639+0100" uniqueID="0c01d3b0-9aaf-40b7-a8c8-37071a4c594b" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-13T16:09:52.423+0100" uniqueID="24fc62b8-52cc-4dc7-9746-237f7c4ce95f">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
