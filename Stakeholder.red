@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholder.red" timeCreated="2015-10-09T15:09:53.006+0200" lastModified="2015-11-12T13:10:06.887+0100" uniqueID="7ed63d01-a336-4895-aecf-2f647c3791e8">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholder.red" timeCreated="2015-10-09T15:09:53.006+0200" lastModified="2015-11-19T00:41:54.606+0100" uniqueID="7ed63d01-a336-4895-aecf-2f647c3791e8">
   <creator name="" timeCreated="2015-10-09T15:09:53.007+0200" uniqueID="17869f2b-15ab-4399-a6e0-18c90c16cd73" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -81,6 +81,7 @@
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#8b803934-e03b-414b-aac1-796b424dcdc5"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#0295fb86-6d0b-4988-8f54-4b0524f2ba77"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#fe9ce0df-f398-4f0e-961b-ac4ae6b02114"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#25e7dac0-10ab-4cb5-b2cb-a310b8239889"/>
       <changeList/>
       <responsibleUser name="" timeCreated="2015-11-02T12:26:14.408+0100" uniqueID="427d8ac4-f68e-4a6b-8034-8a196647164d">
         <cost name="Cost" kind=""/>
@@ -112,6 +113,7 @@
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#d7bcdc11-7868-4862-994f-716defff0263"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#180d01e3-8314-4cde-b956-1d634a89f2ff"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#8430609c-06d8-4e5c-ad83-1292cfae81a9"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#4353c3f9-51bf-4a21-93fe-f862203a7fd0"/>
       <changeList/>
       <responsibleUser name="" timeCreated="2015-11-02T12:27:26.937+0100" uniqueID="8f3e2055-900e-44f3-bd10-b6a7a59c32cb">
         <cost name="Cost" kind=""/>
@@ -134,7 +136,6 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
-      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#4a55986c-5333-4c79-8c18-21f1455503c1"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#d69d68ab-3a2c-4bad-b647-dcbbc757175d"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#477de1e2-e31d-4bad-9062-cdb4a21dbaf8"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#4df127f1-3cd6-4cdf-9731-cb60697697f1"/>
@@ -144,6 +145,7 @@
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#7e12b18d-1d10-4fac-a4a6-b3559ecb2817"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#8e65bef2-da7d-448a-aa7f-2eb71243e902"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#8c58f847-e990-485a-a414-7b60a09afe39"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#2f3501d7-1aed-45fa-9611-33131b862f38"/>
       <changeList/>
       <responsibleUser name="" timeCreated="2015-11-02T12:36:23.333+0100" uniqueID="c93c0936-5d94-4c30-a07b-588ccadb7efb">
         <cost name="Cost" kind=""/>
@@ -166,7 +168,6 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
-      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#bbefa247-f59a-4a60-9dc9-348e87814de8"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#f73322c1-b13f-479b-b1df-1f1da8e226d5"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#706e0b8d-0cca-41b1-a864-91b665b254cc"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#925ec084-3f0f-4ff6-835c-443373e62f67"/>
@@ -180,6 +181,7 @@
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#c701d3d3-9576-4afe-905d-41f7402f61bf"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#21716333-53eb-4565-b05e-9107b90dfb31"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#5cb05590-a2fc-4339-9957-f3e27f062050"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#adb45a26-145d-41b7-95b6-7c197d4d3bb0"/>
       <changeList/>
       <responsibleUser name="" timeCreated="2015-10-09T14:02:09.375+0200" uniqueID="14f17c98-5e9d-4cf0-890c-9d46f340ea24">
         <cost name="Cost" kind=""/>
@@ -202,7 +204,6 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
-      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#44a5a9b4-ca3f-49e0-800f-c583b77d6fae"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#5e82795e-7b16-4822-ab4e-0d8709a98b06"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#cf98ad8e-4dc3-4b07-9ca1-ae83e980251d"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#f72f767c-2737-4e30-bf16-7a8b327a11a0"/>
@@ -211,6 +212,7 @@
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#6220c1f4-945f-4b01-8b2f-e1125a3bb6a6"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#23db1023-a38c-4352-bcf5-119743b6f1f6"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#8ed5038d-44c6-49f6-847d-0e333b983648"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#99e0e834-ad72-4209-aa65-d419a2d68dd6"/>
       <changeList/>
       <responsibleUser name="" timeCreated="2015-10-09T13:56:22.170+0200" uniqueID="f4bb1de2-f104-448d-af68-ab0d15f5d5c2">
         <cost name="Cost" kind=""/>
