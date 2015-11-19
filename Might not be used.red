@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:persona="dk.dtu.imm.red.specificationelements.persona" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Might not be used.red" timeCreated="2015-11-10T11:05:54.614+0100" lastModified="2015-11-12T13:10:06.950+0100" uniqueID="dcf94b46-946f-4068-8e5f-30e6f2b30287">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:persona="dk.dtu.imm.red.specificationelements.persona" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Might not be used.red" timeCreated="2015-11-10T11:05:54.614+0100" lastModified="2015-11-19T09:58:30.050+0100" uniqueID="dcf94b46-946f-4068-8e5f-30e6f2b30287">
   <creator name="" timeCreated="2015-11-10T11:05:54.614+0100" uniqueID="b42d8602-d23b-47be-9fff-090425a1eda3" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -114,10 +114,10 @@
       </constraints>
     </contents>
   </contents>
-  <contents xsi:type="folder:Folder" name="MNBU_Goals" timeCreated="2015-11-10T11:06:11.636+0100" lastModified="2015-11-12T13:06:17.648+0100" uniqueID="e37aeaf9-a91b-4e14-9800-dfeffc7f7f83">
+  <contents xsi:type="folder:Folder" name="MNBU_Goals" timeCreated="2015-11-10T11:06:11.636+0100" lastModified="2015-11-19T09:14:13.290+0100" uniqueID="e37aeaf9-a91b-4e14-9800-dfeffc7f7f83">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Not neccesary" timeCreated="2015-11-10T10:43:35.376+0100" lastModified="2015-11-12T13:06:17.648+0100" uniqueID="1309cbfe-9ccd-47d9-a0ec-891553e70224" workPackage="" specialType="Goal">
+    <contents xsi:type="folder:Folder" name="Not neccesary" timeCreated="2015-11-10T10:43:35.376+0100" lastModified="2015-11-19T09:14:13.290+0100" uniqueID="1309cbfe-9ccd-47d9-a0ec-891553e70224" workPackage="" specialType="Goal">
       <creator name="" timeCreated="2015-11-10T10:58:30.747+0100" uniqueID="ad1ff399-529b-45ad-a0ca-4e4016dac7c5">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -129,6 +129,58 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <contents xsi:type="goal:Goal" label="MSG_IH" name="Improve health" elementKind="unspecified" description="To improve the health of citizens" timeCreated="2015-10-24T01:12:35.206+0200" lastModified="2015-11-19T09:14:13.290+0100" uniqueID="f91d3be6-12dd-43c0-b089-5ad27fedabf2" workPackage="">
+        <creator name="" timeCreated="2015-10-24T01:12:35.206+0200" uniqueID="c3519ade-509c-4e3b-843b-b4877145f91a" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <relatesTo xsi:type="relationship:DependencyRelationship" timeCreated="2015-11-12T11:12:06.650+0100" uniqueID="f73322c1-b13f-479b-b1df-1f1da8e226d5">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#ad3ec231-1d85-421d-83a6-a05552ba5f8a"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:DependencyRelationship" timeCreated="2015-11-12T11:12:06.656+0100" uniqueID="5e82795e-7b16-4822-ab4e-0d8709a98b06">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#d56236c9-99e2-4a3e-9525-a0bc7ac79fbd"/>
+        </relatesTo>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-24T01:12:51.590+0200" uniqueID="6f6a9369-5701-4f32-9195-1f457d9777c4">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <explanation>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </explanation>
+      </contents>
+      <contents xsi:type="goal:Goal" label="MSG_E" name="Expansion" elementKind="unspecified" description="To expand the EU collaboration with an international healthcare system" timeCreated="2015-10-24T00:58:47.067+0200" lastModified="2015-11-19T09:14:13.246+0100" uniqueID="d400135a-cd31-4e08-864c-2e8270b81009" workPackage="">
+        <creator name="" timeCreated="2015-10-24T00:58:47.067+0200" uniqueID="06a3ef99-0aaf-419e-93dd-084ba855918c" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <relatesTo xsi:type="relationship:DependencyRelationship" timeCreated="2015-11-12T11:15:24.963+0100" uniqueID="925ec084-3f0f-4ff6-835c-443373e62f67">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#ad3ec231-1d85-421d-83a6-a05552ba5f8a"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:DependencyRelationship" timeCreated="2015-11-12T11:15:24.969+0100" uniqueID="f72f767c-2737-4e30-bf16-7a8b327a11a0">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#d56236c9-99e2-4a3e-9525-a0bc7ac79fbd"/>
+        </relatesTo>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-24T01:00:20.122+0200" uniqueID="274c717e-24f9-4cea-90d0-e1aa5f00d595">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <explanation>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </explanation>
+      </contents>
       <contents xsi:type="goal:Goal" label="SOG_D" name="Document" elementKind="unspecified" description="To properly document the development and requirements of the system" timeCreated="2015-10-24T01:45:29.425+0200" lastModified="2015-11-12T13:06:17.648+0100" uniqueID="38212310-2f1f-49a3-a5e6-ac4743b5a7a8" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:45:29.425+0200" uniqueID="aee10b90-9ccb-4035-920c-e426591da051" id="" email="" initials="">
           <cost name="Cost" kind=""/>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:statemachine="dk.dtu.imm.red.visualmodeling.visualmodel.statemachine" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Fragments.red" timeCreated="2015-11-10T10:24:57.204+0100" lastModified="2015-11-12T11:54:10.936+0100" uniqueID="944f2e47-7d02-4581-b0c7-f96904523428">
+<?xml version="1.0" encoding="UTF-8"?>
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:statemachine="dk.dtu.imm.red.visualmodeling.visualmodel.statemachine" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Fragments.red" timeCreated="2015-11-10T10:24:57.204+0100" lastModified="2015-11-19T09:58:30.061+0100" uniqueID="944f2e47-7d02-4581-b0c7-f96904523428">
   <creator name="" timeCreated="2015-11-10T10:24:57.204+0100" uniqueID="2ef5a356-a529-4e36-8d4d-942623d10f25" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>

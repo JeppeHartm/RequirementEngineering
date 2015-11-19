@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholder.red" timeCreated="2015-10-09T15:09:53.006+0200" lastModified="2015-11-19T00:41:54.606+0100" uniqueID="7ed63d01-a336-4895-aecf-2f647c3791e8">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholder.red" timeCreated="2015-10-09T15:09:53.006+0200" lastModified="2015-11-19T09:58:29.941+0100" uniqueID="7ed63d01-a336-4895-aecf-2f647c3791e8">
   <creator name="" timeCreated="2015-10-09T15:09:53.007+0200" uniqueID="17869f2b-15ab-4399-a6e0-18c90c16cd73" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Stakeholders" timeCreated="2015-10-09T15:44:35.616+0200" lastModified="2015-11-12T10:18:43.494+0100" uniqueID="283544c8-877a-47b7-ace8-5a85f336d8be">
+  <contents xsi:type="folder:Folder" name="Stakeholders" timeCreated="2015-10-09T15:44:35.616+0200" lastModified="2015-11-19T09:58:29.932+0100" uniqueID="283544c8-877a-47b7-ace8-5a85f336d8be">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="stakeholder:Stakeholder" label="EUC" name="EU Consultants" elementKind="External" description="EU consultants will be attached to the project in order ot assure that it complies with the relevant EU regulations" timeCreated="2015-10-09T14:23:00.983+0200" lastModified="2015-11-02T12:24:14.743+0100" uniqueID="e3dc9ffc-6bc5-4d29-8d33-7fc5323b0b3b" workPackage="" power="2" urgency="2" importance="2">
+    <contents xsi:type="stakeholder:Stakeholder" label="EUC" name="EU Consultants" elementKind="External" partOf="d56236c9-99e2-4a3e-9525-a0bc7ac79fbd" description="EU consultants will be attached to the project in order ot assure that it complies with the relevant EU regulations" timeCreated="2015-10-09T14:23:00.983+0200" lastModified="2015-11-19T09:56:28.256+0100" uniqueID="e3dc9ffc-6bc5-4d29-8d33-7fc5323b0b3b" workPackage="" power="2" urgency="2" importance="2">
       <creator name="" timeCreated="2015-10-09T14:23:00.983+0200" uniqueID="aa741df2-cd9a-446a-a81b-be6cecba0f50" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -67,7 +67,7 @@
         <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Developers are not affected by the system, (other than as regular citizen) but are responsible for implementing it. Thus their power is medium. &lt;/SPAN>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="C" name="Citizen" elementKind="External" description="" timeCreated="2015-10-09T14:17:09.013+0200" lastModified="2015-11-02T12:36:23.777+0100" uniqueID="0799af8b-5c9e-44ea-b660-85c492980bae" workPackage="" exposure="3">
+    <contents xsi:type="stakeholder:Stakeholder" label="P" name="Patients" elementKind="External" description="" timeCreated="2015-10-09T14:17:09.013+0200" lastModified="2015-11-19T09:58:29.932+0100" uniqueID="0799af8b-5c9e-44ea-b660-85c492980bae" workPackage="" exposure="3">
       <creator name="" timeCreated="2015-10-09T14:17:09.013+0200" uniqueID="a0a5169d-cdb2-4140-a6ff-ac84773f7dbc" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -90,13 +90,13 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Citizens primary stake is their interest in receiving correct medical care, but also in their ability to access their own information easily, and seeing their past treatments.&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+        <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Patients primary stake is their interest in receiving correct medical care, but also in their ability to access their own information easily, and seeing their past treatments.&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Citizen engagement will primarily be after the project is finished.&lt;/SPAN>"/>
+        <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Patients engagement will primarily be after the project is finished.&lt;/SPAN>"/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Citizens are directly affected by the project. Not only can they use the solution to access their own data, it also impacts their treatment when hospitalized. However, since only a small subgroup can be questioned when eliciting requirements, and testing the product, their power is little. &lt;/SPAN>"/>
+        <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Patients are directly affected by the project. Not only can they use the solution to access their own data, it also impacts their treatment when hospitalized. However, since only a small subgroup can be questioned when eliciting requirements, and testing the product, their power is little. &lt;/SPAN>"/>
       </longDescription>
     </contents>
     <contents xsi:type="stakeholder:Stakeholder" label="HS" name="Hospital Staff" elementKind="External" description="" timeCreated="2015-10-09T14:12:42.469+0200" lastModified="2015-11-02T12:27:26.965+0100" uniqueID="9cc4a90d-b59d-48b2-ad2d-47904e079382" workPackage="" exposure="3" power="2" importance="2">
@@ -131,7 +131,7 @@
         <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Medical staff has high exposure, since their day to day work routine will be directly affected by the final product.&lt;/SPAN>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="NHA" name="National Hospital Administration" elementKind="External" description="The national hospital administrations of the individual member countries are repsonsible for running their countries hospitals and medical systems, and have their own regulations and intersts regarding this. " timeCreated="2015-10-09T14:06:23.260+0200" lastModified="2015-11-02T12:46:16.175+0100" uniqueID="378ba7ba-3f7b-4848-869b-d216a4160453" workPackage="" exposure="2" power="3" urgency="2" importance="3">
+    <contents xsi:type="stakeholder:Stakeholder" label="NHA" name="National Hospital Administration" elementKind="External" partOf="ad3ec231-1d85-421d-83a6-a05552ba5f8a" description="The national hospital administrations of the individual member countries are repsonsible for running their countries hospitals and medical systems, and have their own regulations and intersts regarding this. " timeCreated="2015-10-09T14:06:23.260+0200" lastModified="2015-11-19T09:56:27.971+0100" uniqueID="378ba7ba-3f7b-4848-869b-d216a4160453" workPackage="" exposure="2" power="3" urgency="2" importance="3">
       <creator name="" timeCreated="2015-10-09T14:06:23.261+0200" uniqueID="da2bc010-9427-4967-9b9e-2bac5642a6a3" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -163,14 +163,14 @@
         <fragments xsi:type="text:FormattedText" text="Since implementing the system could change hospital workflow, the national administrations has to make sure that their regulations are in line with this new workflow. This makes their exposure medium. Their power is high, since the system has to comply with local variations in regulations, if they are stricter than EU norm. "/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="EUMC" name="EU Member Country" elementKind="External" description="" timeCreated="2015-10-09T13:57:12.024+0200" lastModified="2015-11-02T12:48:54.612+0100" uniqueID="ad3ec231-1d85-421d-83a6-a05552ba5f8a" workPackage="" power="2" importance="2">
+    <contents xsi:type="stakeholder:Stakeholder" label="EUMC" name="EU Member Country" elementKind="External" partOf="d56236c9-99e2-4a3e-9525-a0bc7ac79fbd" description="" timeCreated="2015-10-09T13:57:12.024+0200" lastModified="2015-11-19T09:56:28.431+0100" uniqueID="ad3ec231-1d85-421d-83a6-a05552ba5f8a" workPackage="" power="2" importance="2">
       <creator name="" timeCreated="2015-10-09T13:57:12.024+0200" uniqueID="0d27e854-7504-44d2-9173-552648b960d9" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
-      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#f73322c1-b13f-479b-b1df-1f1da8e226d5"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#f73322c1-b13f-479b-b1df-1f1da8e226d5"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#706e0b8d-0cca-41b1-a864-91b665b254cc"/>
-      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#925ec084-3f0f-4ff6-835c-443373e62f67"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#925ec084-3f0f-4ff6-835c-443373e62f67"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#592defd8-9562-4ed8-9cbf-097b6f12eeb8"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#8d7daf6e-616c-4bcf-8cc2-b1509d82c7b0"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#4ad0b67c-8872-4b51-895a-18754cdbb5cf"/>
@@ -204,9 +204,9 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
-      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#5e82795e-7b16-4822-ab4e-0d8709a98b06"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#5e82795e-7b16-4822-ab4e-0d8709a98b06"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#cf98ad8e-4dc3-4b07-9ca1-ae83e980251d"/>
-      <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#f72f767c-2737-4e30-bf16-7a8b327a11a0"/>
+      <relatedBy xsi:type="relationship:DependencyRelationship" href="Might%20not%20be%20used.red#f72f767c-2737-4e30-bf16-7a8b327a11a0"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#711602cf-92b1-418c-b173-08640828d86a"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#8e912831-fcab-4dea-9167-72c9fd56de8c"/>
       <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#6220c1f4-945f-4b01-8b2f-e1125a3bb6a6"/>
