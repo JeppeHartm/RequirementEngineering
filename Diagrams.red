@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-10-30T16:38:02.477+0100" lastModified="2015-11-19T09:58:30.041+0100" uniqueID="9139d8ba-a1a2-4304-bc69-7d1cf119d27d">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-10-30T16:38:02.477+0100" lastModified="2015-11-20T15:15:55.444+0100" uniqueID="9139d8ba-a1a2-4304-bc69-7d1cf119d27d">
   <creator name="" timeCreated="2015-10-30T16:38:02.477+0100" uniqueID="dbb5829d-40a3-489b-b354-09da03326f3a" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -100,10 +100,12 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.1/@VisualDiagram" DiagramType="Context">
-        <Elements xsi:type="context:VisualSystem" Location="103,195" Bounds="200,352" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="Emergancy Respond Client" visualID="_jvQlgI2FEeWg4YWvV1kZaw">
-          <Elements xsi:type="context:VisualSystem" Location="23,42" Bounds="156,42" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="PPD Reader" visualID="_9AupwI2FEeWg4YWvV1kZaw"/>
-          <Elements xsi:type="context:VisualSystem" Location="23,96" Bounds="156,42" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="Action Recorder" visualID="_JZn5EI2GEeWg4YWvV1kZaw"/>
-          <Elements xsi:type="context:VisualSystem" Location="23,148" Bounds="156,46" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="Authenticate User" visualID="_O6VvoI2GEeWg4YWvV1kZaw"/>
+        <Elements xsi:type="context:VisualSystem" Location="103,195" Bounds="200,352" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Emergancy Respond Client" visualID="_jvQlgI2FEeWg4YWvV1kZaw">
+          <Elements xsi:type="context:VisualSystem" Location="23,42" Bounds="156,42" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="PPD Reader" visualID="_9AupwI2FEeWg4YWvV1kZaw">
+            <Elements xsi:type="context:VisualPort" Location="0,14" Bounds="30,30" Parent="_9AupwI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" visualID="_vuTz8I6iEeWPHOim6ewYkQ"/>
+          </Elements>
+          <Elements xsi:type="context:VisualSystem" Location="23,96" Bounds="156,42" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Action Recorder" visualID="_JZn5EI2GEeWg4YWvV1kZaw"/>
+          <Elements xsi:type="context:VisualSystem" Location="23,148" Bounds="156,46" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Authenticate User" visualID="_O6VvoI2GEeWg4YWvV1kZaw"/>
         </Elements>
       </VisualDiagram>
     </contents>
