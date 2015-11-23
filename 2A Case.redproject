@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-11-19T09:18:06.315+0100" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-11-23T21:09:35.342+0100" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
   <creator name="" timeCreated="2015-09-22T10:09:30.159+0200" uniqueID="8afaac80-b054-45e3-9053-e1b5e80299b1" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -57,4 +57,101 @@
   <Listofopenedfilesinproject href="Glossary.red#4f7e72eb-18e3-4892-9ed9-f1dcf54ae8a9"/>
   <Listofopenedfilesinproject href="Might%20not%20be%20used.red#dcf94b46-946f-4068-8e5f-30e6f2b30287"/>
   <Listofopenedfilesinproject href="Fragments.red#944f2e47-7d02-4581-b0c7-f96904523428"/>
+  <effort timeCreated="2015-11-23T21:09:12.977+0100" uniqueID="83d21357-b311-464b-bb59-36fb915dea84">
+    <cost name="Cost" kind=""/>
+    <benefit name="Cost" kind=""/>
+    <managementFactor timeCreated="2015-11-23T21:09:12.978+0100" uniqueID="1b44a3a0-7ec2-4088-9c57-572d3e4d5c1e">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <weightedFactors name="Application experience" timeCreated="2015-11-23T21:09:12.978+0100" uniqueID="ebee04ac-9c12-43be-b531-a02f4b659b11" factorValue="medium" weight="0.5">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Chief architect" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="e83b351e-9056-485b-860f-bccd10b58180" factorValue="medium" weight="0.5">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Motivation" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="18648751-6d9b-4e40-bc23-f62657c590d0" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Stable requirements" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="14b900d4-f7f2-4eeb-9c42-57d5c4358340" factorValue="medium" weight="2.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Part-time workers" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="361d06f0-7824-493e-95dc-7af684822d0b" factorValue="medium" weight="-1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Programming language / SDK" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="86b6038a-7846-4c76-9a9a-a5e77fe04f71" factorValue="medium" weight="-1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+    </managementFactor>
+    <productivityFactor timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="76f05afd-3f14-4236-bfcd-1149c427f6e6" sum="20.0">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </productivityFactor>
+    <requirementFactor timeCreated="2015-11-23T21:09:12.980+0100" uniqueID="a048dd14-262b-453d-86a5-5399563e9fd7">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </requirementFactor>
+    <technologyFactor timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="1d2e44ab-6db0-4518-b55e-30fc9e482e22">
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <weightedFactors name="Distributed System" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="50efaf97-ff04-48f9-8b6a-4a07822c19ca" factorValue="medium" weight="2.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Performance and load requirements" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="2d7d69f4-1712-49b1-9759-fa19ca9c337c" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Efficiency of the user interface" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="a157aea5-4e88-47ec-bf82-0aeea373f3bf" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Complexity of business rules and calculations" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="dfc3e756-02d1-4bb1-923c-1dd3f2fdf364" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Reusability" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="ce7d8ba9-dd87-4ca6-af02-ea4c39c783e3" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Easy to install" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="7380c72c-bfda-4c95-a59b-d52267e2173d" factorValue="medium" weight="0.5">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Easy to use" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="4521e79f-9ad0-4bda-83d2-130c5da5bae2" factorValue="medium" weight="0.5">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Portability" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="62388a04-7955-4e63-b590-447a05d28914" factorValue="medium" weight="2.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Easy to change" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="a08fb517-0fff-406d-8226-fc9c457b02b6" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="System avalilability" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="0d4dccce-8015-4a7b-b475-355d90ace4ca" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Special security features" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="58244de7-3741-4f92-9d42-ee131fcd6044" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Direct access for third parties" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="6627ea8c-1d82-43c7-97a0-e7083dfe75bc" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+      <weightedFactors name="Special user training facilities" timeCreated="2015-11-23T21:09:12.979+0100" uniqueID="103ddb79-efa9-44c3-a1bc-26cc873d2348" factorValue="medium" weight="1.0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </weightedFactors>
+    </technologyFactor>
+    <costPerUsecasePoint name="Cost Per Use Case Point" value="1000.0" kind=""/>
+  </effort>
 </project:Project>
