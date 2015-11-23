@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-11-19T12:26:11.317+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-11-20T16:19:57.524+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
   <creator name="" timeCreated="2015-10-25T23:34:33.747+0100" uniqueID="995552ba-a761-4b48-ab60-a7a6353dc7d6" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-11-20T15:07:34.727+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
+  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-11-20T16:03:28.081+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
     <creator name="" timeCreated="2015-10-25T23:51:08.678+0100" uniqueID="e4c78e85-1c34-4b1d-8349-8d0acce375c3">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -417,7 +417,7 @@
           <Elements xsi:type="usecase:VisualActorElement" Location="130,466" Bounds="49,80" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.6 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.7 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.8" visualID="_G9DfAIIMEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#4273cde5-89c8-456d-be10-d30d1c5d5596"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="117,49" Bounds="68,99" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.9 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.11" visualID="_H2HN8IIMEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="127,49" Bounds="58,99" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.9 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.11" visualID="_H2HN8IIMEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#d6d81ff4-d96e-4796-8d36-64a8fbb67415"/>
           </Elements>
           <Elements xsi:type="usecase:VisualActorElement" Location="131,360" Bounds="42,77" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.12 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.13 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.15" visualID="_38ZRUIINEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
@@ -442,9 +442,7 @@
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_H2HN8IIMEeWq48TYNclEsQ" Target="_kkl954IHEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_F6P-MIIMEeWq48TYNclEsQ" Target="_kkl94YIHEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_kkl95oIHEeWq48TYNclEsQ" Target="_H2HN8IIMEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
-          <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_38ZRUIINEeWq48TYNclEsQ" Target="_F6P-MIIMEeWq48TYNclEsQ" Direction="SourceTarget" TargetDecoration="ArrowHeadSolidWhite" Type="Generalization" IsLinkedToElement="true">
-            <SpecificationElement xsi:type="configuration:ActorRelation" href="Vision.red#1fab3db9-58c4-497d-9b49-c23a047cf09a"/>
-          </DiagramConnections>
+          <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_38ZRUIINEeWq48TYNclEsQ" Target="_F6P-MIIMEeWq48TYNclEsQ" Direction="SourceTarget" TargetDecoration="ArrowHeadSolidWhite" Name="" Type="Generalization"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_38ZRUIINEeWq48TYNclEsQ" Target="_iRXvUIINEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_uJ-DEIIPEeWq48TYNclEsQ" Target="_ggofkIIPEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_38ZRUIINEeWq48TYNclEsQ" Target="_iQMFQI-PEeWwyZ8t4Zb9-A" Direction="Bidirectional" Name="" Type="Association"/>
@@ -504,11 +502,11 @@
           <Elements xsi:type="usecase:VisualSystemBoundaryElement" Location="291,15" Bounds="477,437" Parent="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" IsSketchy="true" Name="EMT Interface" visualID="_atXD8IIQEeWq48TYNclEsQ">
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="67,123" Bounds="150,50" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.5 //@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.8" IsSketchy="true" Name="Record Action" visualID="_iJ2DoIIQEeWq48TYNclEsQ" SpecificationElement="7c8f71de-505b-4ab4-9b0e-dd0be3670d65" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="29,284" Bounds="150,50" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.2 //@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.3" IsSketchy="true" Name="Connect journal to auxiliary device" visualID="_iusdIIIQEeWq48TYNclEsQ" SpecificationElement="76b75723-f9ec-4f71-8a47-f53b79264896" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="214,335" Bounds="150,50" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.6 //@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.7" IsSketchy="true" Name="Auxiliary device updates journal" visualID="_ja_icIIQEeWq48TYNclEsQ" SpecificationElement="1fb595cc-039d-4ad1-b2d9-0e0db41f2e25" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="242,329" Bounds="150,50" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.6 //@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.7" IsSketchy="true" Name="Auxiliary device updates journal" visualID="_ja_icIIQEeWq48TYNclEsQ" SpecificationElement="1fb595cc-039d-4ad1-b2d9-0e0db41f2e25" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="71,218" Bounds="147,54" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.4 //@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.7 //@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.8" IsSketchy="true" Name="Send info to emergency room" visualID="_xfgwoIIREeWq48TYNclEsQ" SpecificationElement="eb8d4872-ffb5-4e4c-8ccb-a6fbcd01d034" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="244,217" Bounds="150,50" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.10" IsSketchy="true" Name="Send info to EMT" visualID="_ZYaYUIISEeWq48TYNclEsQ" SpecificationElement="498e845a-da63-4747-864d-a5145ab4821e" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="235,28" Bounds="150,50" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.0 //@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" Name="Read emergency data" visualID="_r_u4wIISEeWq48TYNclEsQ" SpecificationElement="0f97c23e-67df-4603-a82f-96eeeef9e9c0" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="245,89" Bounds="150,50" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.9" IsSketchy="true" Name="Read info from ECC" visualID="_WdCsAIIVEeWq48TYNclEsQ" SpecificationElement="38957a3d-b9ab-4c40-98ae-b566bf5dea3b" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="241,223" Bounds="150,50" Parent="_atXD8IIQEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.10" IsSketchy="true" Name="Send info to emergency room" visualID="_weqcgI-XEeWwyZ8t4Zb9-A" SpecificationElement="eb8d4872-ffb5-4e4c-8ccb-a6fbcd01d034" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
           </Elements>
           <Elements xsi:type="usecase:VisualActorElement" Location="169,293" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.2/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.3 //@contents.0/@contents.1/@contents.2/@VisualDiagram/@DiagramConnections.6" IsSketchy="true" visualID="_EgAwoIITEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#d6d81ff4-d96e-4796-8d36-64a8fbb67415"/>
@@ -529,15 +527,15 @@
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_ja_icIIQEeWq48TYNclEsQ" Target="_xfgwoIIREeWq48TYNclEsQ" Direction="SourceTarget" LineStyle="Dashed" TargetDecoration="ArrowHead" Name="Include" Type="Include"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_iJ2DoIIQEeWq48TYNclEsQ" Target="_xfgwoIIREeWq48TYNclEsQ" Direction="SourceTarget" LineStyle="Dashed" TargetDecoration="ArrowHead" Name="Include" Type="Include"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_Q6W40IIQEeWq48TYNclEsQ" Target="_WdCsAIIVEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
-          <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_ZYaYUIISEeWq48TYNclEsQ" Target="_6vIV0I-OEeWwyZ8t4Zb9-A" Direction="Bidirectional" Name="" Type="Association"/>
+          <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_weqcgI-XEeWwyZ8t4Zb9-A" Target="_6vIV0I-OEeWwyZ8t4Zb9-A" Direction="Bidirectional" Name="" Type="Association"/>
         </VisualDiagram>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Use Case Descriptions" timeCreated="2015-11-03T11:28:59.913+0100" lastModified="2015-11-20T15:07:34.727+0100" uniqueID="4954bdbc-0234-47df-8903-f83f5a4a1ec0">
+    <contents xsi:type="folder:Folder" name="Use Case Descriptions" timeCreated="2015-11-03T11:28:59.913+0100" lastModified="2015-11-20T16:03:28.081+0100" uniqueID="4954bdbc-0234-47df-8903-f83f5a4a1ec0">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <contents xsi:type="usecase_1:Usecase" label="UC_RECC" name="Read info from ECC" description="" timeCreated="2015-11-03T11:26:14.669+0100" lastModified="2015-11-03T11:29:10.391+0100" uniqueID="38957a3d-b9ab-4c40-98ae-b566bf5dea3b">
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="120000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <PrimaryReferences/>
         <SecondaryReferences/>
@@ -545,35 +543,15 @@
         <duration name="Duration"/>
       </contents>
       <contents xsi:type="usecase_1:Usecase" label="UC_RED" name="Read emergency data" description="" timeCreated="2015-11-03T11:07:06.851+0100" lastModified="2015-11-03T11:29:10.328+0100" uniqueID="0f97c23e-67df-4603-a82f-96eeeef9e9c0">
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="60000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
-        <PrimaryReferences/>
-        <SecondaryReferences/>
-        <incidence name="Incidence"/>
-        <duration name="Duration"/>
-      </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_SIE" name="Send info to ER" elementKind="unspecified" description="" timeCreated="2015-11-03T11:05:10.441+0100" lastModified="2015-11-20T14:59:00.306+0100" uniqueID="498e845a-da63-4747-864d-a5145ab4821e" workPackage="" parameter="" trigger="" outcome="" result="">
-        <creator name="" timeCreated="2015-11-20T14:59:00.297+0100" uniqueID="d7f4490c-ae77-4997-ae7f-8eb769aa35fc">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-11-20T14:59:00.298+0100" uniqueID="ebd46d0d-74e1-4d58-9532-eb9397d11752">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Benefit" kind=""/>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
-        </longDescription>
         <PrimaryReferences/>
         <SecondaryReferences/>
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
       <contents xsi:type="usecase_1:Usecase" label="UC_SIER" name="Send info to emergency room" description="" timeCreated="2015-11-03T11:00:15.243+0100" lastModified="2015-11-03T11:29:10.203+0100" uniqueID="eb8d4872-ffb5-4e4c-8ccb-a6fbcd01d034">
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="60000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <PrimaryReferences/>
         <SecondaryReferences/>
@@ -590,7 +568,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="60000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>Medical professional logged in</preConditions>
         <longDescription>
@@ -616,7 +594,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="35000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <postConditions>User autherized</postConditions>
         <longDescription>
@@ -644,7 +622,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="135000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>User logged in</preConditions>
         <postConditions>Journal updated</postConditions>
@@ -669,7 +647,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="100000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>Auxiliary device connected</preConditions>
         <postConditions>Measured data updated in journal</postConditions>
@@ -694,7 +672,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="70000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>Medical professional logged in</preConditions>
         <postConditions>Auxiliary device connected to journal</postConditions>
@@ -720,7 +698,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="80000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>Medical professional logged in</preConditions>
         <postConditions>Patient or/and doctor notified</postConditions>
@@ -745,7 +723,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="25000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>User logged in</preConditions>
         <postConditions>User no longer has access to journal</postConditions>
@@ -772,7 +750,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="25000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>User logged in</preConditions>
         <postConditions>Medical professional has access to journal</postConditions>
@@ -798,7 +776,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="135000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>User has card</preConditions>
         <postConditions>User Authenticated</postConditions>
@@ -824,7 +802,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="265000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>User is signed in.</preConditions>
         <postConditions>Action Recorded</postConditions>
@@ -850,7 +828,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="33000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>User is signed in.</preConditions>
         <postConditions>Jurnal Data Available for Medical Professional.</postConditions>
@@ -879,7 +857,7 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </responsibleUser>
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="40000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <longDescription>
           <fragments xsi:type="text:FormattedText" text=""/>
@@ -890,7 +868,7 @@
         <duration name="Duration"/>
       </contents>
       <contents xsi:type="usecase_1:Usecase" label="UC_CDS" name="Connect to Diacnostics Sustem (A1)" description="" timeCreated="2015-11-20T14:54:07.478+0100" lastModified="2015-11-20T14:54:07.488+0100" uniqueID="d9820295-011c-4b5f-900c-ea15524f3adf">
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="350000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <PrimaryReferences/>
         <SecondaryReferences/>
@@ -898,7 +876,23 @@
         <duration name="Duration"/>
       </contents>
       <contents xsi:type="usecase_1:Usecase" label="UC_RDEMT" name="Recive Data from Emergacy Medical Transport" description="" timeCreated="2015-11-20T15:07:34.715+0100" lastModified="2015-11-20T15:07:34.727+0100" uniqueID="b94ba964-66d0-4551-901d-49a05dbc119d">
-        <cost name="Cost" kind=""/>
+        <cost name="Cost" value="60000.0" kind=""/>
+        <benefit name="Benefit" kind=""/>
+        <PrimaryReferences/>
+        <SecondaryReferences/>
+        <incidence name="Incidence"/>
+        <duration name="Duration"/>
+      </contents>
+      <contents xsi:type="usecase_1:Usecase" label="UC_PED" name="Precent Emergancy Data" description="" timeCreated="2015-11-20T15:54:53.982+0100" lastModified="2015-11-20T15:54:53.992+0100" uniqueID="b27c0001-b012-4080-ba49-3b5b5ef3db8f">
+        <cost name="Cost" value="165000.0" kind=""/>
+        <benefit name="Benefit" kind=""/>
+        <PrimaryReferences/>
+        <SecondaryReferences/>
+        <incidence name="Incidence"/>
+        <duration name="Duration"/>
+      </contents>
+      <contents xsi:type="usecase_1:Usecase" label="UC_PHD" name="Precent Hospital Data" description="" timeCreated="2015-11-20T15:55:28.141+0100" lastModified="2015-11-20T15:55:28.152+0100" uniqueID="406e1413-5acf-4137-8c5f-fa72e25ba1d1">
+        <cost name="Cost" value="330000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <PrimaryReferences/>
         <SecondaryReferences/>

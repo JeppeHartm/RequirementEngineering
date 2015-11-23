@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<<<<<<< HEAD
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-20T15:15:55.428+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
-=======
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-19T12:26:11.316+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
->>>>>>> 6b8a586b4eaeea3f6592008fc1b468cf26ee4122
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-20T16:19:57.521+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
   <creator name="" timeCreated="2015-10-25T23:55:01.962+0100" uniqueID="d54afc51-2949-4c49-ae29-27c1ce1832b2" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
