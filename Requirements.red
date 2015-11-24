@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-19T09:58:30.018+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-24T20:43:37.829+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
   <creator name="" timeCreated="2015-10-20T10:06:51.100+0200" uniqueID="e21ef682-4a97-4e1c-a80c-f7fb294722b7" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -11,7 +11,7 @@
   </responsibleUser>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Requirements" timeCreated="2015-10-20T10:07:56.811+0200" lastModified="2015-11-02T14:14:36.655+0100" uniqueID="9b37a63d-c3f5-4fd8-9b28-375c66616b72" workPackage="" specialType="Requirement">
+  <contents xsi:type="folder:Folder" name="Requirements" timeCreated="2015-10-20T10:07:56.811+0200" lastModified="2015-11-24T20:43:37.798+0100" uniqueID="9b37a63d-c3f5-4fd8-9b28-375c66616b72" workPackage="" specialType="Requirement">
     <creator name="" timeCreated="2015-10-25T23:00:10.566+0100" uniqueID="145b6f22-07ef-41c0-817f-317743a53440">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -23,7 +23,7 @@
     </responsibleUser>
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Functional" timeCreated="2015-10-25T23:12:27.105+0100" lastModified="2015-10-29T13:52:36.184+0100" uniqueID="4b15b546-a025-4e71-a10a-efb1c5f23344" workPackage="" specialType="Requirement">
+    <contents xsi:type="folder:Folder" name="Functional" timeCreated="2015-10-25T23:12:27.105+0100" lastModified="2015-11-24T20:43:37.798+0100" uniqueID="4b15b546-a025-4e71-a10a-efb1c5f23344" workPackage="" specialType="Requirement">
       <creator name="" timeCreated="2015-10-25T23:17:38.435+0100" uniqueID="2139225d-5bf8-4538-8a01-3a585c1005d3">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -35,7 +35,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="requirement:Requirement" label="F_IA" name="International Access" elementKind="Feature" description="Should be able to access other european countries journals" timeCreated="2015-10-25T22:57:10.725+0100" lastModified="2015-10-29T13:50:44.599+0100" uniqueID="5c34356c-3bb7-4293-b895-533ad0e065a2" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_IA" name="International Access" elementKind="" description="Should be able to access other european countries journals" timeCreated="2015-10-25T22:57:10.725+0100" lastModified="2015-11-24T20:18:32.691+0100" uniqueID="5c34356c-3bb7-4293-b895-533ad0e065a2" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-25T22:57:10.725+0100" uniqueID="55ec61b0-e030-4774-869a-9362b6043d38" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -48,16 +48,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;div>International access means that hospitals and emergency transports will have access to the same information, whether the patient comes from within the country as from without.&lt;/div>&lt;div>E.g. if a Dane while travelling in Spain, goes unconscious and is brought to the hospital. A doctor there would be able to access his information on his own device.&lt;/div>"/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_A" name="Authentication" elementKind="Feature" description="Authentication must occur when trying to access journal" timeCreated="2015-10-25T22:59:01.938+0100" lastModified="2015-10-29T13:50:56.260+0100" uniqueID="6de08a45-c868-4db4-8a37-2364a7d527c0" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_A" name="Authentication" elementKind="" description="Authentication must occur when trying to access journal" timeCreated="2015-10-25T22:59:01.938+0100" lastModified="2015-11-24T20:18:32.561+0100" uniqueID="6de08a45-c868-4db4-8a37-2364a7d527c0" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:50:56.229+0100" uniqueID="17fc5de7-f068-46a1-8d2c-03d5a49e7ef6">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -70,16 +70,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="Upon requesting access to the system a user must provide credentials, which are evaluated by an authentication server. This determines if further interaction with the system is possible."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_ED" name="External device" elementKind="Feature" description="Should be able to interface with auxiliary devices" timeCreated="2015-10-25T23:03:21.899+0100" lastModified="2015-10-29T13:51:02.448+0100" uniqueID="1af01c5d-1d03-4b41-b288-43bf457dd90f" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_ED" name="External device" elementKind="" description="Should be able to interface with auxiliary devices" timeCreated="2015-10-25T23:03:21.899+0100" lastModified="2015-11-24T20:18:32.620+0100" uniqueID="1af01c5d-1d03-4b41-b288-43bf457dd90f" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:02.417+0100" uniqueID="3ced30b2-63da-40f9-b1be-da677f82bde3">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -92,16 +92,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="External devices are devices used in the hospital to perform measurements, which have relevance to the patient's’ medical history or ongoing treatment. External devices will be connected to the system and send it’s data to be processed/recorded."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_J" name="Journal" elementKind="Feature" description="Retrieve journal patients journal" timeCreated="2015-10-25T23:08:02.946+0100" lastModified="2015-10-29T13:51:08.032+0100" uniqueID="ee13bbdb-6235-4c5d-9760-752fa4996d5d" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_J" name="Journal" elementKind="" description="Retrieve journal patients journal" timeCreated="2015-10-25T23:08:02.946+0100" lastModified="2015-11-24T20:18:32.499+0100" uniqueID="ee13bbdb-6235-4c5d-9760-752fa4996d5d" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:08.000+0100" uniqueID="b42b85a9-6f2a-45b8-aecd-01f1acff3e3a">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -114,16 +114,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="The system must collect the journal data from the server responsible for assembling the journal from member countries database sub systems. The journal must be retrieved upon providing credentials of the user and identification of the patient."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_RA" name="Record action" elementKind="Feature" description="Record an given action and upload it to a patients journal" timeCreated="2015-10-25T23:09:49.770+0100" lastModified="2015-10-29T13:51:14.565+0100" uniqueID="bb1f9368-06ea-4a4c-89ed-da58f9ac54ef" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_RA" name="Record action" elementKind="" description="Record an given action and upload it to a patients journal" timeCreated="2015-10-25T23:09:49.770+0100" lastModified="2015-11-24T20:18:32.432+0100" uniqueID="bb1f9368-06ea-4a4c-89ed-da58f9ac54ef" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:14.533+0100" uniqueID="5e2d9428-57d0-4739-a81d-df645113159f">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -136,16 +136,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="When providing care, or posterior to said care providing, actions must be recorded. The recording is facilitated by the medical professional storing entries containing relevant information."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_SC" name="Smart-Card" elementKind="Feature" description="Retrieve journal data using patients &quot;Smart-Card&quot;" timeCreated="2015-10-25T23:10:59.190+0100" lastModified="2015-10-29T13:51:29.355+0100" uniqueID="ee2bfd76-b11c-4438-a4f1-49d2475b7bc4" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_SC" name="Smart-Card" elementKind="" description="Retrieve journal data using patients &quot;Smart-Card&quot;" timeCreated="2015-10-25T23:10:59.190+0100" lastModified="2015-11-24T20:18:32.330+0100" uniqueID="ee2bfd76-b11c-4438-a4f1-49d2475b7bc4" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:29.324+0100" uniqueID="73b16af6-bca6-4529-8fe1-505f684ec83b">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -158,16 +158,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="Smart-card refers to another part of the EU health solution and is a card containing personal information, including identification on the holder. This integration is used to identify patients, both as a fast, user friendly method, and as a means to identify patients who, for any reason are not able to provide the information otherwise. This could be unconscious patients or patients with disabilities, or simply patients who does not speak the native language of the host country."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_UJ" name="Update Journal" elementKind="Feature" description="Update patients journal" timeCreated="2015-10-25T23:15:06.913+0100" lastModified="2015-10-29T13:51:36.145+0100" uniqueID="fb2c336f-8acf-4973-8818-2210a2038f94" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_UJ" name="Update Journal" elementKind="" description="Update patients journal" timeCreated="2015-10-25T23:15:06.913+0100" lastModified="2015-11-24T20:18:32.256+0100" uniqueID="fb2c336f-8acf-4973-8818-2210a2038f94" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:36.114+0100" uniqueID="b0fcb90d-9e78-4f9b-af42-51b42a7ea663">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -180,16 +180,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="When medical data is provided through the system, the data must be stored in such a way, that upon next request of the patients complete data, the new data must be included."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_N" name="Notification" elementKind="Feature" description="Notify patients doctor about new treatment or other medical info" timeCreated="2015-10-25T23:18:41.575+0100" lastModified="2015-10-29T13:51:42.654+0100" uniqueID="58435d6b-97b7-4746-8205-7de27a97f1d2" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_N" name="Notification" elementKind="" description="Notify patients doctor about new treatment or other medical info" timeCreated="2015-10-25T23:18:41.575+0100" lastModified="2015-11-24T20:18:31.987+0100" uniqueID="58435d6b-97b7-4746-8205-7de27a97f1d2" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:42.622+0100" uniqueID="0c224ebc-dfdb-40ce-ae74-763eb90b5313">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -202,16 +202,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="When medical data is altered, a set of medical professionals with access to the system is notified. This set can vary from country to country to fit each country’s regulations and practices. For instance, say the patient is assigned a general practitioner. This GP has responsibility for his patient’s general medical treatment. This means that he must be aware of any treatment his patient receives elsewhere."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_GA" name="Grant Access" elementKind="Feature" description="Grant medical professionals access to journal" timeCreated="2015-10-25T23:20:06.636+0100" lastModified="2015-10-29T13:51:51.078+0100" uniqueID="80644470-3360-487a-9ac3-b69ba319cc70" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_GA" name="Grant Access" elementKind="" description="Grant medical professionals access to journal" timeCreated="2015-10-25T23:20:06.636+0100" lastModified="2015-11-24T20:43:37.798+0100" uniqueID="80644470-3360-487a-9ac3-b69ba319cc70" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:51.047+0100" uniqueID="08719a3f-5200-4932-9b72-567cb8fc5bba">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -224,16 +224,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="Grant access is the feature of a patient giving consent to share medical information. Some countries might well have legal issues concerning sharing of personal/medical data, which is why a method for granting people access is necessary."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_L" name="Logging" elementKind="Feature" description="Log info about who has accessed a journal" timeCreated="2015-10-25T23:22:30.882+0100" lastModified="2015-10-29T13:52:05.609+0100" uniqueID="41a2e0a9-7281-493f-ae0e-7599a77cb8a8" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_L" name="Logging" elementKind="" description="Log info about who has accessed a journal" timeCreated="2015-10-25T23:22:30.882+0100" lastModified="2015-11-24T20:43:37.749+0100" uniqueID="41a2e0a9-7281-493f-ae0e-7599a77cb8a8" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:05.594+0100" uniqueID="74951342-06a2-47af-b102-dfb358d11fa6">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -246,16 +246,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="When changes to data is made, to hold the medical professional who contributed responsible for the correctness of data, since it might be essential to future medical treatment of the patient, and the method of treatment should there e.g. be any legal issues concerning the treatment, every change is logged."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_RAC" name="Remove Access" elementKind="Feature" description="Remove access to journal" timeCreated="2015-10-25T23:23:40.021+0100" lastModified="2015-10-29T13:52:19.747+0100" uniqueID="384e07fb-008a-4458-9b36-94646ac6f358" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_RAC" name="Remove Access" elementKind="" description="Remove access to journal" timeCreated="2015-10-25T23:23:40.021+0100" lastModified="2015-11-24T20:43:37.695+0100" uniqueID="384e07fb-008a-4458-9b36-94646ac6f358" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:19.731+0100" uniqueID="8975e2eb-bf6f-4ec5-b95e-e91698c860ac">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -268,16 +268,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="The opposite of the access granting feature. When consent is no longer given, access privileges must be removed."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_EDC" name="External device connection" elementKind="Feature" description="Auxiliary devices should be able to connect to patients journal throug doctor authentication" timeCreated="2015-10-25T23:29:16.093+0100" lastModified="2015-10-29T13:52:30.513+0100" uniqueID="0e60778a-0494-405b-bbaa-b8a1493eddd0" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_EDC" name="External device connection" elementKind="" partOf="1af01c5d-1d03-4b41-b288-43bf457dd90f" description="Auxiliary devices should be able to connect to patients journal throug doctor authentication" timeCreated="2015-10-25T23:29:16.093+0100" lastModified="2015-11-24T20:43:37.624+0100" uniqueID="0e60778a-0494-405b-bbaa-b8a1493eddd0" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:30.497+0100" uniqueID="70b91c8f-61b8-4c02-a87b-7a679a048692">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -290,16 +290,16 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="Part of the interaction with external devices, this is simply the act of establishing connection between the external device and the EPJ interface."/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_EDU" name="External device update" elementKind="Feature" description="Auxiliary devices should be able to add measured data to journal" timeCreated="2015-10-25T23:30:19.658+0100" lastModified="2015-10-29T13:52:36.184+0100" uniqueID="577fb3bd-1396-4b47-9728-9172b8374b77" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_EDU" name="External device update" elementKind="" partOf="1af01c5d-1d03-4b41-b288-43bf457dd90f" description="Auxiliary devices should be able to add measured data to journal" timeCreated="2015-10-25T23:30:19.658+0100" lastModified="2015-11-24T20:43:37.548+0100" uniqueID="577fb3bd-1396-4b47-9728-9172b8374b77" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:36.169+0100" uniqueID="22a38efc-5536-46c1-ab11-37ee4e1eb49f">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -312,13 +312,13 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;div>Part of the interaction with external devices, this is simply the act of having the external device automatically update the journal data.&lt;/div>&lt;div>&lt;br>&lt;/div>"/>
         </longDescription>
         <details>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </details>
         <remarks>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </remarks>
       </contents>
     </contents>
