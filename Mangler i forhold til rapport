@@ -2,43 +2,14 @@ Vision
 	group value
 	beliefs
 
-Goal
-	kind
-		MSG_IPH
-		BG_WP
-	Diagram looks wierd
-
 Persona
-	Elin
-		Storyboard
-	Jacob
-		Capabilities
-		Constraints
-		Storyboard
-	Hanne
-		Storyboard
-	Rudolph
-		Storyboard
-	Peter
-		Storyboard
 	Erik
-		Storyboard
 		motivation/goals
 	Yasin
-		Storyboard
-
-Requirement
-	Elaboration
-	Remarks
-	Long description
-		Confidentiallity
-		Security
-
-Actor
-	properties
+		Capabilities
+		Constraints
 
 Use cases
-	Hospital diagram
 	incidence
 	duration
 
@@ -46,4 +17,3 @@ Diagram
 	SSD finish
 
 Create some assumptions
-Remove fragtments
