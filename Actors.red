@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-26T14:45:27.174+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-26T17:28:56.717+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
   <creator name="" timeCreated="2015-10-25T23:55:01.962+0100" uniqueID="d54afc51-2949-4c49-ae29-27c1ce1832b2" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-11-26T14:45:26.578+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
+  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-11-26T17:28:56.527+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="R" name="Relatives" elementKind="role" subtypeOf="53ce8e0f-4c02-470e-85fc-b39065f85c43" description="Relatives are citizens who are close to a patient, and have legal right to act on the patient's behalf in case of incapacity. They can thus be the ones to take medical decisions in case of the patient being unconscious." timeCreated="2015-10-26T00:01:02.237+0100" lastModified="2015-11-26T14:29:30.535+0100" uniqueID="bbba8053-b3d6-4a8a-aad7-55d8afd2bc5d" workPackage="" code="">
@@ -38,7 +38,7 @@
         <persona href="Presonas.red#e97d70d5-46e7-481d-aab2-245fa814ed84"/>
       </personaRelations>
     </contents>
-    <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="N" name="Nurse" elementKind="person" subtypeOf="18deae08-2713-4698-8841-2af12615c6a5" description="A nurse is a medical professional who is focused on the care of individuals and families so they may attain, maintain, or recover optimal health and quality of life." timeCreated="2015-11-13T16:09:41.639+0100" lastModified="2015-11-26T14:30:13.230+0100" uniqueID="c6d1adfd-40ce-43ce-92f8-8b3ea93a3157" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="N" name="Nurse" elementKind="person" subtypeOf="18deae08-2713-4698-8841-2af12615c6a5" description="A nurse is a medical professional who is focused on the care of individuals and families so they may attain, maintain, or recover optimal health and quality of life." timeCreated="2015-11-13T16:09:41.639+0100" lastModified="2015-11-26T17:28:54.087+0100" uniqueID="c6d1adfd-40ce-43ce-92f8-8b3ea93a3157" workPackage="" code="">
       <creator name="" timeCreated="2015-11-13T16:09:41.639+0100" uniqueID="0c01d3b0-9aaf-40b7-a8c8-37071a4c594b" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -50,6 +50,9 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <personaRelations>
+        <persona href="Presonas.red#5444253e-c7c8-4062-9648-497c96ea48b1"/>
+      </personaRelations>
     </contents>
     <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="HE-GP" name="General Practitioner" elementKind="person" subtypeOf="e017bc5d-7203-4e99-bb01-74fdb028fc76" description="A general practitioner is a family doctor that takes care of the daily healthcare of the citizens." timeCreated="2015-10-25T23:58:30.990+0100" lastModified="2015-11-26T14:45:26.578+0100" uniqueID="76f76a58-4918-4c1f-aa1e-61abf36360b9" workPackage="" code="">
       <creator name="" timeCreated="2015-10-25T23:58:30.990+0100" uniqueID="15e7b874-60c5-4109-be8b-9c78914e75dd" id="" email="" initials="">
@@ -115,7 +118,7 @@
         <persona href="Presonas.red#4b1c87f1-3808-423e-9bd4-7bd87f2c2078"/>
       </personaRelations>
     </contents>
-    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="HE-MP" name="Medical Professional" elementKind="group" description="Medical professional is an umbrella term for doctors, nurses, paramedic,s and call center operators" timeCreated="2015-10-26T00:00:51.584+0100" lastModified="2015-11-26T14:34:03.457+0100" uniqueID="18deae08-2713-4698-8841-2af12615c6a5" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="HE-MP" name="Medical Professional" elementKind="group" description="Medical professional is an umbrella term for doctors, nurses, paramedic,s and call center operators" timeCreated="2015-10-26T00:00:51.584+0100" lastModified="2015-11-26T17:28:56.527+0100" uniqueID="18deae08-2713-4698-8841-2af12615c6a5" workPackage="" code="">
       <creator name="" timeCreated="2015-10-26T00:00:51.584+0100" uniqueID="9af50967-05c4-4bd8-9275-113775132bf0" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -135,6 +138,9 @@
       </personaRelations>
       <personaRelations>
         <persona href="Presonas.red#e25b1374-4f30-4282-b086-77f1cc3dcf6a"/>
+      </personaRelations>
+      <personaRelations>
+        <persona href="Presonas.red#5444253e-c7c8-4062-9648-497c96ea48b1"/>
       </personaRelations>
     </contents>
     <contents xsi:type="configuration:Actor" iconURI="icons/organisation.png" label="ER" name="Emergency Trauma Center" elementKind="organisation" description="This is also known as a hospital with an emergancy room. These are normally in higher ranked hospitals." timeCreated="2015-11-20T14:58:26.303+0100" lastModified="2015-11-26T14:34:34.468+0100" uniqueID="be49db3d-8567-4ce7-a213-4fea91fd1433" workPackage="" code="">
