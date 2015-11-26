@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-26T14:39:22.921+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-26T17:22:33.389+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
   <creator name="" timeCreated="2015-10-20T10:06:51.100+0200" uniqueID="e21ef682-4a97-4e1c-a80c-f7fb294722b7" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -35,7 +35,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="requirement:Requirement" label="F_IA" name="International Access" elementKind="unspecified" description="Should be able to access other european countries' journals" timeCreated="2015-10-25T22:57:10.725+0100" lastModified="2015-11-26T13:52:19.697+0100" uniqueID="5c34356c-3bb7-4293-b895-533ad0e065a2" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_IA" name="International Access" elementKind="Feature" description="Should be able to access other european countries' journals" timeCreated="2015-10-25T22:57:10.725+0100" lastModified="2015-11-26T13:52:19.697+0100" uniqueID="5c34356c-3bb7-4293-b895-533ad0e065a2" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-25T22:57:10.725+0100" uniqueID="55ec61b0-e030-4774-869a-9362b6043d38" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -76,7 +76,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_A" name="Authentication" elementKind="unspecified" description="Authentication must occur when trying to access journal" timeCreated="2015-10-25T22:59:01.938+0100" lastModified="2015-11-25T14:27:46.366+0100" uniqueID="6de08a45-c868-4db4-8a37-2364a7d527c0" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_A" name="Authentication" elementKind="Feature" description="Authentication must occur when trying to access journal" timeCreated="2015-10-25T22:59:01.938+0100" lastModified="2015-11-25T14:27:46.366+0100" uniqueID="6de08a45-c868-4db4-8a37-2364a7d527c0" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:50:56.229+0100" uniqueID="17fc5de7-f068-46a1-8d2c-03d5a49e7ef6">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -126,7 +126,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_ED" name="External device" elementKind="unspecified" description="Should be able to interface with auxiliary devices" timeCreated="2015-10-25T23:03:21.899+0100" lastModified="2015-11-26T13:52:54.807+0100" uniqueID="1af01c5d-1d03-4b41-b288-43bf457dd90f" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_ED" name="External device" elementKind="Feature" description="Should be able to interface with auxiliary devices" timeCreated="2015-10-25T23:03:21.899+0100" lastModified="2015-11-26T13:52:54.807+0100" uniqueID="1af01c5d-1d03-4b41-b288-43bf457dd90f" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:02.417+0100" uniqueID="3ced30b2-63da-40f9-b1be-da677f82bde3">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -185,7 +185,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_J" name="Journal" elementKind="unspecified" description="Retrieve patients journal" timeCreated="2015-10-25T23:08:02.946+0100" lastModified="2015-11-26T13:53:14.657+0100" uniqueID="ee13bbdb-6235-4c5d-9760-752fa4996d5d" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_J" name="Journal" elementKind="Feature" description="Retrieve patients journal" timeCreated="2015-10-25T23:08:02.946+0100" lastModified="2015-11-26T13:53:14.657+0100" uniqueID="ee13bbdb-6235-4c5d-9760-752fa4996d5d" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:08.000+0100" uniqueID="b42b85a9-6f2a-45b8-aecd-01f1acff3e3a">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -247,7 +247,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_RA" name="Record action" elementKind="unspecified" description="Record an given action and upload it to a patient's journal" timeCreated="2015-10-25T23:09:49.770+0100" lastModified="2015-11-26T13:54:03.247+0100" uniqueID="bb1f9368-06ea-4a4c-89ed-da58f9ac54ef" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_RA" name="Record action" elementKind="Feature" description="Record an given action and upload it to a patient's journal" timeCreated="2015-10-25T23:09:49.770+0100" lastModified="2015-11-26T13:54:03.247+0100" uniqueID="bb1f9368-06ea-4a4c-89ed-da58f9ac54ef" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:14.533+0100" uniqueID="5e2d9428-57d0-4739-a81d-df645113159f">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -297,7 +297,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_SC" name="Smart-Card" elementKind="unspecified" description="Retrieve journal data using patient's &quot;Smart-Card&quot;" timeCreated="2015-10-25T23:10:59.190+0100" lastModified="2015-11-26T13:54:55.887+0100" uniqueID="ee2bfd76-b11c-4438-a4f1-49d2475b7bc4" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_SC" name="Smart-Card" elementKind="Feature" description="Retrieve journal data using patient's &quot;Smart-Card&quot;" timeCreated="2015-10-25T23:10:59.190+0100" lastModified="2015-11-26T13:54:55.887+0100" uniqueID="ee2bfd76-b11c-4438-a4f1-49d2475b7bc4" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:29.324+0100" uniqueID="73b16af6-bca6-4529-8fe1-505f684ec83b">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -342,7 +342,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_UJ" name="Update Journal" elementKind="unspecified" description="Update patient journal" timeCreated="2015-10-25T23:15:06.913+0100" lastModified="2015-11-26T13:55:25.157+0100" uniqueID="fb2c336f-8acf-4973-8818-2210a2038f94" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_UJ" name="Update Journal" elementKind="Feature" description="Update patient journal" timeCreated="2015-10-25T23:15:06.913+0100" lastModified="2015-11-26T13:55:25.157+0100" uniqueID="fb2c336f-8acf-4973-8818-2210a2038f94" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:36.114+0100" uniqueID="b0fcb90d-9e78-4f9b-af42-51b42a7ea663">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -380,7 +380,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_N" name="Notification" elementKind="unspecified" description="Notify patients' doctor about new treatment or other medical info" timeCreated="2015-10-25T23:18:41.575+0100" lastModified="2015-11-26T13:55:48.237+0100" uniqueID="58435d6b-97b7-4746-8205-7de27a97f1d2" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_N" name="Notification" elementKind="Feature" description="Notify patients' doctor about new treatment or other medical info" timeCreated="2015-10-25T23:18:41.575+0100" lastModified="2015-11-26T13:55:48.237+0100" uniqueID="58435d6b-97b7-4746-8205-7de27a97f1d2" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:42.622+0100" uniqueID="0c224ebc-dfdb-40ce-ae74-763eb90b5313">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -451,7 +451,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_GA" name="Grant Access" elementKind="unspecified" description="Grant medical professionals access to journal" timeCreated="2015-10-25T23:20:06.636+0100" lastModified="2015-11-26T13:56:12.387+0100" uniqueID="80644470-3360-487a-9ac3-b69ba319cc70" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_GA" name="Grant Access" elementKind="Feature" description="Grant medical professionals access to journal" timeCreated="2015-10-25T23:20:06.636+0100" lastModified="2015-11-26T13:56:12.387+0100" uniqueID="80644470-3360-487a-9ac3-b69ba319cc70" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:51:51.047+0100" uniqueID="08719a3f-5200-4932-9b72-567cb8fc5bba">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -500,7 +500,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_L" name="Logging" elementKind="unspecified" description="Log info about who has accessed a journal" timeCreated="2015-10-25T23:22:30.882+0100" lastModified="2015-11-26T13:56:49.247+0100" uniqueID="41a2e0a9-7281-493f-ae0e-7599a77cb8a8" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_L" name="Logging" elementKind="Feature" description="Log info about who has accessed a journal" timeCreated="2015-10-25T23:22:30.882+0100" lastModified="2015-11-26T13:56:49.247+0100" uniqueID="41a2e0a9-7281-493f-ae0e-7599a77cb8a8" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:05.594+0100" uniqueID="74951342-06a2-47af-b102-dfb358d11fa6">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -547,7 +547,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_RAC" name="Remove Access" elementKind="unspecified" description="Remove access to journal" timeCreated="2015-10-25T23:23:40.021+0100" lastModified="2015-11-26T13:57:42.558+0100" uniqueID="384e07fb-008a-4458-9b36-94646ac6f358" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_RAC" name="Remove Access" elementKind="Feature" description="Remove access to journal" timeCreated="2015-10-25T23:23:40.021+0100" lastModified="2015-11-26T13:57:42.558+0100" uniqueID="384e07fb-008a-4458-9b36-94646ac6f358" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:19.731+0100" uniqueID="8975e2eb-bf6f-4ec5-b95e-e91698c860ac">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -595,7 +595,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_EDC" name="External device connection" elementKind="unspecified" partOf="1af01c5d-1d03-4b41-b288-43bf457dd90f" description="Auxiliary devices should be able to connect to patients journal through medical staff authentication" timeCreated="2015-10-25T23:29:16.093+0100" lastModified="2015-11-26T13:58:13.648+0100" uniqueID="0e60778a-0494-405b-bbaa-b8a1493eddd0" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_EDC" name="External device connection" elementKind="Feature" partOf="1af01c5d-1d03-4b41-b288-43bf457dd90f" description="Auxiliary devices should be able to connect to patients journal through medical staff authentication" timeCreated="2015-10-25T23:29:16.093+0100" lastModified="2015-11-26T13:58:13.648+0100" uniqueID="0e60778a-0494-405b-bbaa-b8a1493eddd0" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:30.497+0100" uniqueID="70b91c8f-61b8-4c02-a87b-7a679a048692">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -653,7 +653,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_EDU" name="External device update" elementKind="unspecified" partOf="1af01c5d-1d03-4b41-b288-43bf457dd90f" description="Auxiliary devices should be able to add measured data to journal" timeCreated="2015-10-25T23:30:19.658+0100" lastModified="2015-11-25T14:55:20.681+0100" uniqueID="577fb3bd-1396-4b47-9728-9172b8374b77" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_EDU" name="External device update" elementKind="Feature" partOf="1af01c5d-1d03-4b41-b288-43bf457dd90f" description="Auxiliary devices should be able to add measured data to journal" timeCreated="2015-10-25T23:30:19.658+0100" lastModified="2015-11-25T14:55:20.681+0100" uniqueID="577fb3bd-1396-4b47-9728-9172b8374b77" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:36.169+0100" uniqueID="22a38efc-5536-46c1-ab11-37ee4e1eb49f">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -712,7 +712,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_IC" name="Internal Communication" elementKind="unspecified" description="Communication between different parts of the health sector, i.e. between first responders and hospital doctors, or between hospital doctors and GPs." timeCreated="2015-11-25T14:57:09.321+0100" lastModified="2015-11-25T14:58:53.965+0100" uniqueID="7431cd77-2353-42f5-88d3-47d6554d912b" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_IC" name="Internal Communication" elementKind="Feature" description="Communication between different parts of the health sector, i.e. between first responders and hospital doctors, or between hospital doctors and GPs." timeCreated="2015-11-25T14:57:09.321+0100" lastModified="2015-11-25T14:58:53.965+0100" uniqueID="7431cd77-2353-42f5-88d3-47d6554d912b" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-25T14:57:09.321+0100" uniqueID="7903f6fb-c2b2-4421-a135-e30961687f6a" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -783,7 +783,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="F_DS" name="Diagnostic System" elementKind="unspecified" description="A connection to the diagnostic systems (A1), that enables search from hospital ui." timeCreated="2015-11-26T14:33:36.963+0100" lastModified="2015-11-26T14:37:02.756+0100" uniqueID="feaeada5-f782-4cfc-adc7-51157fc59513" workPackage="" abstractionLevel="" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="F_DS" name="Diagnostic System" elementKind="Feature" description="A connection to the diagnostic systems (A1), that enables search from hospital ui." timeCreated="2015-11-26T14:33:36.963+0100" lastModified="2015-11-26T14:37:02.756+0100" uniqueID="feaeada5-f782-4cfc-adc7-51157fc59513" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-11-26T14:33:36.963+0100" uniqueID="0df7461a-5c74-4c9c-bbe9-bcb248d28c94" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -860,7 +860,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="requirement:Requirement" label="NF_S" name="Security" elementKind="unspecified" description="Because the system is using and transferring sensitive personal data between clients and servers, steps should be taken to ensure the security of the data from outside manipulation." timeCreated="2015-10-27T10:33:50.506+0100" lastModified="2015-11-26T14:38:45.265+0100" uniqueID="0c508925-a6e5-4849-81fe-fd516bdc540a" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_S" name="Security" elementKind="Quality" description="Because the system is using and transferring sensitive personal data between clients and servers, steps should be taken to ensure the security of the data from outside manipulation." timeCreated="2015-10-27T10:33:50.506+0100" lastModified="2015-11-26T14:38:45.265+0100" uniqueID="0c508925-a6e5-4849-81fe-fd516bdc540a" workPackage="" abstractionLevel="Domain" rationaleText="">
         <commentlist/>
         <creator name="" timeCreated="2015-10-29T13:52:42.639+0100" uniqueID="c5a3fb7a-02ec-4e4b-bc81-cddeb6ca8565">
           <cost name="Cost" kind=""/>
@@ -948,7 +948,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_P" name="Performance" elementKind="unspecified" description="From the EMT UI, the system must be able to retrive data within 1 second." timeCreated="2015-10-27T10:38:43.895+0100" lastModified="2015-11-26T13:59:32.778+0100" uniqueID="a43308cf-817d-47d3-b462-addb9cdbb2ba" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_P" name="Performance" elementKind="Quality" description="From the EMT UI, the system must be able to retrive data within 1 second." timeCreated="2015-10-27T10:38:43.895+0100" lastModified="2015-11-26T13:59:32.778+0100" uniqueID="a43308cf-817d-47d3-b462-addb9cdbb2ba" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:49.226+0100" uniqueID="535ca1b0-3b8d-4295-b09d-ab1bbaaddcbc">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1016,7 +1016,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_U" name="Usability" elementKind="unspecified" description="The system must be operateable by medical professionals without any technical expertise." timeCreated="2015-10-27T10:39:34.865+0100" lastModified="2015-11-26T14:00:37.509+0100" uniqueID="1d45d6dc-1dc9-4a3a-84a5-1905cd4ec120" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_U" name="Usability" elementKind="Quality" description="The system must be operateable by medical professionals without any technical expertise." timeCreated="2015-10-27T10:39:34.865+0100" lastModified="2015-11-26T14:00:37.509+0100" uniqueID="1d45d6dc-1dc9-4a3a-84a5-1905cd4ec120" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:54.841+0100" uniqueID="9651c3d9-7aa9-4ed6-9510-585ede0abbb3">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1084,7 +1084,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_I" name="Integrity" elementKind="unspecified" description="The system must ensure data is not corrupted." timeCreated="2015-10-27T10:42:47.527+0100" lastModified="2015-11-26T14:01:22.539+0100" uniqueID="403e7764-ae70-4105-b860-67fe3d4db58c" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_I" name="Integrity" elementKind="Quality" description="The system must ensure data is not corrupted." timeCreated="2015-10-27T10:42:47.527+0100" lastModified="2015-11-26T14:01:22.539+0100" uniqueID="403e7764-ae70-4105-b860-67fe3d4db58c" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:53:00.309+0100" uniqueID="be0b6f2c-529a-452c-9e56-d01b66900355">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1139,7 +1139,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_C" name="Confidentiality" elementKind="unspecified" description="Patient journal should only be readable by authorized users." timeCreated="2015-10-27T10:46:51.597+0100" lastModified="2015-11-26T14:39:22.764+0100" uniqueID="2f8d895b-19fc-4c79-8db9-22f080f733fa" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_C" name="Confidentiality" elementKind="Quality" description="Patient journal should only be readable by authorized users." timeCreated="2015-10-27T10:46:51.597+0100" lastModified="2015-11-26T14:39:22.764+0100" uniqueID="2f8d895b-19fc-4c79-8db9-22f080f733fa" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:53:06.122+0100" uniqueID="d79fd2a2-d508-4480-a147-8127469b78cd">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1199,7 +1199,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_LC" name="Compliancy" elementKind="unspecified" description="The system must abide member country laws." timeCreated="2015-10-27T10:48:08.210+0100" lastModified="2015-11-26T14:03:30.349+0100" uniqueID="1793ebc3-03f7-47c8-82cb-c04a8923eef8" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_LC" name="Compliancy" elementKind="Quality" description="The system must abide member country laws." timeCreated="2015-10-27T10:48:08.210+0100" lastModified="2015-11-26T14:03:30.349+0100" uniqueID="1793ebc3-03f7-47c8-82cb-c04a8923eef8" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:53:17.390+0100" uniqueID="b8ee20da-d80a-4873-8534-df7f7066b471">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1248,7 +1248,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_A" name="Availability" elementKind="unspecified" description="The system should be available 85% of the time." timeCreated="2015-10-27T10:49:42.334+0100" lastModified="2015-11-26T14:05:08.429+0100" uniqueID="76eeea15-5b86-40bf-aaf1-88f192aa5bde" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_A" name="Availability" elementKind="Quality" description="The system should be available 85% of the time." timeCreated="2015-10-27T10:49:42.334+0100" lastModified="2015-11-26T14:05:08.429+0100" uniqueID="76eeea15-5b86-40bf-aaf1-88f192aa5bde" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:53:28.249+0100" uniqueID="8154aead-1975-45b6-afc5-ee6ea9988664">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1322,7 +1322,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_T" name="Accountability" elementKind="unspecified" description="Edits must be traceable to ensure that only authorized personnel have changed data but also to assist in legal issues concerning e.g. malpractice charges" timeCreated="2015-11-01T19:18:17.123+0100" lastModified="2015-11-26T14:06:08.630+0100" uniqueID="9220024d-f32f-49d1-8906-1eb8ba1906f8" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_T" name="Accountability" elementKind="Quality" description="Edits must be traceable to ensure that only authorized personnel have changed data but also to assist in legal issues concerning e.g. malpractice charges" timeCreated="2015-11-01T19:18:17.123+0100" lastModified="2015-11-26T14:06:08.630+0100" uniqueID="9220024d-f32f-49d1-8906-1eb8ba1906f8" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-01T19:18:17.123+0100" uniqueID="5dfe8af2-2ddc-417c-878e-40e914f5f350" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1413,7 +1413,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_B" name="Backup" elementKind="unspecified" description="Data must be backed up in case of system failure" timeCreated="2015-11-01T19:27:03.511+0100" lastModified="2015-11-26T09:29:08.427+0100" uniqueID="6808a172-2571-4c59-b9f6-71a1f0ee84ec" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_B" name="Backup" elementKind="Quality" description="Data must be backed up in case of system failure" timeCreated="2015-11-01T19:27:03.511+0100" lastModified="2015-11-26T09:29:08.427+0100" uniqueID="6808a172-2571-4c59-b9f6-71a1f0ee84ec" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-01T19:27:03.511+0100" uniqueID="b331dc22-61e0-4c22-b492-76070e10debd" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1477,7 +1477,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_AU" name="Authentication" elementKind="unspecified" description="The system must validate the users identity when provided with credentials" timeCreated="2015-11-02T12:38:08.134+0100" lastModified="2015-11-26T09:30:05.932+0100" uniqueID="35c95af0-6c20-49e5-b099-34d86e88090d" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_AU" name="Authentication" elementKind="Quality" description="The system must validate the users identity when provided with credentials" timeCreated="2015-11-02T12:38:08.134+0100" lastModified="2015-11-26T09:30:05.932+0100" uniqueID="35c95af0-6c20-49e5-b099-34d86e88090d" workPackage="" abstractionLevel="Process" rationaleText="">
         <commentlist/>
         <creator name="" timeCreated="2015-11-02T12:54:49.794+0100" uniqueID="4916fbad-6da6-48a6-b0b2-b414838dc068">
           <cost name="Cost" kind=""/>
@@ -1531,7 +1531,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_PE" name="Access control" elementKind="unspecified" description="Authorization should be granted to users with legal permission." timeCreated="2015-11-02T12:38:19.517+0100" lastModified="2015-11-26T09:30:37.022+0100" uniqueID="e4d6ec6e-6aa6-481f-9ce6-5d49de18949e" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_PE" name="Access control" elementKind="Quality" description="Authorization should be granted to users with legal permission." timeCreated="2015-11-02T12:38:19.517+0100" lastModified="2015-11-26T09:30:37.022+0100" uniqueID="e4d6ec6e-6aa6-481f-9ce6-5d49de18949e" workPackage="" abstractionLevel="Process" rationaleText="">
         <commentlist/>
         <creator name="" timeCreated="2015-11-02T13:56:08.405+0100" uniqueID="aa34802a-5431-4867-b1a8-dceaeb1f2ca8">
           <cost name="Cost" kind=""/>
@@ -1587,7 +1587,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_ART" name="Responsiveness" elementKind="unspecified" description="The average response time should be such that non-technical users will feel that the system acts fluently." timeCreated="2015-11-02T12:38:38.246+0100" lastModified="2015-11-26T09:31:11.804+0100" uniqueID="a32a76d0-ba8b-45ba-8679-0ce9125becf4" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_ART" name="Responsiveness" elementKind="Quality" description="The average response time should be such that non-technical users will feel that the system acts fluently." timeCreated="2015-11-02T12:38:38.246+0100" lastModified="2015-11-26T09:31:11.804+0100" uniqueID="a32a76d0-ba8b-45ba-8679-0ce9125becf4" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:56:20.601+0100" uniqueID="a1175bdd-37f9-49f0-a7a3-c5958cef4586">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1652,7 +1652,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_RC" name="Capacity" elementKind="unspecified" description="The system should be able to handle the amount of users at any time." timeCreated="2015-11-02T12:38:57.242+0100" lastModified="2015-11-26T09:31:29.515+0100" uniqueID="b71026b0-75b1-46ad-ac76-25ce2223b738" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_RC" name="Capacity" elementKind="Quality" description="The system should be able to handle the amount of users at any time." timeCreated="2015-11-02T12:38:57.242+0100" lastModified="2015-11-26T09:31:29.515+0100" uniqueID="b71026b0-75b1-46ad-ac76-25ce2223b738" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:56:31.288+0100" uniqueID="567f4650-d4c7-4a06-aa63-b09872882922">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1707,7 +1707,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_L" name="Learnability" elementKind="unspecified" description="The system should be learned by 85% of users within 4 hours of tutelage." timeCreated="2015-11-02T12:39:17.276+0100" lastModified="2015-11-26T09:31:46.561+0100" uniqueID="a67c7217-fa08-42bd-b31e-b8c6d8ea552f" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_L" name="Learnability" elementKind="Quality" description="The system should be learned by 85% of users within 4 hours of tutelage." timeCreated="2015-11-02T12:39:17.276+0100" lastModified="2015-11-26T09:31:46.561+0100" uniqueID="a67c7217-fa08-42bd-b31e-b8c6d8ea552f" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:56:41.892+0100" uniqueID="740bd4ac-f834-4fbd-9ade-1d03cb57cf58">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1757,7 +1757,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_O" name="Operatability" elementKind="unspecified" description="A user who has learned the system should be able to make a request in a reasonable amount of time." timeCreated="2015-11-02T12:39:26.817+0100" lastModified="2015-11-26T14:07:37.840+0100" uniqueID="3a7bbaca-c3d0-4b78-be9b-8050968e865a" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_O" name="Operatability" elementKind="Quality" description="A user who has learned the system should be able to make a request in a reasonable amount of time." timeCreated="2015-11-02T12:39:26.817+0100" lastModified="2015-11-26T14:07:37.840+0100" uniqueID="3a7bbaca-c3d0-4b78-be9b-8050968e865a" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:56:52.421+0100" uniqueID="c8611595-34e0-4126-95ee-e11f56e6ba07">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1822,7 +1822,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_R" name="Robustness" elementKind="unspecified" description="Users entering malformed input will not result in the system crashing or becoming unresponsive. " timeCreated="2015-11-02T12:39:49.352+0100" lastModified="2015-11-26T14:08:23.140+0100" uniqueID="39ef8379-67bc-46b4-a9ea-fdca5393eee5" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_R" name="Robustness" elementKind="Quality" description="Users entering malformed input will not result in the system crashing or becoming unresponsive. " timeCreated="2015-11-02T12:39:49.352+0100" lastModified="2015-11-26T14:08:23.140+0100" uniqueID="39ef8379-67bc-46b4-a9ea-fdca5393eee5" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:57:08.733+0100" uniqueID="1d5bf618-59e3-4a5b-9361-a462bc8a0545">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1872,7 +1872,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_RE" name="Reliability" elementKind="unspecified" description="The system must be robust and available." timeCreated="2015-11-02T14:06:27.411+0100" lastModified="2015-11-26T09:32:49.154+0100" uniqueID="ecb10f10-3054-4022-abb5-825e3d6f49c8" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_RE" name="Reliability" elementKind="Quality" description="The system must be robust and available." timeCreated="2015-11-02T14:06:27.411+0100" lastModified="2015-11-26T09:32:49.154+0100" uniqueID="ecb10f10-3054-4022-abb5-825e3d6f49c8" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-11-02T14:06:27.411+0100" uniqueID="bec1d92f-0e25-421a-aa26-9d1762b9f64b" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
