@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assumption="dk.dtu.imm.red.specificationelements.assumption" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:goal_1="dk.dtu.imm.red.visualmodeling.visualmodel.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-26T13:59:03.134+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assumption="dk.dtu.imm.red.specificationelements.assumption" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:goal_1="dk.dtu.imm.red.visualmodeling.visualmodel.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-26T14:39:22.796+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
   <creator name="" timeCreated="2015-10-09T15:12:51.753+0200" uniqueID="d9b978f0-3f5c-4a36-9a3b-dd781ad5a814" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -21,7 +21,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="goal:Goal" label="MSG_IPH" name="Improve Public Healthcare" elementKind="unspecified" description="By creating a system that makes it easier to record actions taken in a standardised way in regards to a patient. This will allow the system to gather knowledge about EU citizens’ general health.  " timeCreated="2015-11-18T23:15:05.036+0100" lastModified="2015-11-26T11:37:02.087+0100" uniqueID="9fd9c820-0b96-4f7d-a104-5dea17d38706" relatedBy="0327b4b7-32cd-49cf-8702-087d7cd0a719 e920dc80-fd75-4d5f-9650-4e983ae05077 ca21cb84-ee79-40b6-89e5-3375abd63f2f 80ccf99d-1f72-47e0-a8e6-6c476424e022" workPackage="">
+      <contents xsi:type="goal:Goal" label="MSG_IPH" name="Improve Public Healthcare" elementKind="unspecified" description="By creating a system that makes it easier to record actions taken in a standardised way in regards to a patient. This will allow the system to gather knowledge about EU citizens’ general health.  " timeCreated="2015-11-18T23:15:05.036+0100" lastModified="2015-11-26T11:37:02.087+0100" uniqueID="9fd9c820-0b96-4f7d-a104-5dea17d38706" workPackage="">
         <creator name="" timeCreated="2015-11-18T23:15:05.036+0100" uniqueID="919230eb-8f13-4805-bba4-28784e753318" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -51,6 +51,11 @@
           <benefit name="Cost" kind=""/>
           <toElement xsi:type="stakeholder:Stakeholder" href="Stakeholder.red#9cc4a90d-b59d-48b2-ad2d-47904e079382"/>
         </relatesTo>
+        <relatedBy xsi:type="relationship:ElementReference" href="#0327b4b7-32cd-49cf-8702-087d7cd0a719"/>
+        <relatedBy xsi:type="relationship:ElementReference" href="#e920dc80-fd75-4d5f-9650-4e983ae05077"/>
+        <relatedBy xsi:type="relationship:ElementReference" href="#ca21cb84-ee79-40b6-89e5-3375abd63f2f"/>
+        <relatedBy xsi:type="relationship:ElementReference" href="#80ccf99d-1f72-47e0-a8e6-6c476424e022"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#5f59c8bc-9325-4b04-bf23-001e2353ab91"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-11-18T23:19:00.773+0100" uniqueID="7828b087-965c-49e4-996d-d8ece4a9e6e5">
           <cost name="Cost" kind=""/>
@@ -137,6 +142,7 @@
         <relatedBy xsi:type="relationship:ElementReference" href="#b01da1a4-23b5-426a-8c68-7e4219106d7f"/>
         <relatedBy xsi:type="relationship:ElementReference" href="#c29036e5-a7e7-4e73-8821-4417af48d10b"/>
         <relatedBy xsi:type="relationship:ElementReference" href="#9887ffe5-6e36-4f43-9b69-1d423f98e0a5"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#2473b960-e78c-420b-a0f7-9d451064e860"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:19:23.814+0200" uniqueID="cac46f5c-97e8-4354-913c-edec7e155ec3">
           <cost name="Cost" kind=""/>
@@ -194,6 +200,7 @@
         <relatedBy xsi:type="relationship:ElementReference" href="#c741961c-7fce-469b-9ccc-4b9e53921941"/>
         <relatedBy xsi:type="relationship:ElementReference" href="#8d7a5ee9-9d81-45d5-8b51-f1a223566222"/>
         <relatedBy xsi:type="relationship:ElementReference" href="#b95e6c46-f555-4879-bb14-60e8b9d73fba"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#31117b20-92d8-4ebc-9405-30376f1cf7bc"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:40:19.637+0200" uniqueID="2b3852a2-2175-483f-a5f6-55ad93b701cb">
           <cost name="Cost" kind=""/>
@@ -619,6 +626,7 @@
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#723ba2b5-ecf8-4ac5-811a-86ada17187f3"/>
         <relatedBy xsi:type="relationship:ElementReference" href="#df60e44e-c050-4212-83b3-058d91b7a0c4"/>
         <relatedBy xsi:type="relationship:ElementReference" href="#ae3fed07-3e3e-4f29-bbbd-e6bc236dbbc4"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#c673c55f-c901-4ba9-87ea-8e9500013645"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:05:27.365+0200" uniqueID="a933121b-bb1f-48ed-b2e9-a900c46f0cfb">
           <cost name="Cost" kind=""/>
@@ -770,6 +778,7 @@
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#7c2cc4b5-f2b8-490b-9626-4cc3df426c27"/>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#01ddbd68-25fa-466b-ba97-c74b01551a40"/>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#5385add2-d08a-45f2-a14b-44de11a78bac"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#5547097c-d790-4afa-8aef-fdecfc83bc77"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:41:46.706+0200" uniqueID="e7e44442-654d-4842-a212-a337ec89ebff">
           <cost name="Cost" kind=""/>
@@ -914,6 +923,7 @@
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#67b4750e-0a0c-432f-b84f-3fac4de2bb01"/>
         <relatedBy xsi:type="relationship:ElementReference" href="Requirements.red#1f13ea6e-4c67-424b-92eb-4aaf7652b201"/>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#05dab188-d2a5-4eb8-9379-dec041596125"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#a4356077-ed38-44db-8c0e-5917849e1bac"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:34:20.117+0200" uniqueID="148f97f7-f75b-4de8-912a-e47b98e5e4a1">
           <cost name="Cost" kind=""/>
@@ -955,6 +965,7 @@
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#923eb741-c954-4361-8197-339e68b9a99c"/>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#06206b9b-dcb1-4807-829f-6e4820577e61"/>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#314aaec3-cd54-4e3e-b302-dc68e117f58e"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#750a75bb-4104-4574-b59f-747c1c90c255"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:29:41.263+0200" uniqueID="8985b279-4914-43e3-8a40-df2fba2771bc">
           <cost name="Cost" kind=""/>
@@ -1014,6 +1025,7 @@
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#0ecbd19d-a58f-4003-b60c-efea9271786b"/>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#29907631-df8d-418d-bba9-975e17e3904d"/>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#6a507e33-e85d-48a0-ac3a-a1ad8da0adbb"/>
+        <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#7193b033-fefc-4d69-ba07-1de1895ad42b"/>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-10-24T01:27:08.200+0200" uniqueID="d457acf9-08e9-4c0e-af10-075593e60a30">
           <cost name="Cost" kind=""/>
