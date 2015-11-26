@@ -1,0 +1,52 @@
+Source:
+
+ISO 7498-2
+
+Security in Computing, 5th edition
+Pfleeger, Pfleeger and Margulies
+2015 Pearson Education Inc.
+ISBN-10: 0-13-408504-3 
+
+
+
+Quality long descriptions:
+
+Performance:
+	The medical professionals need to have critical medical data available at the time of request, or immediately thereafter. This depends on the system connectivity to the database, and is difficult to assure, since this relies heavily on regional internet service providers and the network coverage of the area, but should definately not be limited by system processes to any notable degree. Since the performance of the system is always affected by the worst performing part of the system, performance can be considered a cross-cutting concern.
+
+Usability:
+	Comprised of learnability, Operatability and [Blank!]. This is the quality regarding user friendliness which, when developing a system to be used by medical professionals who, most likely, will not be technologically proficient.
+
+Compliency:
+	When dealing with the exchange of sensitive data across borders legal concerns are both a very limiting constraint but also difficult to keep track of. This means that it might take a lot of retrofitting when concerns are discovered and we can not assume that we can know of all of these concerns prior to implementation. A way to limit the amount of required to fit all countries equally, we need to make the system modular, such that countries can implement their own legislative retrofitting of the system. This could include relying on scriptable parts of the system instead of hard coded features e.g.
+
+Accountability:
+	Accountability or Traceability refers to the logging of change to the data. This is necessary to investigate alleged attacks on the system and help in legal issues related to the medical treatment of the patient. This quality is closely tied to the Logging feature.
+
+Backup:
+	Data must be kept in a way such that, after an emergency the data will be restored to an almost complete and recent state.
+
+
+Authentication:
+	Authentication is the quality of identifying user based on provided credentials, the can be done knowledge-based, through the use of passwords, token-based through the use of tokens, such as the Smart-Card, or biometrically, through the use of fingerprint, eye-scan, facial recognition etc. 
+
+Access Control:
+	Access control means allowing users access to only certain parts of the system, and prohibiting access to other parts. This can be achieved through the use of access control lists or role based access control policies.
+
+Responsiveness:
+	Responsiveness is closely related to and a parameter of the overall user experience of the system. This is especially important when, as is the case with the interface to the EPJ, the system is used by non technical users, in which category most medical professionals falls into.
+
+(Request) Capacity:
+	The system must be able to handle the load of multiple requests every hour from every hospital in the EU.
+
+Learnability:
+	Learnability of the system refers to how easy it is for the intended users to become acquainted with the provided functionalities. Learnability is part of the usability of the system.
+
+Operatability:
+	This is the quality of users, who are familiar with the system to an acceptable degree, being able to use it efficiently.
+
+Robustness:
+	Robustness is the quality of the system not reaching a state of inoperatability.
+
+Reliability:
+	Reliability is the quality of the system to behave deterministically without being prone to errors.
