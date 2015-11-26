@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-26T08:08:41.494+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-10-25T23:55:01.962+0100" lastModified="2015-11-26T13:46:27.059+0100" uniqueID="544e7fd8-22ce-4ea7-b020-00309079bbab">
   <creator name="" timeCreated="2015-10-25T23:55:01.962+0100" uniqueID="d54afc51-2949-4c49-ae29-27c1ce1832b2" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-11-26T08:08:41.379+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
+  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-10-25T23:55:23.662+0100" lastModified="2015-11-26T13:46:26.938+0100" uniqueID="d0daaff4-f936-4417-a0ff-7e563c1511ff">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="R" name="Relatives" elementKind="role" subtypeOf="53ce8e0f-4c02-470e-85fc-b39065f85c43" description="Relatives are the citizens that are close to a patient, they can be the ones to take medical decisions in case of the patient being unconscious." timeCreated="2015-10-26T00:01:02.237+0100" lastModified="2015-11-26T05:45:24.179+0100" uniqueID="bbba8053-b3d6-4a8a-aad7-55d8afd2bc5d" workPackage="" code="">
@@ -64,7 +64,7 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="HE-DOC" name="Doctors" elementKind="person" subtypeOf="18deae08-2713-4698-8841-2af12615c6a5" description="Doctors are medical physician that can diagnose and prescribe medicine; they have access to more information than other medical professionals and more rights in general." timeCreated="2015-10-26T00:00:06.475+0100" lastModified="2015-11-26T07:59:25.521+0100" uniqueID="e017bc5d-7203-4e99-bb01-74fdb028fc76" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="HE-DOC" name="Doctors" elementKind="person" subtypeOf="18deae08-2713-4698-8841-2af12615c6a5" description="Doctors are medical physician that can diagnose and prescribe medicine; they have access to more information than other medical professionals and more rights in general." timeCreated="2015-10-26T00:00:06.475+0100" lastModified="2015-11-26T13:46:26.938+0100" uniqueID="e017bc5d-7203-4e99-bb01-74fdb028fc76" workPackage="" code="">
       <creator name="" timeCreated="2015-10-26T00:00:06.475+0100" uniqueID="9d804050-24df-43f0-b12b-1738c82f3bb8" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -78,6 +78,9 @@
       <benefit name="Cost" kind=""/>
       <personaRelations>
         <persona href="Presonas.red#09762091-0822-4ece-be8d-a6dbac5c0215"/>
+      </personaRelations>
+      <personaRelations>
+        <persona href="Presonas.red#69b572aa-5efb-4aa3-8edd-255996cae1bc"/>
       </personaRelations>
     </contents>
     <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="HE-PAT" name="Patients" elementKind="person" subtypeOf="53ce8e0f-4c02-470e-85fc-b39065f85c43" description="Patients are citizens that are currently connected to the health system." timeCreated="2015-10-25T23:59:44.663+0100" lastModified="2015-11-26T08:01:17.702+0100" uniqueID="4273cde5-89c8-456d-be10-d30d1c5d5596" workPackage="" code="">
@@ -115,7 +118,7 @@
         <persona href="Presonas.red#4b1c87f1-3808-423e-9bd4-7bd87f2c2078"/>
       </personaRelations>
     </contents>
-    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="HE-MP" name="Medical Professional" elementKind="group" description="Medical professionals is an umbrella term for doctors nurses paramedics and call center operators" timeCreated="2015-10-26T00:00:51.584+0100" lastModified="2015-11-26T05:39:33.800+0100" uniqueID="18deae08-2713-4698-8841-2af12615c6a5" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="HE-MP" name="Medical Professional" elementKind="group" description="Medical professionals is an umbrella term for doctors nurses paramedics and call center operators" timeCreated="2015-10-26T00:00:51.584+0100" lastModified="2015-11-26T13:46:18.774+0100" uniqueID="18deae08-2713-4698-8841-2af12615c6a5" workPackage="" code="">
       <creator name="" timeCreated="2015-10-26T00:00:51.584+0100" uniqueID="9af50967-05c4-4bd8-9275-113775132bf0" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -135,6 +138,9 @@
       </personaRelations>
       <personaRelations>
         <persona href="Presonas.red#e25b1374-4f30-4282-b086-77f1cc3dcf6a"/>
+      </personaRelations>
+      <personaRelations>
+        <persona href="Presonas.red#69b572aa-5efb-4aa3-8edd-255996cae1bc"/>
       </personaRelations>
     </contents>
     <contents xsi:type="configuration:Actor" iconURI="icons/organisation.png" label="ER" name="Emergency Trauma Center" elementKind="organisation" description="This is also known as a hospital with an emergancy room, are norally higher ranked hospitals." timeCreated="2015-11-20T14:58:26.303+0100" lastModified="2015-11-26T08:02:44.142+0100" uniqueID="be49db3d-8567-4ce7-a213-4fea91fd1433" workPackage="" code="">
