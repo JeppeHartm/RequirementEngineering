@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-11-25T23:13:44.023+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-11-26T14:05:45.196+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
   <creator name="" timeCreated="2015-10-25T23:34:33.747+0100" uniqueID="995552ba-a761-4b48-ab60-a7a6353dc7d6" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-11-25T23:13:43.654+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
+  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-11-26T14:05:45.005+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
     <creator name="" timeCreated="2015-10-25T23:51:08.678+0100" uniqueID="e4c78e85-1c34-4b1d-8349-8d0acce375c3">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -18,7 +18,7 @@
     </responsibleUser>
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Scenarios" timeCreated="2015-10-25T23:39:22.197+0100" lastModified="2015-11-24T21:58:13.382+0100" uniqueID="4eee3c67-4a3f-4b9f-be47-bb5f4acc2120">
+    <contents xsi:type="folder:Folder" name="Scenarios" timeCreated="2015-10-25T23:39:22.197+0100" lastModified="2015-11-26T11:07:21.544+0100" uniqueID="4eee3c67-4a3f-4b9f-be47-bb5f4acc2120">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <contents xsi:type="ucScenario:Scenario" label="S_RECC" name="Read info from ECC" elementKind="unspecified" description="" timeCreated="2015-11-24T16:39:36.592+0100" lastModified="2015-11-24T16:58:31.467+0100" uniqueID="668781b8-d339-43b8-9ef3-7456c9ece70c" workPackage="">
@@ -396,7 +396,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.15/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_PEU" name="Precent Emergency UI" elementKind="unspecified" description="" timeCreated="2015-11-24T21:47:18.363+0100" lastModified="2015-11-24T21:49:00.228+0100" uniqueID="a535c3e5-2c23-4930-b979-ba761526532c" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_PEU" name="Precent Emergency UI" elementKind="unspecified" description="" timeCreated="2015-11-24T21:47:18.363+0100" lastModified="2015-11-26T11:00:31.393+0100" uniqueID="a535c3e5-2c23-4930-b979-ba761526532c" workPackage="">
         <creator name="" timeCreated="2015-11-24T21:47:18.363+0100" uniqueID="e852efd2-119e-4e0a-9e11-0d1ee793a5f4" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -412,11 +412,14 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Start" type="Start"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Start terminal"/>
           <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Login" usecase="eeebcb0c-373d-47cb-819a-41a7722184a8"/>
+          <connections xsi:type="ucScenario:Connector" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="New connector" type="Alternate">
+            <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.16/@startConnector/@connections.3" name="New action"/>
+          </connections>
           <connections xsi:type="ucScenario:Action" description="Showing emergency display." parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Precent"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_PHU" name="Precent Hospital UI" elementKind="unspecified" description="" timeCreated="2015-11-24T21:47:18.363+0100" lastModified="2015-11-24T21:49:52.698+0100" uniqueID="006bff2c-6db9-40af-866c-6ae1e812759a" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_PHU" name="Precent Hospital UI" elementKind="unspecified" description="" timeCreated="2015-11-24T21:47:18.363+0100" lastModified="2015-11-26T11:07:21.544+0100" uniqueID="006bff2c-6db9-40af-866c-6ae1e812759a" workPackage="">
         <creator name="" timeCreated="2015-11-24T21:47:18.363+0100" uniqueID="e852efd2-119e-4e0a-9e11-0d1ee793a5f4" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -432,7 +435,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.17/@startConnector" name="Start" type="Start"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.17/@startConnector" name="Start terminal"/>
           <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.17/@startConnector" name="Login" usecase="eeebcb0c-373d-47cb-819a-41a7722184a8"/>
-          <connections xsi:type="ucScenario:Action" description="Showing hospital display." parent="//@contents.0/@contents.0/@contents.17/@startConnector" name="Precent"/>
+          <connections xsi:type="ucScenario:Action" description="Showing hospital display based on user role." parent="//@contents.0/@contents.0/@contents.17/@startConnector" name="Precent"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.17/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
@@ -477,23 +480,23 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" DiagramType="UseCase">
-          <Elements xsi:type="usecase:VisualSystemBoundaryElement" Location="240,28" Bounds="488,571" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" visualID="_n3_oUIIHEeWq48TYNclEsQ">
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="46,412" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.7" Name="Grant Access to journal" visualID="_kkl944IHEeWq48TYNclEsQ" SpecificationElement="09ff7c0d-3f6d-4ac4-a04e-a3660ac25e58" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
+          <Elements xsi:type="usecase:VisualSystemBoundaryElement" Location="240,28" Bounds="488,651" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" visualID="_n3_oUIIHEeWq48TYNclEsQ">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="155,396" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.7 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.18" Name="Grant Access to journal" visualID="_kkl944IHEeWq48TYNclEsQ" SpecificationElement="09ff7c0d-3f6d-4ac4-a04e-a3660ac25e58" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="332,32" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.1" Name="Retrieve journal data" visualID="_kkl94IIHEeWq48TYNclEsQ" SpecificationElement="62f3b1b8-e3b6-4a76-b8a4-0b95b070f3c4" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="21,293" Bounds="159,60" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.3 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.4 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.11" Name="Connect journal to auxiliary device" visualID="_kkl95oIHEeWq48TYNclEsQ" SpecificationElement="76b75723-f9ec-4f71-8a47-f53b79264896" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="239,439" Bounds="181,70" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.8" Name="Remove access to journal" visualID="_kkl95IIHEeWq48TYNclEsQ" SpecificationElement="c118698a-86e4-4d81-8e73-f2ae87d76b3f" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="186,483" Bounds="181,70" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.8" Name="Remove access to journal" visualID="_kkl95IIHEeWq48TYNclEsQ" SpecificationElement="c118698a-86e4-4d81-8e73-f2ae87d76b3f" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="7,106" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.10" Name="Record Action" visualID="_kkl94YIHEeWq48TYNclEsQ" SpecificationElement="7c8f71de-505b-4ab4-9b0e-dd0be3670d65" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="265,152" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.1 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.2 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.3 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.5 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.6" Name="Find patient" visualID="_SZNrMIIKEeWq48TYNclEsQ" SpecificationElement="36c09f22-d1f9-4e62-8649-6c19b8cda9dc" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="265,152" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.1 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.2 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.3 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.5 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.6 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.19" Name="Find patient" visualID="_SZNrMIIKEeWq48TYNclEsQ" SpecificationElement="36c09f22-d1f9-4e62-8649-6c19b8cda9dc" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="279,293" Bounds="175,70" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.2" Name="Request access to journal" visualID="_kkl96oIHEeWq48TYNclEsQ" SpecificationElement="43d529f8-8031-47f5-b4d8-30bb98d9ef04" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="31,215" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.9 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.17" Name="Auxiliary device updates journal" visualID="_kkl954IHEeWq48TYNclEsQ" SpecificationElement="1fb595cc-039d-4ad1-b2d9-0e0db41f2e25" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="160,67" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.13 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.17" Name="Edit journal" visualID="_iRXvUIINEeWq48TYNclEsQ" SpecificationElement="1ecd6dcb-72e1-4434-bfe4-4a6671edeae8" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
             <Elements xsi:type="usecase:VisualUseCaseElement" Location="76,12" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.15" Name="Connect to Diagnostics System (A1)" visualID="_iQMFQI-PEeWwyZ8t4Zb9-A" SpecificationElement="d9820295-011c-4b5f-900c-ea15524f3adf" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="46,508" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.16" Name="Recieve data from EMT" visualID="_R8kQUI-QEeWwyZ8t4Zb9-A" SpecificationElement="b94ba964-66d0-4551-901d-49a05dbc119d" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="63,576" Bounds="150,50" Parent="_n3_oUIIHEeWq48TYNclEsQ" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.16" Name="Recieve data from EMT" visualID="_R8kQUI-QEeWwyZ8t4Zb9-A" SpecificationElement="b94ba964-66d0-4551-901d-49a05dbc119d" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase"/>
           </Elements>
           <Elements xsi:type="usecase:VisualActorElement" Location="121,197" Bounds="57,108" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.4 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.5 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.10 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.12" visualID="_F6P-MIIMEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#18deae08-2713-4698-8841-2af12615c6a5"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="130,466" Bounds="49,80" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.6 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.7 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.8" visualID="_G9DfAIIMEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="128,531" Bounds="49,80" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.6 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.7 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.8" visualID="_G9DfAIIMEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#4273cde5-89c8-456d-be10-d30d1c5d5596"/>
           </Elements>
           <Elements xsi:type="usecase:VisualActorElement" Location="119,335" Bounds="58,99" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.9 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.11" visualID="_H2HN8IIMEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
@@ -506,8 +509,11 @@
           <Elements xsi:type="usecase:VisualActorElement" Location="784,410" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.14" visualID="_uJ-DEIIPEeWq48TYNclEsQ" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#609952f9-d327-4914-a0b2-4fe2068bddc3"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="128,555" Bounds="56,92" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.16" visualID="_CV0vgI-REeWwyZ8t4Zb9-A" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="129,612" Bounds="56,92" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.16" visualID="_CV0vgI-REeWwyZ8t4Zb9-A" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#26e38e02-87d5-4b7c-a582-ff22fe3b480e"/>
+          </Elements>
+          <Elements xsi:type="usecase:VisualActorElement" Location="122,435" Bounds="52,92" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.18 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.19" Name="Relatives" visualID="_oNul4JQdEeWDRrcNPCDhHw" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+            <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#bbba8053-b3d6-4a8a-aad7-55d8afd2bc5d"/>
           </Elements>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Direction="SourceTarget" LineStyle="Dashed" TargetDecoration="ArrowHead" Name="Extend" Type="Extend"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_SZNrMIIKEeWq48TYNclEsQ" Target="_kkl94IIHEeWq48TYNclEsQ" Direction="SourceTarget" LineStyle="Dashed" TargetDecoration="ArrowHead" Name="Include" Type="Include"/>
@@ -516,7 +522,7 @@
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_F6P-MIIMEeWq48TYNclEsQ" Target="_kkl95oIHEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_F6P-MIIMEeWq48TYNclEsQ" Target="_SZNrMIIKEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_G9DfAIIMEeWq48TYNclEsQ" Target="_SZNrMIIKEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association">
-            <Bendpoints>419,376</Bendpoints>
+            <Bendpoints>468,380</Bendpoints>
           </DiagramConnections>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_G9DfAIIMEeWq48TYNclEsQ" Target="_kkl944IHEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_G9DfAIIMEeWq48TYNclEsQ" Target="_kkl95IIHEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
@@ -529,6 +535,10 @@
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_38ZRUIINEeWq48TYNclEsQ" Target="_iQMFQI-PEeWwyZ8t4Zb9-A" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_CV0vgI-REeWwyZ8t4Zb9-A" Target="_R8kQUI-QEeWwyZ8t4Zb9-A" Direction="Bidirectional" Name="" Type="Association"/>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_kkl954IHEeWq48TYNclEsQ" Target="_iRXvUIINEeWq48TYNclEsQ" Direction="SourceTarget" LineStyle="Dashed" TargetDecoration="ArrowHead" Name="Include" Type="Include"/>
+          <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_oNul4JQdEeWDRrcNPCDhHw" Target="_kkl944IHEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association"/>
+          <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_oNul4JQdEeWDRrcNPCDhHw" Target="_SZNrMIIKEeWq48TYNclEsQ" Direction="Bidirectional" Name="" Type="Association">
+            <Bendpoints>432,373</Bendpoints>
+          </DiagramConnections>
         </VisualDiagram>
       </contents>
       <contents xsi:type="visualmodel:Diagram" label="UCD_VU" name="Verify User" elementKind="unspecified" description="Verifies user" timeCreated="2015-11-03T10:38:54.288+0100" lastModified="2015-11-03T10:47:13.889+0100" uniqueID="c1fb16c4-ae7c-450b-826f-7fae8c1e40cf" workPackage="">
@@ -617,7 +627,7 @@
         </VisualDiagram>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Use Case Descriptions" timeCreated="2015-11-03T11:28:59.913+0100" lastModified="2015-11-25T23:13:43.654+0100" uniqueID="4954bdbc-0234-47df-8903-f83f5a4a1ec0" workPackage="" specialType="Usecase">
+    <contents xsi:type="folder:Folder" name="Use Case Descriptions" timeCreated="2015-11-03T11:28:59.913+0100" lastModified="2015-11-26T14:05:45.005+0100" uniqueID="4954bdbc-0234-47df-8903-f83f5a4a1ec0" workPackage="" specialType="Usecase">
       <creator name="" timeCreated="2015-11-23T21:26:28.643+0100" uniqueID="f1b38db3-cb0b-4dde-b731-c3226620c68b">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -2289,7 +2299,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_PEU" name="Precent Emergancy UI" elementKind="SystemUseCase" description="Precentating emergency ui in ER or EMTV UI." timeCreated="2015-11-20T15:54:53.982+0100" lastModified="2015-11-25T23:10:49.403+0100" uniqueID="b27c0001-b012-4080-ba49-3b5b5ef3db8f" workPackage="" parameter="-" trigger="-" outcome="-" result="Interface shown">
+      <contents xsi:type="usecase_1:Usecase" label="UC_PEU" name="Precent Emergancy UI" elementKind="SystemUseCase" description="Precentating emergency ui in ER or EMTV UI." timeCreated="2015-11-20T15:54:53.982+0100" lastModified="2015-11-26T14:01:45.903+0100" uniqueID="b27c0001-b012-4080-ba49-3b5b5ef3db8f" workPackage="" parameter="-" trigger="-" outcome="-" result="Interface shown">
         <creator name="" timeCreated="2015-11-24T10:15:26.028+0100" uniqueID="3b0d6f93-d5e3-4f69-b631-fea5fc3ac1b7">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -2355,7 +2365,7 @@
         <longDescription>
           <fragments xsi:type="text:FormattedText" text=""/>
         </longDescription>
-        <PrimaryReferences>
+        <PrimaryReferences Scenarios="a535c3e5-2c23-4930-b979-ba761526532c">
           <Actors href="Actors.red#d4e8063e-bf1b-4bfd-8b24-fb9a011998a6"/>
           <Actors href="Actors.red#e017bc5d-7203-4e99-bb01-74fdb028fc76"/>
         </PrimaryReferences>
@@ -2363,7 +2373,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_PHU" name="Precent Hospital UI" elementKind="SystemUseCase" description="Precentating hospital ui in hospital UI." timeCreated="2015-11-20T15:55:28.141+0100" lastModified="2015-11-25T23:13:43.654+0100" uniqueID="406e1413-5acf-4137-8c5f-fa72e25ba1d1" workPackage="" parameter="-" trigger="-" outcome="-" result="Interface is shown">
+      <contents xsi:type="usecase_1:Usecase" label="UC_PHU" name="Precent Hospital UI" elementKind="SystemUseCase" description="Precentating hospital ui in hospital UI." timeCreated="2015-11-20T15:55:28.141+0100" lastModified="2015-11-26T14:05:45.005+0100" uniqueID="406e1413-5acf-4137-8c5f-fa72e25ba1d1" workPackage="" parameter="-" trigger="-" outcome="-" result="Interface is shown">
         <creator name="" timeCreated="2015-11-24T13:59:30.513+0100" uniqueID="2967310d-44ac-43e8-8bd8-2bba54b9f34d">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -2429,7 +2439,7 @@
         <longDescription>
           <fragments xsi:type="text:FormattedText" text=""/>
         </longDescription>
-        <PrimaryReferences>
+        <PrimaryReferences Scenarios="006bff2c-6db9-40af-866c-6ae1e812759a">
           <Actors href="Actors.red#18deae08-2713-4698-8841-2af12615c6a5"/>
         </PrimaryReferences>
         <SecondaryReferences/>
