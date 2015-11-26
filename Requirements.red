@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-25T23:13:44.007+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-26T09:34:01.556+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
   <creator name="" timeCreated="2015-10-20T10:06:51.100+0200" uniqueID="e21ef682-4a97-4e1c-a80c-f7fb294722b7" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -11,7 +11,7 @@
   </responsibleUser>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Requirements" timeCreated="2015-10-20T10:07:56.811+0200" lastModified="2015-11-25T15:17:46.632+0100" uniqueID="9b37a63d-c3f5-4fd8-9b28-375c66616b72" workPackage="" specialType="Requirement">
+  <contents xsi:type="folder:Folder" name="Requirements" timeCreated="2015-10-20T10:07:56.811+0200" lastModified="2015-11-26T09:34:01.399+0100" uniqueID="9b37a63d-c3f5-4fd8-9b28-375c66616b72" workPackage="" specialType="Requirement">
     <creator name="" timeCreated="2015-10-25T23:00:10.566+0100" uniqueID="145b6f22-07ef-41c0-817f-317743a53440">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -784,7 +784,7 @@
         </remarks>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Non-Functional" timeCreated="2015-10-25T23:13:31.849+0100" lastModified="2015-11-25T15:17:46.632+0100" uniqueID="a60da123-8a2c-4ae7-902a-a554c52bffc9" workPackage="" specialType="Requirement">
+    <contents xsi:type="folder:Folder" name="Non-Functional" timeCreated="2015-10-25T23:13:31.849+0100" lastModified="2015-11-26T09:34:01.399+0100" uniqueID="a60da123-8a2c-4ae7-902a-a554c52bffc9" workPackage="" specialType="Requirement">
       <commentlist/>
       <creator name="" timeCreated="2015-10-27T10:38:48.015+0100" uniqueID="b916e31d-2c95-4ed4-8a8d-f0a474fd3cf8">
         <cost name="Cost" kind=""/>
@@ -885,7 +885,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_P" name="Performance" elementKind="" description="From EMT UI, the system must be able to retrive data within 1 second." timeCreated="2015-10-27T10:38:43.895+0100" lastModified="2015-11-25T15:02:21.051+0100" uniqueID="a43308cf-817d-47d3-b462-addb9cdbb2ba" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_P" name="Performance" elementKind="unspecified" description="From EMT UI, the system must be able to retrive data within 1 second." timeCreated="2015-10-27T10:38:43.895+0100" lastModified="2015-11-26T09:26:47.833+0100" uniqueID="a43308cf-817d-47d3-b462-addb9cdbb2ba" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:49.226+0100" uniqueID="535ca1b0-3b8d-4295-b09d-ab1bbaaddcbc">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -944,7 +944,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="The medical professionals need to have critical medical data available at the time of request, or immediately thereafter. This depends on the system connectivity to the database, and is difficult to assure, since this relies heavily on regional internet service providers and the network coverage of the area, but should definately not be limited by system processes to any notable degree. Since the performance of the system is always affected by the worst performing part of the system, performance can be considered a cross-cutting concern."/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text=""/>
@@ -953,7 +953,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_U" name="Usability" elementKind="" description="The system must be operateable by medical professionals without any technical expertise." timeCreated="2015-10-27T10:39:34.865+0100" lastModified="2015-11-25T15:04:14.854+0100" uniqueID="1d45d6dc-1dc9-4a3a-84a5-1905cd4ec120" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_U" name="Usability" elementKind="unspecified" description="The system must be operateable by medical professionals without any technical expertise." timeCreated="2015-10-27T10:39:34.865+0100" lastModified="2015-11-26T09:27:04.854+0100" uniqueID="1d45d6dc-1dc9-4a3a-84a5-1905cd4ec120" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:52:54.841+0100" uniqueID="9651c3d9-7aa9-4ed6-9510-585ede0abbb3">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1012,7 +1012,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="Comprised of learnability, Operatability and [Blank!]. This is the quality regarding user friendliness which, when developing a system to be used by medical professionals who, most likely, will not be technologically proficient."/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text=""/>
@@ -1136,7 +1136,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_LC" name="Legislative compliancy" elementKind="" description="The system must abide member country laws." timeCreated="2015-10-27T10:48:08.210+0100" lastModified="2015-11-25T15:07:12.494+0100" uniqueID="1793ebc3-03f7-47c8-82cb-c04a8923eef8" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_LC" name="Compliency" elementKind="unspecified" description="The system must abide member country laws." timeCreated="2015-10-27T10:48:08.210+0100" lastModified="2015-11-26T09:27:46.286+0100" uniqueID="1793ebc3-03f7-47c8-82cb-c04a8923eef8" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:53:17.390+0100" uniqueID="b8ee20da-d80a-4873-8534-df7f7066b471">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1176,7 +1176,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="When dealing with the exchange of sensitive data across borders legal concerns are both a very limiting constraint but also difficult to keep track of. This means that it might take a lot of retrofitting when concerns are discovered and we can not assume that we can know of all of these concerns prior to implementation. A way to limit the amount of required to fit all countries equally, we need to make the system modular, such that countries can implement their own legislative retrofitting of the system. This could include relying on scriptable parts of the system instead of hard coded features e.g."/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text=""/>
@@ -1259,7 +1259,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_T" name="Traceability" elementKind="" description="Edits must be traceable to ensure that only authorized personnel have changed data but also to assist in legal issues concerning e.g. malpractice charges" timeCreated="2015-11-01T19:18:17.123+0100" lastModified="2015-11-25T15:11:22.233+0100" uniqueID="9220024d-f32f-49d1-8906-1eb8ba1906f8" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_T" name="Accountability" elementKind="unspecified" description="Edits must be traceable to ensure that only authorized personnel have changed data but also to assist in legal issues concerning e.g. malpractice charges" timeCreated="2015-11-01T19:18:17.123+0100" lastModified="2015-11-26T09:29:20.209+0100" uniqueID="9220024d-f32f-49d1-8906-1eb8ba1906f8" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-01T19:18:17.123+0100" uniqueID="5dfe8af2-2ddc-417c-878e-40e914f5f350" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1341,7 +1341,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="Edits must be traceable to ensure that only authorized personnel have changed data but also to assist in legal issues concerning e.g. malpractice charges"/>
+          <fragments xsi:type="text:FormattedText" text="Accountability or Traceability refers to the logging of change to the data. This is necessary to investigate alleged attacks on the system and help in legal issues related to the medical treatment of the patient. This quality is closely tied to the Logging feature."/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text=""/>
@@ -1350,7 +1350,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_B" name="Backup" elementKind="" description="Data must be backed up in case of system failure" timeCreated="2015-11-01T19:27:03.511+0100" lastModified="2015-11-25T15:12:22.726+0100" uniqueID="6808a172-2571-4c59-b9f6-71a1f0ee84ec" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_B" name="Backup" elementKind="unspecified" description="Data must be backed up in case of system failure" timeCreated="2015-11-01T19:27:03.511+0100" lastModified="2015-11-26T09:29:08.427+0100" uniqueID="6808a172-2571-4c59-b9f6-71a1f0ee84ec" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-01T19:27:03.511+0100" uniqueID="b331dc22-61e0-4c22-b492-76070e10debd" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1405,7 +1405,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="Data must be backed up in case of system failure"/>
+          <fragments xsi:type="text:FormattedText" text="Data must be kept in a way such that, after an emergency the data will be restored to an almost complete and recent state."/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text=""/>
@@ -1414,7 +1414,7 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_AU" name="Authentication" elementKind="unspecified" description="The system must validate the users identity when provided with credentials" timeCreated="2015-11-02T12:38:08.134+0100" lastModified="2015-11-25T15:13:06.873+0100" uniqueID="35c95af0-6c20-49e5-b099-34d86e88090d" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_AU" name="Authentication" elementKind="unspecified" description="The system must validate the users identity when provided with credentials" timeCreated="2015-11-02T12:38:08.134+0100" lastModified="2015-11-26T09:30:05.932+0100" uniqueID="35c95af0-6c20-49e5-b099-34d86e88090d" workPackage="" abstractionLevel="Process" rationaleText="">
         <commentlist/>
         <creator name="" timeCreated="2015-11-02T12:54:49.794+0100" uniqueID="4916fbad-6da6-48a6-b0b2-b414838dc068">
           <cost name="Cost" kind=""/>
@@ -1459,7 +1459,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="Authentication is the quality of identifying user based on provided credentials, the can be done knowledge-based, through the use of passwords, token-based through the use of tokens, such as the Smart-Card, or biometrically, through the use of fingerprint, eye-scan, facial recognition etc. "/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
@@ -1468,7 +1468,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_PE" name="Permission" elementKind="" description="Authorization should be granted to users with legal permission." timeCreated="2015-11-02T12:38:19.517+0100" lastModified="2015-11-25T15:13:57.647+0100" uniqueID="e4d6ec6e-6aa6-481f-9ce6-5d49de18949e" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_PE" name="Access control" elementKind="unspecified" description="Authorization should be granted to users with legal permission." timeCreated="2015-11-02T12:38:19.517+0100" lastModified="2015-11-26T09:30:37.022+0100" uniqueID="e4d6ec6e-6aa6-481f-9ce6-5d49de18949e" workPackage="" abstractionLevel="Process" rationaleText="">
         <commentlist/>
         <creator name="" timeCreated="2015-11-02T13:56:08.405+0100" uniqueID="aa34802a-5431-4867-b1a8-dceaeb1f2ca8">
           <cost name="Cost" kind=""/>
@@ -1515,7 +1515,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="Access control means allowing users access to only certain parts of the system, and prohibiting access to other parts. This can be achieved through the use of access control lists or role based access control policies."/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
@@ -1524,7 +1524,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_ART" name="Avg. Response Time" elementKind="" description="The average response time should be such that non-technical users will feel that the system acts fluently." timeCreated="2015-11-02T12:38:38.246+0100" lastModified="2015-11-25T15:14:47.181+0100" uniqueID="a32a76d0-ba8b-45ba-8679-0ce9125becf4" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_ART" name="Responsiveness" elementKind="unspecified" description="The average response time should be such that non-technical users will feel that the system acts fluently." timeCreated="2015-11-02T12:38:38.246+0100" lastModified="2015-11-26T09:31:11.804+0100" uniqueID="a32a76d0-ba8b-45ba-8679-0ce9125becf4" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:56:20.601+0100" uniqueID="a1175bdd-37f9-49f0-a7a3-c5958cef4586">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1580,7 +1580,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>Responsiveness is closely related to and a parameter of the overall user experience of the system. This is especially important when, as is the case with the interface to the EPJ, the system is used by non technical users, in which category most medical professionals falls into.&lt;/P>"/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
@@ -1589,7 +1589,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_RC" name="Request Capacity" elementKind="" description="The system should be able to handle the amount of users at any time." timeCreated="2015-11-02T12:38:57.242+0100" lastModified="2015-11-25T15:16:02.387+0100" uniqueID="b71026b0-75b1-46ad-ac76-25ce2223b738" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_RC" name="Capacity" elementKind="unspecified" description="The system should be able to handle the amount of users at any time." timeCreated="2015-11-02T12:38:57.242+0100" lastModified="2015-11-26T09:31:29.515+0100" uniqueID="b71026b0-75b1-46ad-ac76-25ce2223b738" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:56:31.288+0100" uniqueID="567f4650-d4c7-4a06-aa63-b09872882922">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1635,7 +1635,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>The system must be able to handle the load of multiple requests every hour from every hospital in the EU.&lt;/P>"/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
@@ -1644,7 +1644,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_L" name="Learnability" elementKind="" description="The system should be learned by 85% of users within 4 hours of tutelage." timeCreated="2015-11-02T12:39:17.276+0100" lastModified="2015-11-25T15:16:22.762+0100" uniqueID="a67c7217-fa08-42bd-b31e-b8c6d8ea552f" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_L" name="Learnability" elementKind="unspecified" description="The system should be learned by 85% of users within 4 hours of tutelage." timeCreated="2015-11-02T12:39:17.276+0100" lastModified="2015-11-26T09:31:46.561+0100" uniqueID="a67c7217-fa08-42bd-b31e-b8c6d8ea552f" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:56:41.892+0100" uniqueID="740bd4ac-f834-4fbd-9ade-1d03cb57cf58">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1685,7 +1685,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>Learnability of the system refers to how easy it is for the intended users to become acquainted with the provided functionalities. Learnability is part of the usability of the system.&lt;/P>"/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
@@ -1694,7 +1694,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_O" name="Operatability" elementKind="" description="A user who has learned the system should be able to make a request in X amount of time." timeCreated="2015-11-02T12:39:26.817+0100" lastModified="2015-11-25T15:16:58.298+0100" uniqueID="3a7bbaca-c3d0-4b78-be9b-8050968e865a" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_O" name="Operatability" elementKind="unspecified" description="A user who has learned the system should be able to make a request in X amount of time." timeCreated="2015-11-02T12:39:26.817+0100" lastModified="2015-11-26T09:34:01.399+0100" uniqueID="3a7bbaca-c3d0-4b78-be9b-8050968e865a" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:56:52.421+0100" uniqueID="c8611595-34e0-4126-95ee-e11f56e6ba07">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1750,7 +1750,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>This is the quality of users, who are familiar with the system to an acceptable degree, being able to use it efficiently.&lt;/P>"/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
@@ -1759,7 +1759,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_R" name="Robustness" elementKind="" description="The client may not show or store false data, which differs from what is inserted by medical professionals." timeCreated="2015-11-02T12:39:49.352+0100" lastModified="2015-11-25T15:17:16.690+0100" uniqueID="39ef8379-67bc-46b4-a9ea-fdca5393eee5" workPackage="" abstractionLevel="Activity" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_R" name="Robustness" elementKind="unspecified" description="The client may not show or store false data, which differs from what is inserted by medical professionals." timeCreated="2015-11-02T12:39:49.352+0100" lastModified="2015-11-26T09:32:33.606+0100" uniqueID="39ef8379-67bc-46b4-a9ea-fdca5393eee5" workPackage="" abstractionLevel="Activity" rationaleText="">
         <creator name="" timeCreated="2015-11-02T13:57:08.733+0100" uniqueID="1d5bf618-59e3-4a5b-9361-a462bc8a0545">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1800,7 +1800,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>Robustness is the quality of the system not reaching a state of inoperatability.&lt;/P>"/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
@@ -1809,7 +1809,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_RE" name="Reliability" elementKind="" description="The system must be robust and available." timeCreated="2015-11-02T14:06:27.411+0100" lastModified="2015-11-25T15:17:46.632+0100" uniqueID="ecb10f10-3054-4022-abb5-825e3d6f49c8" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_RE" name="Reliability" elementKind="unspecified" description="The system must be robust and available." timeCreated="2015-11-02T14:06:27.411+0100" lastModified="2015-11-26T09:32:49.154+0100" uniqueID="ecb10f10-3054-4022-abb5-825e3d6f49c8" workPackage="" abstractionLevel="Domain" rationaleText="">
         <creator name="" timeCreated="2015-11-02T14:06:27.411+0100" uniqueID="bec1d92f-0e25-421a-aa26-9d1762b9f64b" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1854,7 +1854,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
+          <fragments xsi:type="text:FormattedText" text="Reliability is the quality of the system to behave deterministically without being prone to errors."/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text=""/>
