@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:vision="dk.dtu.imm.red.specificationelements.vision" name="Vision.red" timeCreated="2015-10-30T16:38:10.086+0100" lastModified="2015-11-26T14:40:37.609+0100" uniqueID="a2503e9c-bd37-41ab-95d4-2fe3c458b0fb">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assumption="dk.dtu.imm.red.specificationelements.assumption" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:vision="dk.dtu.imm.red.specificationelements.vision" name="Vision.red" timeCreated="2015-10-30T16:38:10.086+0100" lastModified="2015-11-26T18:58:45.417+0100" uniqueID="a2503e9c-bd37-41ab-95d4-2fe3c458b0fb">
   <creator name="" timeCreated="2015-10-30T16:38:10.086+0100" uniqueID="268c5d04-c7ac-4892-85b0-70cb7b5995c3" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Vision" timeCreated="2015-10-30T16:38:36.368+0100" lastModified="2015-11-26T14:40:37.608+0100" uniqueID="7c613709-f7bf-42f6-a16e-01d5e14a0bc7">
+  <contents xsi:type="folder:Folder" name="Vision" timeCreated="2015-10-30T16:38:36.368+0100" lastModified="2015-11-26T18:55:30.485+0100" uniqueID="7c613709-f7bf-42f6-a16e-01d5e14a0bc7">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="vision:Vision" label="" name="Vision" elementKind="unspecified" description="" timeCreated="2015-11-02T12:07:46.179+0100" lastModified="2015-11-26T14:40:37.608+0100" uniqueID="183c1fd0-71d3-4f38-842d-1f1361f9d587" workPackage="">
@@ -45,6 +45,22 @@
       <beliefs>
         <fragments xsi:type="text:FormattedText" text=""/>
       </beliefs>
+    </contents>
+    <contents xsi:type="assumption:Assumption" label="VA" name="Vision assumptions" elementKind="unspecified" description="Assumption of the PPJ and other partiels system" timeCreated="2015-11-26T18:42:51.476+0100" lastModified="2015-11-26T18:55:30.485+0100" uniqueID="6db861f2-cf2f-404f-ba62-80238e2003ce" workPackage="">
+      <creator name="" timeCreated="2015-11-26T18:42:51.476+0100" uniqueID="6ba37878-e210-406d-b2f0-b7cbeff7cab9" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-26T18:45:23.795+0100" uniqueID="b02b7f4b-87b7-491a-87bc-822ca1c080b6">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <assumptionText>
+        <fragments xsi:type="text:FormattedText" text="&lt;P>PPJ: Here we assume that the server exists, and that we can communicate with it.&lt;/P>&#xD;&#xA;&lt;br/>&#xD;&#xA;&lt;P>eHealt card, Diagnostics system, ECC: That it have been implemented interfaces, to use for development.&lt;/P>&#xD;&#xA;&lt;br/>"/>
+      </assumptionText>
     </contents>
   </contents>
   <longDescription>

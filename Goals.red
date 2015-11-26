@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assumption="dk.dtu.imm.red.specificationelements.assumption" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:goal_1="dk.dtu.imm.red.visualmodeling.visualmodel.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-26T17:22:33.233+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assumption="dk.dtu.imm.red.specificationelements.assumption" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:goal_1="dk.dtu.imm.red.visualmodeling.visualmodel.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-26T18:58:45.429+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
   <creator name="" timeCreated="2015-10-09T15:12:51.753+0200" uniqueID="d9b978f0-3f5c-4a36-9a3b-dd781ad5a814" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-11-26T17:20:06.517+0100" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
+  <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-11-26T18:51:14.999+0100" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="folder:Folder" name="Motives &amp; Stakes" timeCreated="2015-11-12T09:59:05.061+0100" lastModified="2015-11-26T11:37:02.087+0100" uniqueID="c7b842ef-1de5-406d-a3ba-6aad3bf8e60b" workPackage="" specialType="Goal">
@@ -1117,6 +1117,22 @@
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_uOpacIkwEeWuYujLLC2xCg" Target="_RJnWQIk2EeWuYujLLC2xCg" Direction="SourceTarget" TargetDecoration="ArrowHead" Name="Obstructing" Type="Obstructing"/>
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_xc9JhIkwEeWuYujLLC2xCg" Target="_uOpac4kwEeWuYujLLC2xCg"/>
       </VisualDiagram>
+    </contents>
+    <contents xsi:type="assumption:Assumption" label="GA" name="Goals assumptions" elementKind="unspecified" description="User administration and patients health." timeCreated="2015-11-26T18:45:44.770+0100" lastModified="2015-11-26T18:51:14.999+0100" uniqueID="0dd59b64-cec3-4bed-b8f1-612667dfc88f" workPackage="">
+      <creator name="" timeCreated="2015-11-26T18:45:44.770+0100" uniqueID="947fac59-1c86-4561-87f3-bbfc40f909b1" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-26T18:50:39.685+0100" uniqueID="b6ef3970-9b12-4159-ada8-df3295e46b68">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <assumptionText>
+        <fragments xsi:type="text:FormattedText" text="&lt;P>User administration: The assumption that PPJ manages what users have access to is taken.&lt;/P>&#xD;&#xA;&lt;br/>&#xD;&#xA;&lt;P>Healt: The assumption that with this system that makes it easier for MP to access patients data will improve the health of the EUMC's cetizens.&lt;/P>"/>
+      </assumptionText>
     </contents>
   </contents>
   <longDescription>
