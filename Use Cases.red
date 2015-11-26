@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-11-26T14:39:22.936+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-11-26T17:54:21.115+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
   <creator name="" timeCreated="2015-10-25T23:34:33.747+0100" uniqueID="995552ba-a761-4b48-ab60-a7a6353dc7d6" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-11-26T14:37:32.720+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
+  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-11-26T17:54:20.610+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
     <creator name="" timeCreated="2015-10-25T23:51:08.678+0100" uniqueID="e4c78e85-1c34-4b1d-8349-8d0acce375c3">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -18,10 +18,10 @@
     </responsibleUser>
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Scenarios" timeCreated="2015-10-25T23:39:22.197+0100" lastModified="2015-11-26T11:07:21.544+0100" uniqueID="4eee3c67-4a3f-4b9f-be47-bb5f4acc2120">
+    <contents xsi:type="folder:Folder" name="Scenarios" timeCreated="2015-10-25T23:39:22.197+0100" lastModified="2015-11-26T17:43:21.181+0100" uniqueID="4eee3c67-4a3f-4b9f-be47-bb5f4acc2120">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="ucScenario:Scenario" label="S_RECC" name="Read info from ECC" elementKind="unspecified" description="" timeCreated="2015-11-24T16:39:36.592+0100" lastModified="2015-11-24T16:58:31.467+0100" uniqueID="668781b8-d339-43b8-9ef3-7456c9ece70c" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_RECC" name="Read info from ECC" elementKind="unspecified" description="" timeCreated="2015-11-24T16:39:36.592+0100" lastModified="2015-11-26T17:20:06.415+0100" uniqueID="668781b8-d339-43b8-9ef3-7456c9ece70c" workPackage="">
         <creator name="" timeCreated="2015-11-24T16:39:36.592+0100" uniqueID="6ed77f31-bfad-4dcd-ad68-5eb9f39a7c30" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -35,7 +35,7 @@
         <benefit name="Cost" kind=""/>
         <startConnector xsi:type="ucScenario:Connector" name="Start connector">
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.0/@startConnector" name="Start" type="Start"/>
-          <connections xsi:type="ucScenario:Action" description="EMT or DR finds accident report sent from ECC." parent="//@contents.0/@contents.0/@contents.0/@startConnector" name="Find"/>
+          <connections xsi:type="ucScenario:Action" description="EMT or doctor finds accident report sent from ECC." parent="//@contents.0/@contents.0/@contents.0/@startConnector" name="Find"/>
           <connections xsi:type="ucScenario:Connector" description="The report have been found." parent="//@contents.0/@contents.0/@contents.0/@startConnector" name="Found" type="Alternate">
             <connections xsi:type="ucScenario:Action" description="User then opens accident report." parent="//@contents.0/@contents.0/@contents.0/@startConnector/@connections.2" name="Open"/>
             <connections xsi:type="ucScenario:Action" description="User is presented with accident report." parent="//@contents.0/@contents.0/@contents.0/@startConnector/@connections.2" name="Presentation"/>
@@ -46,7 +46,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.0/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_RED" name="Read emergency data" elementKind="unspecified" description="Reads emergency data from patients smart card, if he has one." timeCreated="2015-11-24T16:50:53.979+0100" lastModified="2015-11-24T16:58:40.322+0100" uniqueID="f32ad934-6c51-4869-8f7c-8469664d8e09" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_RED" name="Read emergency data" elementKind="unspecified" description="Read emergency data from patient's smart card, if he has one." timeCreated="2015-11-24T16:50:53.979+0100" lastModified="2015-11-26T17:21:34.462+0100" uniqueID="f32ad934-6c51-4869-8f7c-8469664d8e09" workPackage="">
         <creator name="" timeCreated="2015-11-24T16:50:53.979+0100" uniqueID="fe0bd1b6-f5a4-47d3-b19f-95df160f6f23" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -60,7 +60,7 @@
         <benefit name="Cost" kind=""/>
         <startConnector xsi:type="ucScenario:Connector" name="Start connector">
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.1/@startConnector" name="Start" type="Start"/>
-          <connections xsi:type="ucScenario:Action" description="Scans the smart-card through an emergency terminal." parent="//@contents.0/@contents.0/@contents.1/@startConnector" name="Scan"/>
+          <connections xsi:type="ucScenario:Action" description="Scan the smart-card through an emergency terminal." parent="//@contents.0/@contents.0/@contents.1/@startConnector" name="Scan"/>
           <connections xsi:type="ucScenario:Connector" description="Smart-card verified." parent="//@contents.0/@contents.0/@contents.1/@startConnector" name="Verified" type="Alternate">
             <connections xsi:type="ucScenario:Action" description="Terminal show emergency info about patient." parent="//@contents.0/@contents.0/@contents.1/@startConnector/@connections.2" name="Presentation"/>
           </connections>
@@ -71,7 +71,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.1/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_SIER" name="Send info to ER" elementKind="unspecified" description="" timeCreated="2015-11-24T16:59:24.436+0100" lastModified="2015-11-24T17:11:44.650+0100" uniqueID="0c0d12c4-d5af-4cce-8d7c-44cadab072a9" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_SIER" name="Send info to ER" elementKind="unspecified" description="Send EMT report on patient to ER" timeCreated="2015-11-24T16:59:24.436+0100" lastModified="2015-11-26T17:22:29.109+0100" uniqueID="0c0d12c4-d5af-4cce-8d7c-44cadab072a9" workPackage="">
         <creator name="" timeCreated="2015-11-24T16:59:24.436+0100" uniqueID="af010eb6-e9e0-4bee-9786-f3940b248556" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -86,7 +86,7 @@
         <startConnector xsi:type="ucScenario:Connector" name="Start connector">
           <connections xsi:type="ucScenario:Action" description="" parent="//@contents.0/@contents.0/@contents.2/@startConnector" name="Start" type="Start"/>
           <connections xsi:type="ucScenario:Action" description="EMT creates report about patient, with accident report attached as well as which ER they are heading to." parent="//@contents.0/@contents.0/@contents.2/@startConnector" name="Create"/>
-          <connections xsi:type="ucScenario:Action" description="Updates report with patient if any and procedures done." parent="//@contents.0/@contents.0/@contents.2/@startConnector" name="Information"/>
+          <connections xsi:type="ucScenario:Action" description="Updates report with patient if any and procedures have been done." parent="//@contents.0/@contents.0/@contents.2/@startConnector" name="Information"/>
           <connections xsi:type="ucScenario:Action" description="Sends the information to the ER" parent="//@contents.0/@contents.0/@contents.2/@startConnector" name="Information" type="Send"/>
           <connections xsi:type="ucScenario:Connector" description="Information send success full." parent="//@contents.0/@contents.0/@contents.2/@startConnector" name="Send" type="Alternate">
             <connections xsi:type="ucScenario:Action" description="Returns message send" parent="//@contents.0/@contents.0/@contents.2/@startConnector/@connections.4" name="Message"/>
@@ -97,7 +97,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.2/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_RAJ" name="Request Access to journal" elementKind="unspecified" description="" timeCreated="2015-11-02T10:45:33.092+0100" lastModified="2015-11-24T18:29:10.811+0100" uniqueID="81805e80-4890-4c9c-8563-0e292baee5eb" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_RAJ" name="Request Access to journal" elementKind="unspecified" description="EMT or doctor requests access to a patients journal." timeCreated="2015-11-02T10:45:33.092+0100" lastModified="2015-11-26T17:23:29.455+0100" uniqueID="81805e80-4890-4c9c-8563-0e292baee5eb" workPackage="">
         <creator name="" timeCreated="2015-11-02T10:45:33.092+0100" uniqueID="bb4afd21-66d2-4efa-a111-967ef85cc221" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -117,7 +117,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.3/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_AU" name="Autherize User" elementKind="unspecified" description="" timeCreated="2015-11-24T17:43:03.174+0100" lastModified="2015-11-24T17:49:22.990+0100" uniqueID="8d82f17d-0f9f-4189-af25-4b8106fd5c39" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_AU" name="Authorize User" elementKind="unspecified" description="" timeCreated="2015-11-24T17:43:03.174+0100" lastModified="2015-11-26T17:25:30.462+0100" uniqueID="8d82f17d-0f9f-4189-af25-4b8106fd5c39" workPackage="">
         <creator name="" timeCreated="2015-11-24T17:43:03.174+0100" uniqueID="0a90f6a1-97dc-4943-854c-004ddad6ee45" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -132,13 +132,13 @@
         <startConnector xsi:type="ucScenario:Connector" parent="//@contents.0/@contents.0/@contents.16/@startConnector/@connections.2" name="Start connector">
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.4/@startConnector" name="Start" type="Start"/>
           <connections xsi:type="ucScenario:Connector" description="Enter credentials (username and password)" parent="//@contents.0/@contents.0/@contents.4/@startConnector" name="Credentials" type="Alternate">
-            <connections xsi:type="ucScenario:Connector" description="User autherized" parent="//@contents.0/@contents.0/@contents.4/@startConnector/@connections.1" name="Autherized" type="Alternate">
+            <connections xsi:type="ucScenario:Connector" description="User authorized" parent="//@contents.0/@contents.0/@contents.4/@startConnector/@connections.1" name="Authorized" type="Alternate">
               <connections xsi:type="ucScenario:Action" description="Sends user to requested page." parent="//@contents.0/@contents.0/@contents.4/@startConnector/@connections.1/@connections.0" name="Redirect"/>
             </connections>
             <connections xsi:type="ucScenario:Connector" description="Incorrect username or password" parent="//@contents.0/@contents.0/@contents.4/@startConnector/@connections.1" name="Incorrect" type="Alternate"/>
           </connections>
-          <connections xsi:type="ucScenario:Connector" description="Autherize using ID" parent="//@contents.0/@contents.0/@contents.4/@startConnector" name="Identification" type="Alternate">
-            <connections xsi:type="ucScenario:Connector" description="User autherized" parent="//@contents.0/@contents.0/@contents.4/@startConnector/@connections.2" name="Autherized" type="Alternate">
+          <connections xsi:type="ucScenario:Connector" description="Authorize using ID" parent="//@contents.0/@contents.0/@contents.4/@startConnector" name="Identification" type="Alternate">
+            <connections xsi:type="ucScenario:Connector" description="User authorized" parent="//@contents.0/@contents.0/@contents.4/@startConnector/@connections.2" name="Authorized" type="Alternate">
               <connections xsi:type="ucScenario:Action" description="Sends user to requested page." parent="//@contents.0/@contents.0/@contents.4/@startConnector/@connections.2/@connections.0" name="Redirect"/>
             </connections>
             <connections xsi:type="ucScenario:Connector" description="Returns error" parent="//@contents.0/@contents.0/@contents.4/@startConnector/@connections.2" name="Corrupted" type="Alternate">
@@ -148,7 +148,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.4/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_AUJ" name="Auxiliary device updates journal" elementKind="unspecified" description="" timeCreated="2015-11-02T10:11:58.994+0100" lastModified="2015-11-24T18:00:54.226+0100" uniqueID="85084b97-037d-444c-8fd7-9e46d29b73c1" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_AUJ" name="Auxiliary device updates journal" elementKind="unspecified" description="An auxilliary medical device sends its data to the patien's journal." timeCreated="2015-11-02T10:11:58.994+0100" lastModified="2015-11-26T17:26:48.597+0100" uniqueID="85084b97-037d-444c-8fd7-9e46d29b73c1" workPackage="">
         <creator name="" timeCreated="2015-11-02T10:11:58.994+0100" uniqueID="a9e0386e-4807-4136-b094-38cfb84c731b" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -166,7 +166,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.5/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_CA" name="Connect journal to auxiliary device" elementKind="unspecified" description="" timeCreated="2015-11-02T10:11:58.994+0100" lastModified="2015-11-24T18:04:42.510+0100" uniqueID="1eddab77-264d-4fc3-82cc-17a5606a135e" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_CA" name="Connect journal to auxiliary device" elementKind="unspecified" description="Connecting the patient's journal to a device, e.g. EKG, in order to automatically update the data to the journal. " timeCreated="2015-11-02T10:11:58.994+0100" lastModified="2015-11-26T17:27:37.318+0100" uniqueID="1eddab77-264d-4fc3-82cc-17a5606a135e" workPackage="">
         <creator name="" timeCreated="2015-11-02T10:11:58.994+0100" uniqueID="a9e0386e-4807-4136-b094-38cfb84c731b" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -215,7 +215,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.7/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_RA" name="Remove Access to journal" elementKind="unspecified" description="" timeCreated="2015-11-02T10:45:33.092+0100" lastModified="2015-11-24T18:56:30.671+0100" uniqueID="871cb21b-c504-44a8-9a63-5c289e7979bf" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_RA" name="Remove access to journal" elementKind="unspecified" description="Revoke a medical professionals access to a patient's journal. " timeCreated="2015-11-02T10:45:33.092+0100" lastModified="2015-11-26T17:31:55.713+0100" uniqueID="871cb21b-c504-44a8-9a63-5c289e7979bf" workPackage="">
         <creator name="" timeCreated="2015-11-02T10:45:33.092+0100" uniqueID="bb4afd21-66d2-4efa-a111-967ef85cc221" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -229,13 +229,13 @@
         <benefit name="Cost" kind=""/>
         <startConnector xsi:type="ucScenario:Connector" name="Start connector">
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.8/@startConnector" name="Start" type="Start"/>
-          <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.8/@startConnector" name="New connector" usecase="36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
+          <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.8/@startConnector" name="Find Patient" usecase="36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.8/@startConnector" name="Remove user from access list"/>
-          <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.8/@startConnector" name="Returns user added"/>
+          <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.8/@startConnector" name="Returns user removed"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.8/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_GA" name="Grant Access to journal" elementKind="unspecified" description="" timeCreated="2015-11-02T10:45:33.092+0100" lastModified="2015-11-24T19:20:44.785+0100" uniqueID="4b0cba7e-6ac7-44ff-a26d-a613fab92b59" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_GA" name="Grant access to journal" elementKind="unspecified" description="Add a user to the access list for a patient's journal." timeCreated="2015-11-02T10:45:33.092+0100" lastModified="2015-11-26T17:33:14.638+0100" uniqueID="4b0cba7e-6ac7-44ff-a26d-a613fab92b59" workPackage="">
         <creator name="" timeCreated="2015-11-02T10:45:33.092+0100" uniqueID="bb4afd21-66d2-4efa-a111-967ef85cc221" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -249,7 +249,7 @@
         <benefit name="Cost" kind=""/>
         <startConnector xsi:type="ucScenario:Connector" name="Start connector">
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.9/@startConnector" name="Start" type="Start"/>
-          <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.9/@startConnector" name="New connector" usecase="36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
+          <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.9/@startConnector" name="Find patient" usecase="36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
           <connections xsi:type="ucScenario:Action" description="Find user that shold be added to access list" parent="//@contents.0/@contents.0/@contents.9/@startConnector" name="Find"/>
           <connections xsi:type="ucScenario:Connector" description="User is found" parent="//@contents.0/@contents.0/@contents.9/@startConnector" name="Found" type="Alternate">
             <connections xsi:type="ucScenario:Action" description="Returns user added" parent="//@contents.0/@contents.0/@contents.9/@startConnector/@connections.3" name="Success"/>
@@ -260,7 +260,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.9/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_RSC" name="Read &quot;Smart-Card&quot;" elementKind="unspecified" description="" timeCreated="2015-11-02T10:36:33.175+0100" lastModified="2015-11-24T19:20:57.946+0100" uniqueID="a794d220-f5c2-4c41-a3bd-89a6461ab525" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_RSC" name="Read &quot;Smart-Card&quot;" elementKind="unspecified" description="Read patient's emergency info from their Smart Card." timeCreated="2015-11-02T10:36:33.175+0100" lastModified="2015-11-26T17:34:00.804+0100" uniqueID="a794d220-f5c2-4c41-a3bd-89a6461ab525" workPackage="">
         <creator name="" timeCreated="2015-11-02T10:36:33.175+0100" uniqueID="85ce61f5-461d-4e0b-9dd8-906329f48115" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -283,12 +283,12 @@
             <connections xsi:type="ucScenario:Action" description="Returns card denied" parent="//@contents.0/@contents.0/@contents.10/@startConnector/@connections.3" name="Return"/>
           </connections>
           <connections xsi:type="ucScenario:Connector" description="Error scanning card" parent="//@contents.0/@contents.0/@contents.10/@startConnector" name="Error" type="Alternate">
-            <connections xsi:type="ucScenario:Action" description="Returns try againg" parent="//@contents.0/@contents.0/@contents.10/@startConnector/@connections.4" name="Return"/>
+            <connections xsi:type="ucScenario:Action" description="Returns try again" parent="//@contents.0/@contents.0/@contents.10/@startConnector/@connections.4" name="Return"/>
           </connections>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.10/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_NC" name="Notify patient or doctor about changes to journal" elementKind="unspecified" description="" timeCreated="2015-11-02T08:56:21.022+0100" lastModified="2015-11-24T19:20:52.647+0100" uniqueID="d270d4ee-eea7-4600-8941-a990b097563b" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_NC" name="Notify patient or doctor about changes to journal" elementKind="unspecified" description="Patients can receive a notification when their journal is updated. Doctors can receive a notification when their patient's journal is updated. " timeCreated="2015-11-02T08:56:21.022+0100" lastModified="2015-11-26T17:35:41.694+0100" uniqueID="d270d4ee-eea7-4600-8941-a990b097563b" workPackage="">
         <creator name="" timeCreated="2015-11-02T08:56:21.022+0100" uniqueID="c15f3cc8-715d-4458-8d1b-0d75b460d40e" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -309,7 +309,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.11/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_RA" name="Record Action" elementKind="unspecified" description="" timeCreated="2015-11-02T10:11:58.994+0100" lastModified="2015-11-24T19:37:45.896+0100" uniqueID="0ab4d200-f4f0-4d6f-9cfd-aa4ccdc880c1" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_RA" name="Record Action" elementKind="unspecified" description="Record an action in the patient's journal. " timeCreated="2015-11-02T10:11:58.994+0100" lastModified="2015-11-26T17:37:14.166+0100" uniqueID="0ab4d200-f4f0-4d6f-9cfd-aa4ccdc880c1" workPackage="">
         <creator name="" timeCreated="2015-11-02T10:11:58.994+0100" uniqueID="a9e0386e-4807-4136-b094-38cfb84c731b" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -324,7 +324,7 @@
         <startConnector xsi:type="ucScenario:Connector" name="Start connector">
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.12/@startConnector" name="Start" type="Start"/>
           <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.12/@startConnector" name="Find patient" usecase="36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
-          <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.12/@startConnector" name="Record Action"/>
+          <connections xsi:type="ucScenario:Action" description="Medical professional inputs action taken. " parent="//@contents.0/@contents.0/@contents.12/@startConnector" name="Record Action"/>
           <connections xsi:type="ucScenario:Connector" description="Action have been recorded" parent="//@contents.0/@contents.0/@contents.12/@startConnector" name="Recorded" type="Alternate">
             <connections xsi:type="ucScenario:Action" description="Receive acknowledgement of action taken" parent="//@contents.0/@contents.0/@contents.12/@startConnector/@connections.3" name="Receive"/>
           </connections>
@@ -338,7 +338,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.12/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_RJD" name="Retrieve journal data" elementKind="unspecified" description="" timeCreated="2015-11-02T08:56:21.022+0100" lastModified="2015-11-24T19:38:08.872+0100" uniqueID="68916f34-d29f-49c7-8f8b-114dfe078ce8" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_RJD" name="Retrieve journal data" elementKind="unspecified" description="Retrieve the data from a patient's journal" timeCreated="2015-11-02T08:56:21.022+0100" lastModified="2015-11-26T17:37:34.886+0100" uniqueID="68916f34-d29f-49c7-8f8b-114dfe078ce8" workPackage="">
         <creator name="" timeCreated="2015-11-02T08:56:21.022+0100" uniqueID="c15f3cc8-715d-4458-8d1b-0d75b460d40e" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -357,7 +357,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.13/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_EJ" name="Edit Journal" elementKind="unspecified" description="" timeCreated="2015-11-02T10:11:58.994+0100" lastModified="2015-11-24T19:41:07.242+0100" uniqueID="398507fa-294d-48ad-a57a-af5959f3dbb1" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_EJ" name="Edit Journal" elementKind="unspecified" description="Change, add or delete data in a patient's journal. " timeCreated="2015-11-02T10:11:58.994+0100" lastModified="2015-11-26T17:38:28.589+0100" uniqueID="398507fa-294d-48ad-a57a-af5959f3dbb1" workPackage="">
         <creator name="" timeCreated="2015-11-02T10:11:58.994+0100" uniqueID="a9e0386e-4807-4136-b094-38cfb84c731b" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -372,12 +372,12 @@
         <startConnector xsi:type="ucScenario:Connector" parent="//@contents.0/@contents.0/@contents.5/@startConnector/@connections.1" name="Start connector">
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.14/@startConnector" name="Start" type="Start"/>
           <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.14/@startConnector" name="Find patient" usecase="36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
-          <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.14/@startConnector" name="Edit journal"/>
+          <connections xsi:type="ucScenario:Action" description="Make changes to the journal." parent="//@contents.0/@contents.0/@contents.14/@startConnector" name="Edit journal"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.14/@startConnector" name="Saves journal"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.14/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_RDFE" name="Recieve data from EMT" elementKind="unspecified" description="" timeCreated="2015-11-24T21:43:37.874+0100" lastModified="2015-11-24T21:46:01.251+0100" uniqueID="e3f8524c-4fe8-48d8-8dbc-389f768eb52f" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_RDFE" name="Recieve data from EMT" elementKind="unspecified" description="Receive the data the EMT has recorded on the trip to the ER." timeCreated="2015-11-24T21:43:37.874+0100" lastModified="2015-11-26T17:38:47.501+0100" uniqueID="e3f8524c-4fe8-48d8-8dbc-389f768eb52f" workPackage="">
         <creator name="" timeCreated="2015-11-24T21:43:37.874+0100" uniqueID="fe913a1b-f44e-4ebb-b8b8-2f7d1b48e380" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -396,7 +396,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.15/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_PEU" name="Precent Emergency UI" elementKind="unspecified" description="" timeCreated="2015-11-24T21:47:18.363+0100" lastModified="2015-11-26T11:00:31.393+0100" uniqueID="a535c3e5-2c23-4930-b979-ba761526532c" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_PEU" name="Precent Emergency UI" elementKind="unspecified" description="Present the EMT's UI containing emergency and personal info " timeCreated="2015-11-24T21:47:18.363+0100" lastModified="2015-11-26T17:41:09.229+0100" uniqueID="a535c3e5-2c23-4930-b979-ba761526532c" workPackage="">
         <creator name="" timeCreated="2015-11-24T21:47:18.363+0100" uniqueID="e852efd2-119e-4e0a-9e11-0d1ee793a5f4" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -412,14 +412,11 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Start" type="Start"/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Start terminal"/>
           <connections xsi:type="ucScenario:UsecaseReference" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Login" usecase="eeebcb0c-373d-47cb-819a-41a7722184a8"/>
-          <connections xsi:type="ucScenario:Connector" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="New connector" type="Alternate">
-            <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.16/@startConnector/@connections.3" name="New action"/>
-          </connections>
-          <connections xsi:type="ucScenario:Action" description="Showing emergency display." parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Precent"/>
+          <connections xsi:type="ucScenario:Action" description="Showing emergency display based on user role. " parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Precent emergency info. "/>
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.16/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_PHU" name="Precent Hospital UI" elementKind="unspecified" description="" timeCreated="2015-11-24T21:47:18.363+0100" lastModified="2015-11-26T11:07:21.544+0100" uniqueID="006bff2c-6db9-40af-866c-6ae1e812759a" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_PHU" name="Precent Hospital UI" elementKind="unspecified" description="Present the full information the hospital medical staff needs of the patient's medical history, based on user role. " timeCreated="2015-11-24T21:47:18.363+0100" lastModified="2015-11-26T17:42:32.330+0100" uniqueID="006bff2c-6db9-40af-866c-6ae1e812759a" workPackage="">
         <creator name="" timeCreated="2015-11-24T21:47:18.363+0100" uniqueID="e852efd2-119e-4e0a-9e11-0d1ee793a5f4" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -439,7 +436,7 @@
           <connections xsi:type="ucScenario:Action" parent="//@contents.0/@contents.0/@contents.17/@startConnector" name="Stop" type="Stop"/>
         </startConnector>
       </contents>
-      <contents xsi:type="ucScenario:Scenario" label="S_CDS" name="Connect to Diagnostics System (A1)" elementKind="unspecified" description="" timeCreated="2015-11-24T21:53:50.323+0100" lastModified="2015-11-24T21:58:13.382+0100" uniqueID="65aa2ab8-43ea-4041-91e3-25f4f14899d3" workPackage="">
+      <contents xsi:type="ucScenario:Scenario" label="S_CDS" name="Connect to Diagnostics System (A1)" elementKind="unspecified" description="Connect to the Diagnostics System developed by group A1" timeCreated="2015-11-24T21:53:50.323+0100" lastModified="2015-11-26T17:43:21.181+0100" uniqueID="65aa2ab8-43ea-4041-91e3-25f4f14899d3" workPackage="">
         <creator name="" timeCreated="2015-11-24T21:53:50.323+0100" uniqueID="f145ca6c-88ca-47fe-992f-73d25f9c2200" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -455,7 +452,7 @@
           <connections xsi:type="ucScenario:Action" description="Searching for diagnostic through symptoms" parent="//@contents.0/@contents.0/@contents.18/@startConnector" name="Start" type="Start"/>
           <connections xsi:type="ucScenario:Action" description="Searching for diagnostic or treatment through symptoms or sickness" parent="//@contents.0/@contents.0/@contents.18/@startConnector" name="Search"/>
           <connections xsi:type="ucScenario:Connector" description="Results are found" parent="//@contents.0/@contents.0/@contents.18/@startConnector" name="Results" type="Alternate">
-            <connections xsi:type="ucScenario:Action" description="presented with search result" parent="//@contents.0/@contents.0/@contents.18/@startConnector/@connections.2" name="Presented"/>
+            <connections xsi:type="ucScenario:Action" description="Present search result" parent="//@contents.0/@contents.0/@contents.18/@startConnector/@connections.2" name="Presented"/>
           </connections>
           <connections xsi:type="ucScenario:Connector" description="No result found" parent="//@contents.0/@contents.0/@contents.18/@startConnector" name="No results" type="Alternate">
             <connections xsi:type="ucScenario:Action" description="Returns no post found" parent="//@contents.0/@contents.0/@contents.18/@startConnector/@connections.3" name="Returns"/>
@@ -627,7 +624,7 @@
         </VisualDiagram>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Use Case Descriptions" timeCreated="2015-11-03T11:28:59.913+0100" lastModified="2015-11-26T14:37:32.720+0100" uniqueID="4954bdbc-0234-47df-8903-f83f5a4a1ec0" workPackage="" specialType="Usecase">
+    <contents xsi:type="folder:Folder" name="Use Case Descriptions" timeCreated="2015-11-03T11:28:59.913+0100" lastModified="2015-11-26T17:54:20.610+0100" uniqueID="4954bdbc-0234-47df-8903-f83f5a4a1ec0" workPackage="" specialType="Usecase">
       <creator name="" timeCreated="2015-11-23T21:26:28.643+0100" uniqueID="f1b38db3-cb0b-4dde-b731-c3226620c68b">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -639,7 +636,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="usecase_1:Usecase" label="UC_RECC" name="Read info from ECC" elementKind="SystemUseCase" description="EMTs reads info from ECC about accident, patient and other necessary info." timeCreated="2015-11-03T11:26:14.669+0100" lastModified="2015-11-25T15:34:59.864+0100" uniqueID="38957a3d-b9ab-4c40-98ae-b566bf5dea3b" workPackage="" type="SystemUseCase" parameter="EMT amdulance ID" trigger="EMT asks for infomation" outcome="-" result="Data about accident shown">
+      <contents xsi:type="usecase_1:Usecase" label="UC_RECC" name="Read info from ECC" elementKind="SystemUseCase" description="EMTs reads info from ECC about accident, patient and other necessary info." timeCreated="2015-11-03T11:26:14.669+0100" lastModified="2015-11-26T17:47:48.666+0100" uniqueID="38957a3d-b9ab-4c40-98ae-b566bf5dea3b" workPackage="" type="SystemUseCase" parameter="EMT ambulance ID" trigger="EMT asks for infomation" outcome="-" result="Data about accident shown">
         <commentlist/>
         <creator name="" timeCreated="2015-11-23T21:25:57.033+0100" uniqueID="5e6d63e1-17c8-42d7-a004-fd250adaeec0">
           <cost name="Cost" kind=""/>
@@ -733,7 +730,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_RED" name="Read emergency data" elementKind="SystemUseCase" description="Reads patient emergency data through smart-card" timeCreated="2015-11-03T11:07:06.851+0100" lastModified="2015-11-25T15:35:36.581+0100" uniqueID="0f97c23e-67df-4603-a82f-96eeeef9e9c0" workPackage="" parameter="-" trigger="Smart-card scanned" outcome="-" result="Emergency data shown">
+      <contents xsi:type="usecase_1:Usecase" label="UC_RED" name="Read emergency data" elementKind="SystemUseCase" description="Reads patient emergency data from smart-card" timeCreated="2015-11-03T11:07:06.851+0100" lastModified="2015-11-26T17:48:09.947+0100" uniqueID="0f97c23e-67df-4603-a82f-96eeeef9e9c0" workPackage="" parameter="-" trigger="Smart-card scanned" outcome="-" result="Emergency data shown">
         <creator name="" timeCreated="2015-11-23T21:46:28.661+0100" uniqueID="52f9fa8e-410f-41ab-978b-8b11716bce74">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -920,7 +917,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_AU" name="Autherize User" elementKind="SystemUseCase" description="User authenticates him self" timeCreated="2015-10-25T23:52:20.601+0100" lastModified="2015-11-25T15:41:54.569+0100" uniqueID="eeebcb0c-373d-47cb-819a-41a7722184a8" workPackage="" parameter="User ID" trigger="Requests data, Terminal started" outcome="-" result="User logged in">
+      <contents xsi:type="usecase_1:Usecase" label="UC_AU" name="Authorize User" elementKind="SystemUseCase" description="User authenticates himself" timeCreated="2015-10-25T23:52:20.601+0100" lastModified="2015-11-26T17:48:57.233+0100" uniqueID="eeebcb0c-373d-47cb-819a-41a7722184a8" workPackage="" parameter="User ID" trigger="Requests data, Terminal started" outcome="-" result="User logged in">
         <creator name="" timeCreated="2015-10-26T00:08:38.942+0100" uniqueID="49fa26a5-10a5-455e-93e6-512127360196">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1481,7 +1478,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_R" name="Remove access to journal" elementKind="SystemUseCase" description="User removes user from access to journal" timeCreated="2015-10-25T23:47:00.594+0100" lastModified="2015-11-25T22:25:30.485+0100" uniqueID="c118698a-86e4-4d81-8e73-f2ae87d76b3f" workPackage="" parameter="User ID" trigger="-" outcome="-" result="-">
+      <contents xsi:type="usecase_1:Usecase" label="UC_R" name="Remove access to journal" elementKind="SystemUseCase" description="User removes other user from access to journal" timeCreated="2015-10-25T23:47:00.594+0100" lastModified="2015-11-26T17:50:11.442+0100" uniqueID="c118698a-86e4-4d81-8e73-f2ae87d76b3f" workPackage="" parameter="User ID" trigger="-" outcome="-" result="-">
         <creator name="" timeCreated="2015-10-25T23:47:15.844+0100" uniqueID="fa64e46f-fc60-44e9-9877-ba0d18538ed3">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1724,7 +1721,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_RSC" name="Read &#x201c;Smart-Card&#x201d;" elementKind="SystemUseCase" description="User retrieves basic journal data from &quot;Smart-Card&quot;" timeCreated="2015-10-25T23:44:00.566+0100" lastModified="2015-11-25T22:32:09.073+0100" uniqueID="6d3d7623-fdf8-410c-9cbf-a37432105a61" workPackage="" type="FunctionBlock" parameter="-" trigger="Card swipped/inserted" outcome="-" result="Card data retrieved">
+      <contents xsi:type="usecase_1:Usecase" label="UC_RSC" name="Read &#x201c;Smart-Card&#x201d;" elementKind="SystemUseCase" description="User retrieves basic journal data from &quot;Smart-Card&quot;" timeCreated="2015-10-25T23:44:00.566+0100" lastModified="2015-11-26T17:50:38.310+0100" uniqueID="6d3d7623-fdf8-410c-9cbf-a37432105a61" workPackage="" type="FunctionBlock" parameter="-" trigger="Card swiped/inserted" outcome="-" result="Card data retrieved">
         <creator name="" timeCreated="2015-10-25T23:45:46.648+0100" uniqueID="99d7e9b6-018c-4598-aca0-a6f1e35243a2">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1931,7 +1928,7 @@
         <duration name="Duration"/>
         <usecaseRelationship to="eb8d4872-ffb5-4e4c-8ccb-a6fbcd01d034"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_RJD" name="Retrieve journal data" elementKind="SystemUseCase" description="User retrieves journal data from (EEPR)" timeCreated="2015-10-25T23:35:21.472+0100" lastModified="2015-11-25T22:52:54.837+0100" uniqueID="62f3b1b8-e3b6-4a76-b8a4-0b95b070f3c4" workPackage="" parameter="Patient ID" trigger="User requests data on patient" outcome="-" result="-">
+      <contents xsi:type="usecase_1:Usecase" label="UC_RJD" name="Retrieve journal data" elementKind="SystemUseCase" description="User retrieves journal data from PPJ" timeCreated="2015-10-25T23:35:21.472+0100" lastModified="2015-11-26T17:53:18.692+0100" uniqueID="62f3b1b8-e3b6-4a76-b8a4-0b95b070f3c4" workPackage="" parameter="Patient ID" trigger="User requests data on patient" outcome="-" result="-">
         <creator name="" timeCreated="2015-10-25T23:35:54.775+0100" uniqueID="d15a5cac-1e88-4d6e-8700-141b25d37b57">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -2004,7 +2001,7 @@
         <cost name="Cost" value="33000.0" kind=""/>
         <benefit name="Benefit" kind=""/>
         <preConditions>User is signed in.</preConditions>
-        <postConditions>Jurnal Data Available for Medical Professional.</postConditions>
+        <postConditions>Journal Data Available for Medical Professional.</postConditions>
         <longDescription>
           <fragments xsi:type="text:FormattedText" text=""/>
         </longDescription>
@@ -2135,7 +2132,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_CDS" name="Connect to Diagnostics System (A1)" elementKind="SystemUseCase" description="Connection to diagnostics system can be searched through hospital." timeCreated="2015-11-20T14:54:07.478+0100" lastModified="2015-11-26T14:37:32.720+0100" uniqueID="d9820295-011c-4b5f-900c-ea15524f3adf" workPackage="" parameter="Key words" trigger="-" outcome="-" result="-">
+      <contents xsi:type="usecase_1:Usecase" label="UC_CDS" name="Connect to Diagnostics System (A1)" elementKind="SystemUseCase" description="Connection to diagnostics system can be searched through hospital UI." timeCreated="2015-11-20T14:54:07.478+0100" lastModified="2015-11-26T17:52:23.837+0100" uniqueID="d9820295-011c-4b5f-900c-ea15524f3adf" workPackage="" parameter="Key words" trigger="-" outcome="-" result="-">
         <creator name="" timeCreated="2015-11-23T22:12:52.934+0100" uniqueID="bdd68e3b-60b8-4482-bc2c-23b4da5ea272">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -2304,7 +2301,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_PEU" name="Precent Emergancy UI" elementKind="SystemUseCase" description="Precentating emergency ui in ER or EMTV UI." timeCreated="2015-11-20T15:54:53.982+0100" lastModified="2015-11-26T14:01:45.903+0100" uniqueID="b27c0001-b012-4080-ba49-3b5b5ef3db8f" workPackage="" parameter="-" trigger="-" outcome="-" result="Interface shown">
+      <contents xsi:type="usecase_1:Usecase" label="UC_PEU" name="Present Emergency UI" elementKind="SystemUseCase" description="Presenting emergency UI in ER or EMT UI." timeCreated="2015-11-20T15:54:53.982+0100" lastModified="2015-11-26T17:53:56.399+0100" uniqueID="b27c0001-b012-4080-ba49-3b5b5ef3db8f" workPackage="" parameter="-" trigger="-" outcome="-" result="Interface shown">
         <creator name="" timeCreated="2015-11-24T10:15:26.028+0100" uniqueID="3b0d6f93-d5e3-4f69-b631-fea5fc3ac1b7">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -2378,7 +2375,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_PHU" name="Precent Hospital UI" elementKind="SystemUseCase" description="Precentating hospital ui in hospital UI." timeCreated="2015-11-20T15:55:28.141+0100" lastModified="2015-11-26T14:05:45.005+0100" uniqueID="406e1413-5acf-4137-8c5f-fa72e25ba1d1" workPackage="" parameter="-" trigger="-" outcome="-" result="Interface is shown">
+      <contents xsi:type="usecase_1:Usecase" label="UC_PHU" name="Present Hospital UI" elementKind="SystemUseCase" description="Presenting hospital UI." timeCreated="2015-11-20T15:55:28.141+0100" lastModified="2015-11-26T17:54:20.610+0100" uniqueID="406e1413-5acf-4137-8c5f-fa72e25ba1d1" workPackage="" parameter="-" trigger="-" outcome="-" result="Interface is shown">
         <creator name="" timeCreated="2015-11-24T13:59:30.513+0100" uniqueID="2967310d-44ac-43e8-8bd8-2bba54b9f34d">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
