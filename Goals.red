@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:goal_1="dk.dtu.imm.red.visualmodeling.visualmodel.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-26T11:23:42.288+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assumption="dk.dtu.imm.red.specificationelements.assumption" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:goal_1="dk.dtu.imm.red.visualmodeling.visualmodel.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-26T13:59:03.134+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
   <creator name="" timeCreated="2015-10-09T15:12:51.753+0200" uniqueID="d9b978f0-3f5c-4a36-9a3b-dd781ad5a814" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-11-25T15:42:28.868+0100" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
+  <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-11-26T13:59:03.128+0100" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Motives &amp; Stakes" timeCreated="2015-11-12T09:59:05.061+0100" lastModified="2015-11-19T09:14:21.454+0100" uniqueID="c7b842ef-1de5-406d-a3ba-6aad3bf8e60b" workPackage="" specialType="Goal">
+    <contents xsi:type="folder:Folder" name="Motives &amp; Stakes" timeCreated="2015-11-12T09:59:05.061+0100" lastModified="2015-11-26T11:37:02.087+0100" uniqueID="c7b842ef-1de5-406d-a3ba-6aad3bf8e60b" workPackage="" specialType="Goal">
       <creator name="" timeCreated="2015-11-12T12:39:02.675+0100" uniqueID="8fc985cd-ec34-4c8d-9fd7-57c1d9584257">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -21,7 +21,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="goal:Goal" label="MSG_IPH" name="Improve Public Healthcare" elementKind="unspecified" description="By creating a system that makes it easier record actions taken in a standardised way regards to a patient, this will allow the system to gather knowledge about EU citizens’ general health. " timeCreated="2015-11-18T23:15:05.036+0100" lastModified="2015-11-19T00:10:30.476+0100" uniqueID="9fd9c820-0b96-4f7d-a104-5dea17d38706" relatedBy="0327b4b7-32cd-49cf-8702-087d7cd0a719 e920dc80-fd75-4d5f-9650-4e983ae05077 ca21cb84-ee79-40b6-89e5-3375abd63f2f 80ccf99d-1f72-47e0-a8e6-6c476424e022" workPackage="">
+      <contents xsi:type="goal:Goal" label="MSG_IPH" name="Improve Public Healthcare" elementKind="unspecified" description="By creating a system that makes it easier to record actions taken in a standardised way in regards to a patient. This will allow the system to gather knowledge about EU citizens’ general health.  " timeCreated="2015-11-18T23:15:05.036+0100" lastModified="2015-11-26T11:37:02.087+0100" uniqueID="9fd9c820-0b96-4f7d-a104-5dea17d38706" relatedBy="0327b4b7-32cd-49cf-8702-087d7cd0a719 e920dc80-fd75-4d5f-9650-4e983ae05077 ca21cb84-ee79-40b6-89e5-3375abd63f2f 80ccf99d-1f72-47e0-a8e6-6c476424e022" workPackage="">
         <creator name="" timeCreated="2015-11-18T23:15:05.036+0100" uniqueID="919230eb-8f13-4805-bba4-28784e753318" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -59,11 +59,11 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;TEXT-ALIGN: justify; MARGIN: 0in 0in 8pt&quot;>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>&lt;FONT size=3>&lt;FONT face=Calibri>We want to create a system, be it for emergancy or longterm treatment,&amp;nbsp;that that makes it easier for medical personal to record their actions taken, the theory is that by making it easier it is more likely to get done under the title of “Make it easy to do it right”.&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;&#xA;&lt;P class=MsoNormal style=&quot;TEXT-ALIGN: justify; MARGIN: 0in 0in 8pt&quot;>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>&lt;FONT size=3 face=Calibri>On this basis of an assumption that grater knowledge with easy access for medical professionals&amp;nbsp;will also result in better public health, this system would transcend into better public health.&lt;/FONT>&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;TEXT-ALIGN: justify; MARGIN: 0in 0in 8pt&quot;>&lt;span lang=&quot;EN-GB&quot; style=&quot;mso-ansi-language: EN-GB&quot;>&lt;font size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot;>We want to create a system, whether it is for emergency treatment or long term treatment, that makes it easier for medical personnel to record their actions taken. The theory is that by making it easier it is more likely to get it done.&lt;o:p>&lt;/o:p>&lt;/font>&lt;/font>&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot; style=&quot;TEXT-ALIGN: justify; MARGIN: 0in 0in 8pt&quot;>&lt;span lang=&quot;EN-GB&quot; style=&quot;mso-ansi-language: EN-GB&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>On this basis of the assumption, that greater knowledge with easy access for medical professionals&amp;nbsp;will also result in better public health, this system would contribute to better public health.&lt;/font>&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Strategic Goals" timeCreated="2015-11-12T10:00:21.140+0100" lastModified="2015-11-25T15:42:28.868+0100" uniqueID="54336770-a7f5-4299-b07c-8a0442d50018" workPackage="" specialType="Goal">
+    <contents xsi:type="folder:Folder" name="Strategic Goals" timeCreated="2015-11-12T10:00:21.140+0100" lastModified="2015-11-26T12:39:10.927+0100" uniqueID="54336770-a7f5-4299-b07c-8a0442d50018" workPackage="" specialType="Goal">
       <creator name="" timeCreated="2015-11-12T12:39:02.472+0100" uniqueID="752626b6-2dd3-444a-85c3-e2e8998e165e">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -75,7 +75,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="goal:Goal" label="SG_C" name="Confidentiallity" elementKind="Strategic" description="To keep citizens medical information confidential" timeCreated="2015-11-12T13:09:16.633+0100" lastModified="2015-11-25T12:35:12.401+0100" uniqueID="8163798c-e3a4-4779-8c12-3a07240bffa5" workPackage="">
+      <contents xsi:type="goal:Goal" label="SG_C" name="Confidentiallity" elementKind="Strategic" description="To keep citizens' medical information confidential." timeCreated="2015-11-12T13:09:16.633+0100" lastModified="2015-11-26T11:43:49.081+0100" uniqueID="8163798c-e3a4-4779-8c12-3a07240bffa5" workPackage="">
         <creator name="" timeCreated="2015-11-12T13:09:16.633+0100" uniqueID="ce45c60d-c776-42fa-9248-e37375de02d1" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -105,10 +105,10 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 8pt&quot;>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>&lt;FONT size=3 face=Calibri>Access to data has to be restricted in such a way that no one has access to data not crucial to their position in the medical community and no people outside of the patient and the ones treating him/her should have access to the data in such a way that a patient can be identified (medical data should be accessible to researchers but without unique identifiers that make it possible to identify the patient)&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 8pt&quot;>&lt;span lang=&quot;EN-GB&quot; style=&quot;mso-ansi-language: EN-GB&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Access to data has to be restricted in such a way that no one has access to data not crucial to their position in the medical community. Additionally no people, beside the patient and the ones treating him/her, should have access to the data in such a way that a patient can be identified.&amp;nbsp;&lt;/font>&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 8pt&quot;>&lt;span lang=&quot;EN-GB&quot; style=&quot;mso-ansi-language: EN-GB&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Medical data could be accessible to researchers, but without unique identifiers which makes it possible to identify the patient.&lt;/font>&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="SG_E" name="Effectivize" elementKind="Strategic" partOf="9fd9c820-0b96-4f7d-a104-5dea17d38706" description="To effectivize the health care sector" timeCreated="2015-10-24T01:19:10.281+0200" lastModified="2015-11-25T15:42:01.251+0100" uniqueID="9854ded3-0d77-41d5-b37e-5f7a0cdcfbb2" workPackage="">
+      <contents xsi:type="goal:Goal" label="SG_E" name="Effectivize" elementKind="Strategic" partOf="9fd9c820-0b96-4f7d-a104-5dea17d38706" description="To effectivize the health care sector." timeCreated="2015-10-24T01:19:10.281+0200" lastModified="2015-11-26T11:49:20.156+0100" uniqueID="9854ded3-0d77-41d5-b37e-5f7a0cdcfbb2" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:19:10.281+0200" uniqueID="1d165b32-4ff3-4c40-8b80-f0f94095f33a" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -145,10 +145,10 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt; tab-stops: 141.65pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT face=Calibri>&lt;FONT size=3>Effectivizing the workflow in the health sector by simplifying the data entering and notetaking. Everything pertaining to the treatment of the patient needs to be written down, recorded, and entered in the patients journal. &lt;/FONT>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&lt;FONT size=3>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/FONT>&lt;/SPAN>&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt; tab-stops: 141.65pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font face=&quot;Calibri&quot;>&lt;font size=&quot;3&quot;>Effectivize workflow in the health sector by simplifying data collection and notetaking.&amp;nbsp;&lt;/font>&lt;/font>&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt; tab-stops: 141.65pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font face=&quot;Calibri&quot;>&lt;font size=&quot;3&quot;>Everything pertaining to the treatment of the patient needs to be written down, recorded, and entered in the patients journal. Time spent logging detracts from time spent treating patients.&lt;/font>&lt;/font>&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="SG_EA" name="Easy Access" elementKind="Strategic" description="To provide medical professionals access to medical data." timeCreated="2015-10-24T01:40:08.134+0200" lastModified="2015-11-25T15:41:32.480+0100" uniqueID="09c06226-556b-47e1-a8c4-ef7787a22daa" workPackage="">
+      <contents xsi:type="goal:Goal" label="SG_EA" name="Easy Access" elementKind="Strategic" description="To provide medical professionals access to medical data." timeCreated="2015-10-24T01:40:08.134+0200" lastModified="2015-11-26T12:00:13.784+0100" uniqueID="09c06226-556b-47e1-a8c4-ef7787a22daa" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:40:08.134+0200" uniqueID="c6598dcf-e29c-43ab-ac2a-db72f2cec6c9" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -202,10 +202,10 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>&#xD;&#xA;&lt;P>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>&quot;Knowledge is power&quot; in order for medical professionals&amp;nbsp;to do their job as fast and efficient as possible we need to provide them with all the data they need when they need it in order to treat and diagnose their patients.&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>&lt;/SPAN>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;span lang=&quot;EN-GB&quot; style=&quot;mso-ansi-language: EN-GB&quot;>&lt;p>&lt;span style=&quot;font-size: 10pt;&quot;>Easy access to medical data used when treating patients. Allowing data to be easily accessible would allow medical professionals to concentrate on treating patients.&lt;/span>&lt;/p>&lt;/span>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="SG_H" name="Health" elementKind="Strategic" description="To improve the health of citizens" timeCreated="2015-10-24T01:01:51.614+0200" lastModified="2015-11-25T15:42:17.143+0100" uniqueID="aac7dfaa-7325-457b-aa33-da76341f6a6b" workPackage="">
+      <contents xsi:type="goal:Goal" label="SG_H" name="Health" elementKind="Strategic" description="To improve the health of citizens." timeCreated="2015-10-24T01:01:51.614+0200" lastModified="2015-11-26T12:39:10.927+0100" uniqueID="aac7dfaa-7325-457b-aa33-da76341f6a6b" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:01:51.614+0200" uniqueID="3a23cda1-db18-4bb0-ac47-7e6e9eafc75a" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -229,6 +229,10 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
         </relatesTo>
+        <relatesTo xsi:type="relationship:DependencyRelationship" timeCreated="2015-11-26T12:16:42.287+0100" uniqueID="6a165d57-b2d9-4e76-8f2c-99f7a882f4b7" toElement="ba502be8-7dba-4297-8366-80d4e9f4eb23">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </relatesTo>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#0b8961f3-b426-45d2-9711-9c0c1bcb3b26"/>
         <relatedBy xsi:type="relationship:RationaleRelationship" href="Requirements.red#5863e96a-5f2f-4567-aa1c-5f3f88488c38"/>
         <changeList/>
@@ -239,10 +243,10 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>The health of citizens is a very important issue for most governments, since improving the general health of the population reduces the overall healthcare cost, and improves the country's productivity. Making sure that every healthcare provider has all the pertinent information about the patient helps ensuring that health care providers does not overlook anything that could negatively affect the patients health. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>The health of citizens is a very important issue for most governments, since improving the general health of the population reduces the overall health care cost, and improves the country's productivity. Making sure that every health care provider has all the pertinent information about the patient helps ensuring that health care providers do not overlook anything which could negatively affect the patients' health. &lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="SG_NV" name="National variance" elementKind="Strategic" description="Member countries can adjust the system according to local requirements" timeCreated="2015-10-24T01:35:29.457+0200" lastModified="2015-11-25T15:42:28.868+0100" uniqueID="07dff0e5-2286-4a76-82c1-be341ceb9bae" workPackage="">
+      <contents xsi:type="goal:Goal" label="SG_NV" name="National variance" elementKind="Strategic" description="Member countries can adjust the system according to local requirements" timeCreated="2015-10-24T01:35:29.457+0200" lastModified="2015-11-26T12:39:10.760+0100" uniqueID="07dff0e5-2286-4a76-82c1-be341ceb9bae" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:35:29.457+0200" uniqueID="2d2ecd41-1fce-4a15-b3a2-3bc8f6be2607" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -279,15 +283,31 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Since the health care systems of the different member countries are not standardized, the system needs to be customizable for the different health departments, within the overall boundaries of the system. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Since the health care systems of the different member countries are not standardized, the system needs to be customizable for the different health departments, within the overall boundaries of the system. &lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
       <contents xsi:type="folder:Folder" name="old" timeCreated="2015-11-18T23:15:14.670+0100" lastModified="2015-11-19T09:14:24.490+0100" uniqueID="19f84f2c-d015-4905-b596-4596a795d5c7">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </contents>
+      <contents xsi:type="assumption:Assumption" label="A_GH" name="Health Important for Governments" elementKind="unspecified" description="Public health is a concern for governments." timeCreated="2015-11-26T12:12:38.818+0100" lastModified="2015-11-26T12:16:12.884+0100" uniqueID="ba502be8-7dba-4297-8366-80d4e9f4eb23" relatedBy="6a165d57-b2d9-4e76-8f2c-99f7a882f4b7" workPackage="">
+        <creator name="" timeCreated="2015-11-26T12:12:38.818+0100" uniqueID="54e2a3ab-fe0a-4c51-88f7-127611e61890" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-26T12:16:12.881+0100" uniqueID="2227d927-dcf6-4afa-99f6-9741b222a6c3">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <assumptionText>
+          <fragments xsi:type="text:FormattedText" text="We assume public health is a concern for governments.&lt;div>&lt;br>&lt;/div>&lt;div>The basis of that assumptions is, that there is a lot of expenses for the country when citizens fall ill, such as loss on investments in the citizens education when he is no longer able to work.&lt;/div>"/>
+        </assumptionText>
+      </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Business" timeCreated="2015-11-12T10:02:30.095+0100" lastModified="2015-11-25T15:40:27.730+0100" uniqueID="f705d65f-9d19-4579-9342-2f3b76ed5864" workPackage="" specialType="Goal">
+    <contents xsi:type="folder:Folder" name="Business" timeCreated="2015-11-12T10:02:30.095+0100" lastModified="2015-11-26T13:49:55.227+0100" uniqueID="f705d65f-9d19-4579-9342-2f3b76ed5864" workPackage="" specialType="Goal">
       <creator name="" timeCreated="2015-11-12T12:50:12.416+0100" uniqueID="7e4f0142-e553-4f3b-9d77-687c1e30dd62">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -299,7 +319,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="goal:Goal" label="BG_DS" name="Data Security" elementKind="Business" description="To create a secure system that protects the privacy/integrity of citizens private medical records" timeCreated="2015-10-24T01:39:15.645+0200" lastModified="2015-11-25T15:34:00.617+0100" uniqueID="5922f410-01ce-4dde-b69a-444e9e1613ea" workPackage="">
+      <contents xsi:type="goal:Goal" label="BG_DS" name="Data Security" elementKind="Business" description="To create a secure system that protects the privacy/integrity of citizens private medical records" timeCreated="2015-10-24T01:39:15.645+0200" lastModified="2015-11-26T12:49:55.229+0100" uniqueID="5922f410-01ce-4dde-b69a-444e9e1613ea" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:39:15.645+0200" uniqueID="339eaacf-2c8a-4409-944c-f5202d039d23" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -345,10 +365,10 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Only authorized users can have access to the data which means that the system must be protected from illicit outside access as well as from unauthorized users within the system. This means that the transmission of data between the system and the central databases must be protected. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Only authorized users can have access to the data which means that the system must be protected from outside access as well as from unauthorized users within the system. The system should be resistant to attacks that alters, destroys, prohibits access to or reveals data. This means that the e.g. transmission of data between the system and the central databases must be protected.&amp;nbsp;&lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="BG_JS" name="Job satisfaction" elementKind="Business" description="To increase job satisfaction" timeCreated="2015-10-24T01:28:34.884+0200" lastModified="2015-11-25T15:34:08.107+0100" uniqueID="47bd8b54-c99b-4bfc-ad87-7909f435b59b" workPackage="">
+      <contents xsi:type="goal:Goal" label="BG_JS" name="Job satisfaction" elementKind="Business" description="To increase job satisfaction" timeCreated="2015-10-24T01:28:34.884+0200" lastModified="2015-11-26T12:59:55.498+0100" uniqueID="47bd8b54-c99b-4bfc-ad87-7909f435b59b" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:28:34.884+0200" uniqueID="ad43eb89-9639-4fe5-b446-678222b7bf24" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -381,10 +401,10 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Ensuring that job satisfaction is not negatively affected is an important part of any project, since it will negatively affect productivity and acceptance of the new system. This means that the system must not make their job more difficult, nor introduce steps and procedures that seems irrelevant and a waste of time. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Ensuring that job satisfaction is not negatively affected is an important part of any project, since it will negatively affect productivity and acceptance of the new system. This means that the system must not make their job more difficult, nor introduce steps and procedures that seems irrelevant and a waste of time. &lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="BG_MSP" name="Staff perfomance" elementKind="Business" description="To increase medical staff perfomance" timeCreated="2015-10-24T01:27:56.155+0200" lastModified="2015-11-25T12:34:53.671+0100" uniqueID="2fa702c7-7530-4eb4-b385-72d805145e4a" workPackage="">
+      <contents xsi:type="goal:Goal" label="BG_MSP" name="Staff perfomance" elementKind="Business" description="To increase medical staff perfomance." timeCreated="2015-10-24T01:27:56.155+0200" lastModified="2015-11-26T12:59:55.391+0100" uniqueID="2fa702c7-7530-4eb4-b385-72d805145e4a" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:27:56.155+0200" uniqueID="fbe4bf79-dc2b-44cb-8e62-d37aa0f06b6f" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -421,10 +441,10 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Increasing staff performance will allow a higher throughput of patients, or alternatively, give the medical staff more time to treat the individual patients. Ensuring that staff performance is at the highest possible level thus increases the overall productivity. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Increasing staff performance will allow a higher throughput of patients, or alternatively, give the medical staff more time to treat the individual patients. Ensuring that staff performance is at the highest possible level thus increases the overall productivity. &lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="BG_A" name="Administration" elementKind="Business" description="To improve administration of hospitals" timeCreated="2015-10-24T01:24:09.804+0200" lastModified="2015-11-25T15:34:15.012+0100" uniqueID="9b83e23c-0908-4b8f-bbd4-81dc74222f6a" workPackage="">
+      <contents xsi:type="goal:Goal" label="BG_A" name="Administration" elementKind="Business" description="To improve administration of hospitals." timeCreated="2015-10-24T01:24:09.804+0200" lastModified="2015-11-26T13:17:42.165+0100" uniqueID="9b83e23c-0908-4b8f-bbd4-81dc74222f6a" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:24:09.804+0200" uniqueID="85911bde-7fa2-4a88-9b14-170d43e77bab" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -466,7 +486,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Administration creates overhead, and thus decreases both efficiency and job satisfaction. Keeping all information about a patient together, helps eliminate some of the administrative overhead, and easing the data entry does as well. accountability&lt;/FONT>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Administration creates overhead, and thus decreases both efficiency and job satisfaction. Keeping all information about a patient together, helps eliminate some of the administrative overhead, and easing the data entry does as well.&lt;/font>&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>As part of administration, all work regarding patient treatment must be traceable.&lt;/font>&lt;/p>"/>
         </explanation>
       </contents>
       <contents xsi:type="goal:Goal" label="BG_WP" name="Work processes" elementKind="unspecified" description="To standardize work processes within hospitals across the EU" timeCreated="2015-10-24T01:08:25.095+0200" lastModified="2015-11-25T15:37:29.975+0100" uniqueID="fea62063-22ea-473a-b954-75a68f1d161c" workPackage="">
@@ -564,7 +584,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Since patients medical data is private, they will want to be able to control who gets access to this. This means that information that is not relevant to the current treatment can be kept confidential, and the patient does not need to give access to their whole medical history in order to get treatment for e.g. a broken leg. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="BG_D" name="Documentation" elementKind="Business" description="To create better documentation techniques for patients" timeCreated="2015-10-24T01:02:31.537+0200" lastModified="2015-11-25T15:40:27.730+0100" uniqueID="def818e3-8c05-441d-a0c3-43769cd3c253" workPackage="">
+      <contents xsi:type="goal:Goal" label="BG_D" name="Documentation" elementKind="Business" description="To create better documentation techniques for patients" timeCreated="2015-10-24T01:02:31.537+0200" lastModified="2015-11-26T13:49:55.227+0100" uniqueID="def818e3-8c05-441d-a0c3-43769cd3c253" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:02:31.537+0200" uniqueID="06b2460b-40d7-4905-8b44-6f3e12c62bbc" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -607,11 +627,11 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>It is very important for the correct treatment of patients, that the hospital staff has access to all pertinent information about the patient. This information may not have originated in the hospital, but could have come from the patients' GP or the EMT. Making sure that this is all documented and gathered in one place, namely the electronic journal system, makes sure that everyone has the correct information when it comes to treating the patient and dispensing medicine. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>It is very important for the correct treatment of patients, that the hospital staff has access to all pertinent information about the patient. This information may not have originated in the hospital, but could have come from the patients' GP or the EMT. Making sure that this is all documented and gathered in one place, namely the electronic journal system, makes sure that everyone has the correct information when it comes to treating the patient and dispensing medicine. &lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Solution" timeCreated="2015-11-12T10:09:30.968+0100" lastModified="2015-11-25T15:33:33.097+0100" uniqueID="a4ec8330-15b1-46fe-955c-f92bff343e70" workPackage="" specialType="Goal">
+    <contents xsi:type="folder:Folder" name="Solution" timeCreated="2015-11-12T10:09:30.968+0100" lastModified="2015-11-26T13:59:03.128+0100" uniqueID="a4ec8330-15b1-46fe-955c-f92bff343e70" workPackage="" specialType="Goal">
       <creator name="" timeCreated="2015-11-12T12:55:44.869+0100" uniqueID="9a0e4ffc-c34e-4793-ac31-e1490692d79e">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -660,7 +680,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Encrypting data, both when transmitting and when storing it, ensures that an attacker cannot gain access to private medical data. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="SOG_DR" name="Data registration" elementKind="Solution" description="To create a fast method of registering data" timeCreated="2015-10-24T01:42:32.925+0200" lastModified="2015-11-25T15:30:58.811+0100" uniqueID="157d8a92-d78d-4add-8fdb-1a245becef6f" workPackage="">
+      <contents xsi:type="goal:Goal" label="SOG_DR" name="Data registration" elementKind="Solution" description="To create a fast method of registering data" timeCreated="2015-10-24T01:42:32.925+0200" lastModified="2015-11-26T13:59:03.128+0100" uniqueID="157d8a92-d78d-4add-8fdb-1a245becef6f" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:42:32.925+0200" uniqueID="9b925925-c0df-474e-a13a-b2b3cb2fe526" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -701,7 +721,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT face=Calibri>&lt;FONT size=3>Data registration must be fast and easy,&lt;/FONT>&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&lt;FONT size=3>&amp;nbsp; &lt;/FONT>&lt;/SPAN>&lt;FONT size=3>so it does not impede the work flow of the medical staff. If this is not the case, it will impede the overall effectiveness of the hospital, or the medical staff will find workarounds that&lt;/FONT>&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&lt;FONT size=3>&amp;nbsp; &lt;/FONT>&lt;/SPAN>&lt;FONT size=3>are undesirable. &lt;/FONT>&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font face=&quot;Calibri&quot;>&lt;font size=&quot;3&quot;>Data registration must be fast and easy,&lt;/font>&lt;span style=&quot;mso-spacerun: yes&quot;>&lt;font size=&quot;3&quot;>&amp;nbsp; &lt;/font>&lt;/span>&lt;font size=&quot;3&quot;>so it does not impede the work flow of the medical staff. If this is not the case, it will impede the overall effectiveness of the hospital, or the medical staff will find workarounds that&lt;/font>&lt;span style=&quot;mso-spacerun: yes&quot;>&lt;font size=&quot;3&quot;>&amp;nbsp;&lt;/font>&lt;/span>&lt;font size=&quot;3&quot;>are undesirable. &lt;/font>&lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
       <contents xsi:type="goal:Goal" label="SOG_I" name="Information" elementKind="Solution" description="To create an intuitive way of finding the necessary information to apply treatment" timeCreated="2015-10-24T01:41:33.430+0200" lastModified="2015-11-25T15:31:58.609+0100" uniqueID="c28c1a30-19ad-40ec-87d6-4ba4a1ae82b4" workPackage="">
@@ -761,7 +781,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT face=Calibri>&lt;FONT size=3>Especially in the case of emergency responders, the patients information must be easily accessible, so the treatment is not delayed. &lt;/FONT>&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&lt;FONT size=3>&amp;nbsp;&lt;/FONT>&lt;/SPAN>&lt;FONT size=3>This is less critical in the case of non-emergency hospital treatment, but it would still effect the productivity and job satisfaction of the staff negatively, if they have to spend a long time searching for the information they need. &lt;/FONT>&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="SOG_UI" name="UI Structure" elementKind="Solution" description="To create user group specific user interfaces" timeCreated="2015-10-24T01:40:53.879+0200" lastModified="2015-11-25T15:32:30.175+0100" uniqueID="d808903e-aeb4-4281-83a7-dc92f341b27c" workPackage="">
+      <contents xsi:type="goal:Goal" label="SOG_UI" name="UI Structure" elementKind="Solution" description="To create user group specific user interfaces" timeCreated="2015-10-24T01:40:53.879+0200" lastModified="2015-11-26T13:59:03.023+0100" uniqueID="d808903e-aeb4-4281-83a7-dc92f341b27c" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:40:53.879+0200" uniqueID="36144bc9-aba0-4304-a201-9674d0659130" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -813,7 +833,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Different UI interfaces for different users means that information that is irrelevant for a specific user group need not be shown, and thus keep from cluttering up the screen. The same applies to treatments and other inputs a user is not authorized to execute. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Different UI interfaces for different users means that information which is irrelevant for a specific user group does not need to be shown, and thus keep from cluttering up the screen. The same applies to treatments and other inputs a user is not authorized to execute. Member country legislation can also influence what kind of information the system is allowed to present.&lt;/font>&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
       <contents xsi:type="goal:Goal" label="SOG_P" name="Privacy" elementKind="Solution" description="To ensure private information is kept private i.e. only people authorized to read are allowed to do so." timeCreated="2015-11-01T19:09:28.773+0100" lastModified="2015-11-25T15:32:40.584+0100" uniqueID="6ba27452-3f07-4b69-8269-9bb223e21076" workPackage="">
@@ -859,7 +879,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Since the patient might not have given general access to his or her journal data, this data should not be accessible to anybody who happens to find a terminal. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="SOG_AT" name="Accurate treatment" elementKind="Solution" description="To receive better, faster, and more accurate treatment" timeCreated="2015-10-24T01:34:06.891+0200" lastModified="2015-11-25T15:32:49.945+0100" uniqueID="51f9b89d-dfb1-42e2-b326-aea801d1e1ee" workPackage="">
+      <contents xsi:type="goal:Goal" label="SOG_AT" name="Accurate treatment" elementKind="Solution" description="To receive better, faster, and more accurate treatment" timeCreated="2015-10-24T01:34:06.891+0200" lastModified="2015-11-26T13:59:02.913+0100" uniqueID="51f9b89d-dfb1-42e2-b326-aea801d1e1ee" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:34:06.891+0200" uniqueID="61fe568f-e279-4280-8b46-8ea59b77e4d1" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -902,10 +922,10 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>The more background medical information the medical staff has access to, the more likely it is that the patient's condition is is diagnosed accurately, and the correct treatment is initiated. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>The more background medical information the medical staff has access to, the more likely it is that the patient's condition is&amp;nbsp;&lt;/font>&lt;span style=&quot;font-family: Calibri; font-size: medium;&quot;>accurately&lt;/span>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>&amp;nbsp;diagnosed, and correct treatment is initiated. &lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="SOG_T" name="Treatment" elementKind="Solution" description="To enable more effective treatment plans" timeCreated="2015-10-24T01:29:22.410+0200" lastModified="2015-11-25T15:33:04.769+0100" uniqueID="b6d63cb4-c8e3-4f0e-9d9e-3c2c4ea9032b" workPackage="">
+      <contents xsi:type="goal:Goal" label="SOG_T" name="Treatment" elementKind="Solution" description="To enable more effective treatment plans" timeCreated="2015-10-24T01:29:22.410+0200" lastModified="2015-11-26T13:59:02.731+0100" uniqueID="b6d63cb4-c8e3-4f0e-9d9e-3c2c4ea9032b" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:29:22.410+0200" uniqueID="b42778e8-99ab-4bba-9bb5-64531da8def4" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -943,7 +963,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <explanation>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT face=Calibri>&lt;FONT size=3>Having an effective treatment plan for a treatment process that might span several different medical specialties, e.g. emergency treatment, general hospital treatment, and the patient's own general practitioner, requires that all medical staff involved has access to the same medical data.&lt;/FONT>&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&lt;FONT size=3>&amp;nbsp; &lt;/FONT>&lt;/SPAN>&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font face=&quot;Calibri&quot;>&lt;font size=&quot;3&quot;>Having an effective treatment plan for a treatment process that might span several different medical specialties, e.g. emergency treatment, general hospital treatment, and the patient's own general practitioner, requires that all medical staff involved has access to the same medical data.&lt;/font>&lt;span style=&quot;mso-spacerun: yes&quot;>&lt;font size=&quot;3&quot;>&amp;nbsp; &lt;/font>&lt;/span>&lt;/font>&lt;!--?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; /-->&lt;o:p>&lt;/o:p>&lt;/span>&lt;/p>"/>
         </explanation>
       </contents>
       <contents xsi:type="goal:Goal" label="SOG_A" name="Access" elementKind="Solution" description="To grant easier access to information" timeCreated="2015-10-24T01:26:27.983+0200" lastModified="2015-11-25T15:33:33.097+0100" uniqueID="4e0487d7-e93b-481b-b501-3da3c417c2d8" workPackage="">
