@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-26T14:08:23.530+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" label="" name="Requirements.red" elementKind="unspecified" description="" timeCreated="2015-10-20T10:06:51.100+0200" lastModified="2015-11-26T14:39:22.921+0100" uniqueID="860524c9-2ceb-40fd-b393-c4295419b81b" workPackage="">
   <creator name="" timeCreated="2015-10-20T10:06:51.100+0200" uniqueID="e21ef682-4a97-4e1c-a80c-f7fb294722b7" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -11,7 +11,7 @@
   </responsibleUser>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Requirements" timeCreated="2015-10-20T10:07:56.811+0200" lastModified="2015-11-26T14:08:23.140+0100" uniqueID="9b37a63d-c3f5-4fd8-9b28-375c66616b72" workPackage="" specialType="Requirement">
+  <contents xsi:type="folder:Folder" name="Requirements" timeCreated="2015-10-20T10:07:56.811+0200" lastModified="2015-11-26T14:39:22.764+0100" uniqueID="9b37a63d-c3f5-4fd8-9b28-375c66616b72" workPackage="" specialType="Requirement">
     <creator name="" timeCreated="2015-10-25T23:00:10.566+0100" uniqueID="145b6f22-07ef-41c0-817f-317743a53440">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -23,7 +23,7 @@
     </responsibleUser>
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Functional" timeCreated="2015-10-25T23:12:27.105+0100" lastModified="2015-11-26T13:58:13.648+0100" uniqueID="4b15b546-a025-4e71-a10a-efb1c5f23344" workPackage="" specialType="Requirement">
+    <contents xsi:type="folder:Folder" name="Functional" timeCreated="2015-10-25T23:12:27.105+0100" lastModified="2015-11-26T14:37:02.756+0100" uniqueID="4b15b546-a025-4e71-a10a-efb1c5f23344" workPackage="" specialType="Requirement">
       <creator name="" timeCreated="2015-10-25T23:17:38.435+0100" uniqueID="2139225d-5bf8-4538-8a01-3a585c1005d3">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -783,8 +783,71 @@
           <fragments xsi:type="text:FormattedText" text=""/>
         </remarks>
       </contents>
+      <contents xsi:type="requirement:Requirement" label="F_DS" name="Diagnostic System" elementKind="unspecified" description="A connection to the diagnostic systems (A1), that enables search from hospital ui." timeCreated="2015-11-26T14:33:36.963+0100" lastModified="2015-11-26T14:37:02.756+0100" uniqueID="feaeada5-f782-4cfc-adc7-51157fc59513" workPackage="" abstractionLevel="" rationaleText="">
+        <creator name="" timeCreated="2015-11-26T14:33:36.963+0100" uniqueID="0df7461a-5c74-4c9c-bbe9-bcb248d28c94" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-26T14:37:02.725+0100" uniqueID="5f59c8bc-9325-4b04-bf23-001e2353ab91">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="goal:Goal" href="Goals.red#9fd9c820-0b96-4f7d-a104-5dea17d38706"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-26T14:37:02.725+0100" uniqueID="2473b960-e78c-420b-a0f7-9d451064e860">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="goal:Goal" href="Goals.red#9854ded3-0d77-41d5-b37e-5f7a0cdcfbb2"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-26T14:37:02.741+0100" uniqueID="31117b20-92d8-4ebc-9405-30376f1cf7bc">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="goal:Goal" href="Goals.red#09c06226-556b-47e1-a8c4-ef7787a22daa"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-26T14:37:02.741+0100" uniqueID="c673c55f-c901-4ba9-87ea-8e9500013645">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="goal:Goal" href="Goals.red#def818e3-8c05-441d-a0c3-43769cd3c253"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-26T14:37:02.741+0100" uniqueID="5547097c-d790-4afa-8aef-fdecfc83bc77">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="goal:Goal" href="Goals.red#c28c1a30-19ad-40ec-87d6-4ba4a1ae82b4"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-26T14:37:02.741+0100" uniqueID="a4356077-ed38-44db-8c0e-5917849e1bac">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="goal:Goal" href="Goals.red#51f9b89d-dfb1-42e2-b326-aea801d1e1ee"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-26T14:37:02.741+0100" uniqueID="750a75bb-4104-4574-b59f-747c1c90c255">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="goal:Goal" href="Goals.red#b6d63cb4-c8e3-4f0e-9d9e-3c2c4ea9032b"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:RationaleRelationship" timeCreated="2015-11-26T14:37:02.741+0100" uniqueID="7193b033-fefc-4d69-ba07-1de1895ad42b">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="goal:Goal" href="Goals.red#4e0487d7-e93b-481b-b501-3da3c417c2d8"/>
+        </relatesTo>
+        <relatedBy xsi:type="relationship:ElementReference" href="Use%20Cases.red#f41ea109-888a-4cf3-bcf6-0ea4c57e2caf"/>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-26T14:34:09.506+0100" uniqueID="3c0e29bd-724c-4aeb-bc74-337e510a7b19">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="A connection to the diagnostic systems (A1), that enables search from hospital ui."/>
+        </longDescription>
+        <details>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </details>
+        <remarks>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </remarks>
+      </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Non-Functional" timeCreated="2015-10-25T23:13:31.849+0100" lastModified="2015-11-26T14:08:23.140+0100" uniqueID="a60da123-8a2c-4ae7-902a-a554c52bffc9" workPackage="" specialType="Requirement">
+    <contents xsi:type="folder:Folder" name="Non-Functional" timeCreated="2015-10-25T23:13:31.849+0100" lastModified="2015-11-26T14:39:22.764+0100" uniqueID="a60da123-8a2c-4ae7-902a-a554c52bffc9" workPackage="" specialType="Requirement">
       <commentlist/>
       <creator name="" timeCreated="2015-10-27T10:38:48.015+0100" uniqueID="b916e31d-2c95-4ed4-8a8d-f0a474fd3cf8">
         <cost name="Cost" kind=""/>
@@ -797,7 +860,7 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="requirement:Requirement" label="NF_S" name="Security" elementKind="unspecified" description="Because the system is using and transferring sensitive personal data between clients and servers, steps should be taken to ensure the security of the data from outside manipulation." timeCreated="2015-10-27T10:33:50.506+0100" lastModified="2015-11-25T15:01:10.088+0100" uniqueID="0c508925-a6e5-4849-81fe-fd516bdc540a" workPackage="" abstractionLevel="Domain" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_S" name="Security" elementKind="unspecified" description="Because the system is using and transferring sensitive personal data between clients and servers, steps should be taken to ensure the security of the data from outside manipulation." timeCreated="2015-10-27T10:33:50.506+0100" lastModified="2015-11-26T14:38:45.265+0100" uniqueID="0c508925-a6e5-4849-81fe-fd516bdc540a" workPackage="" abstractionLevel="Domain" rationaleText="">
         <commentlist/>
         <creator name="" timeCreated="2015-10-29T13:52:42.639+0100" uniqueID="c5a3fb7a-02ec-4e4b-bc81-cddeb6ca8565">
           <cost name="Cost" kind=""/>
@@ -876,7 +939,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>Because the system is using and transferring sensitive personal data between clients and servers, steps should be taken to ensure the security of the data from outside manipulation.&lt;/P>"/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
@@ -1076,7 +1139,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
         </remarks>
       </contents>
-      <contents xsi:type="requirement:Requirement" label="NF_C" name="Confidentiality" elementKind="unspecified" description="Patient journal should only be readable by authorized users." timeCreated="2015-10-27T10:46:51.597+0100" lastModified="2015-11-25T15:06:16.662+0100" uniqueID="2f8d895b-19fc-4c79-8db9-22f080f733fa" workPackage="" abstractionLevel="Process" rationaleText="">
+      <contents xsi:type="requirement:Requirement" label="NF_C" name="Confidentiality" elementKind="unspecified" description="Patient journal should only be readable by authorized users." timeCreated="2015-10-27T10:46:51.597+0100" lastModified="2015-11-26T14:39:22.764+0100" uniqueID="2f8d895b-19fc-4c79-8db9-22f080f733fa" workPackage="" abstractionLevel="Process" rationaleText="">
         <creator name="" timeCreated="2015-10-29T13:53:06.122+0100" uniqueID="d79fd2a2-d508-4480-a147-8127469b78cd">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -1127,7 +1190,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
+          <fragments xsi:type="text:FormattedText" text="Patient journal should only be readable by authorized users."/>
         </longDescription>
         <details>
           <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>

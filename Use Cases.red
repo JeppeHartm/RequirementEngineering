@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-11-26T14:05:45.196+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:requirement="dk.dtu.imm.red.specificationelements.requirement" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Use Cases.red" timeCreated="2015-10-25T23:34:33.747+0100" lastModified="2015-11-26T14:39:22.936+0100" uniqueID="372a3c93-e1f6-4ffe-b833-4bf548fb7e50">
   <creator name="" timeCreated="2015-10-25T23:34:33.747+0100" uniqueID="995552ba-a761-4b48-ab60-a7a6353dc7d6" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-11-26T14:05:45.005+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
+  <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-10-25T23:34:57.799+0100" lastModified="2015-11-26T14:37:32.720+0100" uniqueID="e04a6917-6610-42b3-8eb5-58d887eb6962" workPackage="" specialType="Usecase">
     <creator name="" timeCreated="2015-10-25T23:51:08.678+0100" uniqueID="e4c78e85-1c34-4b1d-8349-8d0acce375c3">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -512,7 +512,7 @@
           <Elements xsi:type="usecase:VisualActorElement" Location="129,612" Bounds="56,92" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.16" visualID="_CV0vgI-REeWwyZ8t4Zb9-A" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#26e38e02-87d5-4b7c-a582-ff22fe3b480e"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="122,435" Bounds="52,92" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.18 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.19" Name="Relatives" visualID="_oNul4JQdEeWDRrcNPCDhHw" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="122,435" Bounds="52,92" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.18 //@contents.0/@contents.1/@contents.0/@VisualDiagram/@DiagramConnections.19" visualID="_oNul4JQdEeWDRrcNPCDhHw" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#bbba8053-b3d6-4a8a-aad7-55d8afd2bc5d"/>
           </Elements>
           <DiagramConnections xsi:type="visualmodel:VisualConnection" Direction="SourceTarget" LineStyle="Dashed" TargetDecoration="ArrowHead" Name="Extend" Type="Extend"/>
@@ -627,7 +627,7 @@
         </VisualDiagram>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Use Case Descriptions" timeCreated="2015-11-03T11:28:59.913+0100" lastModified="2015-11-26T14:05:45.005+0100" uniqueID="4954bdbc-0234-47df-8903-f83f5a4a1ec0" workPackage="" specialType="Usecase">
+    <contents xsi:type="folder:Folder" name="Use Case Descriptions" timeCreated="2015-11-03T11:28:59.913+0100" lastModified="2015-11-26T14:37:32.720+0100" uniqueID="4954bdbc-0234-47df-8903-f83f5a4a1ec0" workPackage="" specialType="Usecase">
       <creator name="" timeCreated="2015-11-23T21:26:28.643+0100" uniqueID="f1b38db3-cb0b-4dde-b731-c3226620c68b">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -2135,7 +2135,7 @@
         <incidence name="Incidence"/>
         <duration name="Duration"/>
       </contents>
-      <contents xsi:type="usecase_1:Usecase" label="UC_CDS" name="Connect to Diagnostics System (A1)" elementKind="SystemUseCase" description="Connection to diagnostics system can be searched through hospital." timeCreated="2015-11-20T14:54:07.478+0100" lastModified="2015-11-25T22:59:55.874+0100" uniqueID="d9820295-011c-4b5f-900c-ea15524f3adf" workPackage="" parameter="Key words" trigger="-" outcome="-" result="-">
+      <contents xsi:type="usecase_1:Usecase" label="UC_CDS" name="Connect to Diagnostics System (A1)" elementKind="SystemUseCase" description="Connection to diagnostics system can be searched through hospital." timeCreated="2015-11-20T14:54:07.478+0100" lastModified="2015-11-26T14:37:32.720+0100" uniqueID="d9820295-011c-4b5f-900c-ea15524f3adf" workPackage="" parameter="Key words" trigger="-" outcome="-" result="-">
         <creator name="" timeCreated="2015-11-23T22:12:52.934+0100" uniqueID="bdd68e3b-60b8-4482-bc2c-23b4da5ea272">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
@@ -2189,6 +2189,11 @@
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
           <toElement xsi:type="requirement:Requirement" href="Requirements.red#ecb10f10-3054-4022-abb5-825e3d6f49c8"/>
+        </relatesTo>
+        <relatesTo xsi:type="relationship:ElementReference" timeCreated="2015-11-26T14:37:32.720+0100" uniqueID="f41ea109-888a-4cf3-bcf6-0ea4c57e2caf" relevance="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+          <toElement xsi:type="requirement:Requirement" href="Requirements.red#feaeada5-f782-4cfc-adc7-51157fc59513"/>
         </relatesTo>
         <changeList/>
         <responsibleUser name="" timeCreated="2015-11-23T22:12:52.934+0100" uniqueID="78095554-6aea-49c2-8630-c1265667e35d">
