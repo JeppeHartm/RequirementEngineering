@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-11-23T21:09:35.342+0100" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:project="dk.dtu.imm.red.core.project" xmlns:text="dk.dtu.imm.red.core.text" name="2A Case.redproject" timeCreated="2015-09-22T10:09:30.158+0200" lastModified="2015-11-26T19:39:04.561+0100" uniqueID="284e3bc4-f3b8-4fee-a56c-bfaa9d064cc9" workPackage="">
   <creator name="" timeCreated="2015-09-22T10:09:30.159+0200" uniqueID="8afaac80-b054-45e3-9053-e1b5e80299b1" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -45,19 +45,9 @@
     <fragments xsi:type="text:FormattedText" text=""/>
   </information>
   <Listofopenedfilesinproject href="EEPR Project.red#3b50cf6d-3145-4e7c-b2e3-9098d65466a9"/>
-  <Listofopenedfilesinproject href="Vision.red#a2503e9c-bd37-41ab-95d4-2fe3c458b0fb"/>
-  <Listofopenedfilesinproject href="Stakeholder.red#7ed63d01-a336-4895-aecf-2f647c3791e8"/>
-  <Listofopenedfilesinproject href="Goals.red#5f089f1c-e823-4035-9d35-b2dceb6033d5"/>
-  <Listofopenedfilesinproject href="Presonas.red#421261d8-31e1-4574-a4ce-409b0ba46e09"/>
-  <Listofopenedfilesinproject href="User%20Stories.red#c4748c91-7a5b-4f9f-b57e-c182f0e4818d"/>
-  <Listofopenedfilesinproject href="Requirements.red#860524c9-2ceb-40fd-b393-c4295419b81b"/>
-  <Listofopenedfilesinproject href="Actors.red#544e7fd8-22ce-4ea7-b020-00309079bbab"/>
-  <Listofopenedfilesinproject href="Use%20Cases.red#372a3c93-e1f6-4ffe-b833-4bf548fb7e50"/>
-  <Listofopenedfilesinproject href="Diagrams.red#9139d8ba-a1a2-4304-bc69-7d1cf119d27d"/>
-  <Listofopenedfilesinproject href="Glossary.red#4f7e72eb-18e3-4892-9ed9-f1dcf54ae8a9"/>
   <Listofopenedfilesinproject href="Might%20not%20be%20used.red#dcf94b46-946f-4068-8e5f-30e6f2b30287"/>
-  <Listofopenedfilesinproject href="Fragments.red#944f2e47-7d02-4581-b0c7-f96904523428"/>
-  <effort timeCreated="2015-11-23T21:09:12.977+0100" uniqueID="83d21357-b311-464b-bb59-36fb915dea84">
+  <Listofopenedfilesinproject href="PPJMedicalInterface.red#a2e75433-c555-4537-aa1b-902f736801b8"/>
+  <effort timeCreated="2015-11-23T21:09:12.977+0100" uniqueID="83d21357-b311-464b-bb59-36fb915dea84" totalCost="73662.5" usecasePoints="3.683125" totalCostManual="330000.0">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <managementFactor timeCreated="2015-11-23T21:09:12.978+0100" uniqueID="1b44a3a0-7ec2-4088-9c57-572d3e4d5c1e">
