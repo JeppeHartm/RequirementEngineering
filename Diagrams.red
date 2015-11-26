@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-10-30T16:38:02.477+0100" lastModified="2015-11-26T11:23:42.472+0100" uniqueID="9139d8ba-a1a2-4304-bc69-7d1cf119d27d">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-10-30T16:38:02.477+0100" lastModified="2015-11-26T14:38:29.838+0100" uniqueID="9139d8ba-a1a2-4304-bc69-7d1cf119d27d">
   <creator name="" timeCreated="2015-10-30T16:38:02.477+0100" uniqueID="dbb5829d-40a3-489b-b354-09da03326f3a" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -130,27 +130,31 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.1/@VisualDiagram" DiagramType="Context">
-        <Elements xsi:type="context:VisualSystem" Location="45,43" Bounds="276,422" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Emergancy Respond Client" visualID="_jvQlgI2FEeWg4YWvV1kZaw">
-          <Elements xsi:type="context:VisualSystem" Location="25,42" Bounds="222,42" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="PPD Reader" visualID="_9AupwI2FEeWg4YWvV1kZaw">
-            <Elements xsi:type="context:VisualPort" Location="0,14" Bounds="30,30" Parent="_9AupwI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" visualID="_vuTz8I6iEeWPHOim6ewYkQ"/>
+        <Elements xsi:type="context:VisualSystem" Location="131,37" Bounds="336,408" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Emergancy Respond Client" visualID="_jvQlgI2FEeWg4YWvV1kZaw">
+          <Elements xsi:type="context:VisualSystem" Location="59,42" Bounds="222,42" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="eHealth Card" visualID="_9AupwI2FEeWg4YWvV1kZaw">
+            <Elements xsi:type="context:VisualPort" Location="0,12" Bounds="32,30" Parent="_9AupwI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.0" Name="Internal port to smart card reader" visualID="_vuTz8I6iEeWPHOim6ewYkQ"/>
           </Elements>
-          <Elements xsi:type="context:VisualSystem" Location="25,142" Bounds="224,42" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Action Recorder" visualID="_JZn5EI2GEeWg4YWvV1kZaw"/>
-          <Elements xsi:type="context:VisualSystem" Location="25,190" Bounds="226,46" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Authenticate User" visualID="_O6VvoI2GEeWg4YWvV1kZaw"/>
-          <Elements xsi:type="context:VisualSystem" Location="25,243" Bounds="226,48" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Call-center Communication" visualID="_tU9oQJPXEeWnKPrklBObzw"/>
-          <Elements xsi:type="context:VisualSystem" Location="25,301" Bounds="228,46" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Handover Communicator" visualID="_5ztA4JPXEeWnKPrklBObzw"/>
-          <Elements xsi:type="context:VisualSystem" Location="25,91" Bounds="222,44" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Display Emergancy UI" visualID="_IfMk8JPYEeWnKPrklBObzw"/>
-          <Elements xsi:type="context:VisualSystem" Location="25,353" Bounds="228,46" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Equipment Interface" visualID="_YTSIwJPYEeWnKPrklBObzw"/>
+          <Elements xsi:type="context:VisualSystem" Location="59,142" Bounds="224,42" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Action Recorder" visualID="_JZn5EI2GEeWg4YWvV1kZaw"/>
+          <Elements xsi:type="context:VisualSystem" Location="59,190" Bounds="226,46" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Authenticate User" visualID="_O6VvoI2GEeWg4YWvV1kZaw"/>
+          <Elements xsi:type="context:VisualSystem" Location="59,243" Bounds="226,48" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Call-center Communication" visualID="_tU9oQJPXEeWnKPrklBObzw"/>
+          <Elements xsi:type="context:VisualSystem" Location="59,301" Bounds="228,46" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Handover Communicator" visualID="_5ztA4JPXEeWnKPrklBObzw"/>
+          <Elements xsi:type="context:VisualSystem" Location="59,91" Bounds="222,44" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Display Emergancy UI" visualID="_IfMk8JPYEeWnKPrklBObzw">
+            <Elements xsi:type="context:VisualPort" Location="192,0" Bounds="30,30" Parent="_IfMk8JPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" visualID="_eZGqUJRCEeWx-fcYjWBaxA"/>
+          </Elements>
+          <Elements xsi:type="context:VisualSystem" Location="59,353" Bounds="228,46" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Equipment Interface" visualID="_YTSIwJPYEeWnKPrklBObzw"/>
+          <Elements xsi:type="context:VisualPort" Location="0,53" Bounds="30,30" Parent="_jvQlgI2FEeWg4YWvV1kZaw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" visualID="_vg7jYJRBEeWx-fcYjWBaxA"/>
         </Elements>
-        <Elements xsi:type="context:VisualSystem" Location="45,472" Bounds="276,519" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Hospital Portal" visualID="_vs-MAJPYEeWnKPrklBObzw">
-          <Elements xsi:type="context:VisualSystem" Location="26,37" Bounds="226,46" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="PPD Reader" visualID="_U2wCwJQgEeWx-fcYjWBaxA"/>
-          <Elements xsi:type="context:VisualSystem" Location="26,96" Bounds="226,48" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Display Hospital UI" visualID="_v39e8JQjEeWx-fcYjWBaxA"/>
-          <Elements xsi:type="context:VisualSystem" Location="26,154" Bounds="226,44" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Action Recorder" visualID="__lLlwJQjEeWx-fcYjWBaxA"/>
-          <Elements xsi:type="context:VisualSystem" Location="26,208" Bounds="224,46" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Authenticate User" visualID="_elauMJQlEeWx-fcYjWBaxA"/>
-          <Elements xsi:type="context:VisualSystem" Location="26,262" Bounds="226,42" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Equipment Interface" visualID="_9AGH8JQlEeWx-fcYjWBaxA"/>
-          <Elements xsi:type="context:VisualSystem" Location="26,314" Bounds="226,52" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Transport Comunicator" visualID="_N_5Q8JQmEeWx-fcYjWBaxA"/>
-          <Elements xsi:type="context:VisualSystem" Location="26,378" Bounds="226,54" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Diagnostics System Comunicator" visualID="_XlerIJQmEeWx-fcYjWBaxA"/>
-          <Elements xsi:type="context:VisualSystem" Location="26,441" Bounds="226,58" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Patient Jurnal System Communicator" visualID="_6qpeEJQmEeWx-fcYjWBaxA"/>
+        <Elements xsi:type="context:VisualSystem" Location="131,464" Bounds="336,519" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Hospital Portal" visualID="_vs-MAJPYEeWnKPrklBObzw">
+          <Elements xsi:type="context:VisualSystem" Location="58,37" Bounds="226,46" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="eHealth Card" visualID="_U2wCwJQgEeWx-fcYjWBaxA"/>
+          <Elements xsi:type="context:VisualSystem" Location="58,96" Bounds="226,48" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Display Hospital UI" visualID="_v39e8JQjEeWx-fcYjWBaxA"/>
+          <Elements xsi:type="context:VisualSystem" Location="58,154" Bounds="226,44" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Action Recorder" visualID="__lLlwJQjEeWx-fcYjWBaxA"/>
+          <Elements xsi:type="context:VisualSystem" Location="58,208" Bounds="224,46" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Authenticate User" visualID="_elauMJQlEeWx-fcYjWBaxA"/>
+          <Elements xsi:type="context:VisualSystem" Location="58,262" Bounds="226,42" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Equipment Interface" visualID="_9AGH8JQlEeWx-fcYjWBaxA"/>
+          <Elements xsi:type="context:VisualSystem" Location="58,314" Bounds="226,52" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Transport Comunicator" visualID="_N_5Q8JQmEeWx-fcYjWBaxA"/>
+          <Elements xsi:type="context:VisualSystem" Location="58,378" Bounds="226,54" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Diagnostics System Comunicator" visualID="_XlerIJQmEeWx-fcYjWBaxA"/>
+          <Elements xsi:type="context:VisualSystem" Location="58,441" Bounds="226,58" Parent="_vs-MAJPYEeWnKPrklBObzw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Name="Patient Jurnal System Communicator" visualID="_6qpeEJQmEeWx-fcYjWBaxA"/>
         </Elements>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_vuTz8I6iEeWPHOim6ewYkQ" Target="_vg7jYJRBEeWx-fcYjWBaxA" Direction="Bidirectional" Name="" Type="Association"/>
       </VisualDiagram>
     </contents>
   </contents>
