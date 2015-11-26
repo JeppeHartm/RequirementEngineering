@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholder.red" timeCreated="2015-10-09T15:09:53.006+0200" lastModified="2015-11-26T03:17:25.640+0100" uniqueID="7ed63d01-a336-4895-aecf-2f647c3791e8">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholder.red" timeCreated="2015-10-09T15:09:53.006+0200" lastModified="2015-11-26T10:02:17.723+0100" uniqueID="7ed63d01-a336-4895-aecf-2f647c3791e8">
   <creator name="" timeCreated="2015-10-09T15:09:53.007+0200" uniqueID="17869f2b-15ab-4399-a6e0-18c90c16cd73" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Stakeholders" timeCreated="2015-10-09T15:44:35.616+0200" lastModified="2015-11-26T03:17:25.632+0100" uniqueID="283544c8-877a-47b7-ace8-5a85f336d8be">
+  <contents xsi:type="folder:Folder" name="Stakeholders" timeCreated="2015-10-09T15:44:35.616+0200" lastModified="2015-11-26T10:02:17.707+0100" uniqueID="283544c8-877a-47b7-ace8-5a85f336d8be">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="stakeholder:Stakeholder" label="HE-CIT" name="Citizens" elementKind="External" description="The citizens are the patients and relatives whose data is accessed through the system" timeCreated="2015-10-09T14:17:09.013+0200" lastModified="2015-11-26T02:31:50.730+0100" uniqueID="0799af8b-5c9e-44ea-b660-85c492980bae" workPackage="" exposure="3">
@@ -188,7 +188,7 @@
         <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>he consultants are not affected by the system, but are in part responsible for the outcome. Their power is medium, since they do have a say in how it is implemented regarding the EU regulations. &lt;/FONT>&lt;/SPAN>&lt;/P>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="HS" name="Hospital Staff" elementKind="External" description="Hospital staff is within the confines of this project a term for the medical personnel within the hospital (Doctors and Nurses) thereby excluding administrative personnel" timeCreated="2015-10-09T14:12:42.469+0200" lastModified="2015-11-26T03:17:25.632+0100" uniqueID="9cc4a90d-b59d-48b2-ad2d-47904e079382" workPackage="" exposure="3" power="2" importance="2">
+    <contents xsi:type="stakeholder:Stakeholder" label="HE-MP" name="Medical Professional" elementKind="External" description="Medical Professional is within the confines of this project a term for the medical personnel within the hospital (Doctors and Nurses) thereby excluding administrative personnel" timeCreated="2015-10-09T14:12:42.469+0200" lastModified="2015-11-26T10:02:17.707+0100" uniqueID="9cc4a90d-b59d-48b2-ad2d-47904e079382" workPackage="" exposure="3" power="2" importance="2">
       <creator name="" timeCreated="2015-10-09T14:12:42.469+0200" uniqueID="643fd7ee-74bf-474b-a3d7-b8c0b8f93325" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -217,7 +217,7 @@
         <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Selected medical staff will be asked to participate in the testing of the system before it is rolled out to all hospitals. &lt;/SPAN>"/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Medical staff has high exposure, since their day to day work routine will be directly affected by the final product.&lt;/SPAN>"/>
+        <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Medical Professional has high exposure, since their day to day work routine will be directly affected by the final product.&lt;/SPAN>"/>
       </longDescription>
     </contents>
     <contents xsi:type="stakeholder:Stakeholder" label="NHA" name="National Hospital Administration" elementKind="External" partOf="ad3ec231-1d85-421d-83a6-a05552ba5f8a" description="The national hospital administrations of the individual member countries are repsonsible for running their countries hospitals and medical systems, and have their own regulations and intersts regarding this. " timeCreated="2015-10-09T14:06:23.260+0200" lastModified="2015-11-19T09:56:27.971+0100" uniqueID="378ba7ba-3f7b-4848-869b-d216a4160453" workPackage="" exposure="2" power="3" urgency="2" importance="3">
