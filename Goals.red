@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assumption="dk.dtu.imm.red.specificationelements.assumption" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:goal_1="dk.dtu.imm.red.visualmodeling.visualmodel.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-26T14:39:22.796+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assumption="dk.dtu.imm.red.specificationelements.assumption" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:goal="dk.dtu.imm.red.specificationelements.goal" xmlns:goal_1="dk.dtu.imm.red.visualmodeling.visualmodel.goal" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Goals.red" timeCreated="2015-10-09T15:12:51.753+0200" lastModified="2015-11-26T17:22:33.233+0100" uniqueID="5f089f1c-e823-4035-9d35-b2dceb6033d5">
   <creator name="" timeCreated="2015-10-09T15:12:51.753+0200" uniqueID="d9b978f0-3f5c-4a36-9a3b-dd781ad5a814" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-11-26T13:59:03.128+0100" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
+  <contents xsi:type="folder:Folder" name="Goals" timeCreated="2015-10-09T15:45:06.376+0200" lastModified="2015-11-26T17:20:06.517+0100" uniqueID="96f5e13a-d1e1-43d4-afbd-817b7fcf9ea0" specialType="Goal">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="folder:Folder" name="Motives &amp; Stakes" timeCreated="2015-11-12T09:59:05.061+0100" lastModified="2015-11-26T11:37:02.087+0100" uniqueID="c7b842ef-1de5-406d-a3ba-6aad3bf8e60b" workPackage="" specialType="Goal">
@@ -314,7 +314,7 @@
         </assumptionText>
       </contents>
     </contents>
-    <contents xsi:type="folder:Folder" name="Business" timeCreated="2015-11-12T10:02:30.095+0100" lastModified="2015-11-26T13:49:55.227+0100" uniqueID="f705d65f-9d19-4579-9342-2f3b76ed5864" workPackage="" specialType="Goal">
+    <contents xsi:type="folder:Folder" name="Business" timeCreated="2015-11-12T10:02:30.095+0100" lastModified="2015-11-26T17:20:06.517+0100" uniqueID="f705d65f-9d19-4579-9342-2f3b76ed5864" workPackage="" specialType="Goal">
       <creator name="" timeCreated="2015-11-12T12:50:12.416+0100" uniqueID="7e4f0142-e553-4f3b-9d77-687c1e30dd62">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -496,7 +496,7 @@
           <fragments xsi:type="text:FormattedText" text="&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>&lt;font size=&quot;3&quot; face=&quot;Calibri&quot;>Administration creates overhead, and thus decreases both efficiency and job satisfaction. Keeping all information about a patient together, helps eliminate some of the administrative overhead, and easing the data entry does as well.&lt;/font>&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>As part of administration, all work regarding patient treatment must be traceable.&lt;/font>&lt;/p>"/>
         </explanation>
       </contents>
-      <contents xsi:type="goal:Goal" label="BG_WP" name="Work processes" elementKind="unspecified" description="To standardize work processes within hospitals across the EU" timeCreated="2015-10-24T01:08:25.095+0200" lastModified="2015-11-25T15:37:29.975+0100" uniqueID="fea62063-22ea-473a-b954-75a68f1d161c" workPackage="">
+      <contents xsi:type="goal:Goal" label="BG_WP" name="Work processes" elementKind="Business" description="To standardize work processes within hospitals across the EU" timeCreated="2015-10-24T01:08:25.095+0200" lastModified="2015-11-26T17:20:06.517+0100" uniqueID="fea62063-22ea-473a-b954-75a68f1d161c" workPackage="">
         <creator name="" timeCreated="2015-10-24T01:08:25.095+0200" uniqueID="b8b764ec-8da4-42a7-9a70-f8c41a80726a" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
