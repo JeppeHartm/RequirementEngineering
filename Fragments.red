@@ -1,36 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:statemachine="dk.dtu.imm.red.visualmodeling.visualmodel.statemachine" xmlns:text="dk.dtu.imm.red.core.text" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Fragments.red" timeCreated="2015-11-10T10:24:57.204+0100" lastModified="2015-11-19T12:26:11.336+0100" uniqueID="944f2e47-7d02-4581-b0c7-f96904523428">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:text="dk.dtu.imm.red.core.text" xmlns:usecase="dk.dtu.imm.red.visualmodeling.visualmodel.usecase" xmlns:usecase_1="dk.dtu.imm.red.specificationelements.usecase" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Fragments.red" timeCreated="2015-11-10T10:24:57.204+0100" lastModified="2015-11-26T18:07:11.179+0100" uniqueID="944f2e47-7d02-4581-b0c7-f96904523428">
   <creator name="" timeCreated="2015-11-10T10:24:57.204+0100" uniqueID="2ef5a356-a529-4e36-8d4d-942623d10f25" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Fragments" timeCreated="2015-11-10T10:26:53.898+0100" lastModified="2015-11-19T12:24:06.910+0100" uniqueID="97032f8c-f39a-4af6-b86d-8dd169554123">
+  <contents xsi:type="folder:Folder" name="Fragments" timeCreated="2015-11-10T10:26:53.898+0100" lastModified="2015-11-26T17:53:14.748+0100" uniqueID="97032f8c-f39a-4af6-b86d-8dd169554123">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="Requirements" timeCreated="2015-11-10T10:27:28.020+0100" lastModified="2015-11-10T10:37:53.660+0100" uniqueID="e09aa0c9-6e90-4531-ab2a-c34d910a3c88">
+    <contents xsi:type="folder:Folder" name="Requirements" timeCreated="2015-11-10T10:27:28.020+0100" lastModified="2015-11-26T17:53:14.748+0100" uniqueID="e09aa0c9-6e90-4531-ab2a-c34d910a3c88">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="visualmodel:Diagram" label="frag_uj" name="Update Journal Fragment" elementKind="unspecified" description="State Machine representation of the Update Journal feature" timeCreated="2015-11-10T10:37:53.649+0100" lastModified="2015-11-10T10:37:53.660+0100" uniqueID="5f6a188a-ce41-4e97-af47-1043514d9e41" workPackage="">
-        <creator name="" timeCreated="2015-11-10T10:43:22.362+0100" uniqueID="982a2b58-924e-4207-8313-8fa7f1482515">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-11-10T10:43:22.363+0100" uniqueID="0e63dd11-54eb-41c7-86e8-bd9b262ae7fc">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.0/@contents.0/@VisualDiagram" DiagramType="StateMachine">
-          <Elements xsi:type="statemachine:VisualInitialState" Location="394,83" Bounds="30,30" Parent="//@contents.0/@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@contents.0/@VisualDiagram" IsSketchy="true" visualID="_B3tqsIePEeWo4Y0LB99oFQ"/>
-          <Elements xsi:type="statemachine:VisualFinalState" Location="578,461" Bounds="30,30" Parent="//@contents.0/@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@contents.0/@VisualDiagram" IsSketchy="true" visualID="_CuycoIePEeWo4Y0LB99oFQ"/>
-          <Elements xsi:type="statemachine:VisualState" Location="475,232" Bounds="100,100" Parent="//@contents.0/@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@contents.0/@VisualDiagram" IsSketchy="true" Name="Storing" visualID="_3BYvcIeQEeWo4Y0LB99oFQ" entry="" exit="" do="Store received data in the EPJ"/>
-          <Elements xsi:type="statemachine:VisualState" Location="526,102" Bounds="100,100" Parent="//@contents.0/@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@contents.0/@VisualDiagram" IsSketchy="true" visualID="_vq0foIeSEeWo4Y0LB99oFQ"/>
-        </VisualDiagram>
-      </contents>
     </contents>
     <contents xsi:type="folder:Folder" name="Use Cases" timeCreated="2015-11-19T10:28:15.452+0100" lastModified="2015-11-19T12:24:06.910+0100" uniqueID="1096f3d6-b62d-4e08-838f-a373d30e67f7">
       <cost name="Cost" kind=""/>
@@ -57,78 +38,78 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <VisualDiagram Location="0,0" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" DiagramType="Weave">
-          <Elements xsi:type="usecase:VisualActorElement" Location="843,212" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_FYI6vEeWhaP50QvzEcg _ni_scI6vEeWhaP50QvzEcg" IsSketchy="true" Name="Auxiliary Device" visualID="_ni1UYY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="843,212" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_FYI6vEeWhaP50QvzEcg _ni_scI6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni1UYY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <weaveFrom>
               <weaveOrigin xsi:type="usecase:VisualActorElement" href="WeaveTempFile.red#_naB9sY6vEeWhaP50QvzEcg"/>
             </weaveFrom>
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#d6d81ff4-d96e-4796-8d36-64a8fbb67415"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="1214,515" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njFMAI6vEeWhaP50QvzEcg _njGaII6vEeWhaP50QvzEcg _njHBMI6vEeWhaP50QvzEcg" IsSketchy="true" Name="Patients" visualID="_ni17cY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="1214,515" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njFMAI6vEeWhaP50QvzEcg _njGaII6vEeWhaP50QvzEcg _njHBMI6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni17cY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <weaveFrom>
               <weaveOrigin xsi:type="usecase:VisualActorElement" href="WeaveTempFile.red#_naDL0I6vEeWhaP50QvzEcg"/>
             </weaveFrom>
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#4273cde5-89c8-456d-be10-d30d1c5d5596"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="463,644" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njBhoI6vEeWhaP50QvzEcg _njCIsI6vEeWhaP50QvzEcg _njCvwI6vEeWhaP50QvzEcg _njDW0I6vEeWhaP50QvzEcg _njEk8I6vEeWhaP50QvzEcg _njHBMY6vEeWhaP50QvzEcg" IsSketchy="true" Name="Doctors" visualID="_ni2igY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="463,644" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njBhoI6vEeWhaP50QvzEcg _njCIsI6vEeWhaP50QvzEcg _njCvwI6vEeWhaP50QvzEcg _njDW0I6vEeWhaP50QvzEcg _njEk8I6vEeWhaP50QvzEcg _njHBMY6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni2igY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <weaveFrom>
               <weaveOrigin xsi:type="usecase:VisualActorElement" href="WeaveTempFile.red#_naDy4Y6vEeWhaP50QvzEcg"/>
             </weaveFrom>
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#e017bc5d-7203-4e99-bb01-74fdb028fc76"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="383,450" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_scY6vEeWhaP50QvzEcg _njATgI6vEeWhaP50QvzEcg _njA6kI6vEeWhaP50QvzEcg _njHBMY6vEeWhaP50QvzEcg" IsSketchy="true" Name="Medical Professionals" visualID="_ni3JkY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="383,450" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_scY6vEeWhaP50QvzEcg _njATgI6vEeWhaP50QvzEcg _njA6kI6vEeWhaP50QvzEcg _njHBMY6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni3JkY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <weaveFrom>
               <weaveOrigin xsi:type="usecase:VisualActorElement" href="WeaveTempFile.red#_naFBAY6vEeWhaP50QvzEcg"/>
             </weaveFrom>
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#18deae08-2713-4698-8841-2af12615c6a5"/>
           </Elements>
           <Elements xsi:type="usecase:VisualSystemBoundaryElement" Location="651,369" Bounds="539,414" Parent="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" IsSketchy="true" Name="Hospital Interface" visualID="_ni3wpY6vEeWhaP50QvzEcg">
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="37,43" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_FYI6vEeWhaP50QvzEcg _njATgI6vEeWhaP50QvzEcg _njCIsI6vEeWhaP50QvzEcg _njIPUI6vEeWhaP50QvzEcg" IsSketchy="true" Name="Connect journal to auxiliary device" visualID="_ni4XsY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="37,43" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_FYI6vEeWhaP50QvzEcg _njATgI6vEeWhaP50QvzEcg _njCIsI6vEeWhaP50QvzEcg _njIPUI6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni4XsY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom weaveOrigin="_XVjC4I6uEeWhaP50QvzEcg"/>
               <weaveFrom>
                 <weaveOrigin xsi:type="usecase:VisualUseCaseElement" href="WeaveTempFile.red#_naIEUY6vEeWhaP50QvzEcg"/>
               </weaveFrom>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#76b75723-f9ec-4f71-8a47-f53b79264896"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="245,278" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njI2YI6vEeWhaP50QvzEcg" IsSketchy="true" Name="Request access to journal" visualID="_ni5l0Y6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="245,278" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njI2YI6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni5l0Y6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom weaveOrigin="_YOdA0I6uEeWhaP50QvzEcg"/>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#43d529f8-8031-47f5-b4d8-30bb98d9ef04"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="333,76" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njKEgI6vEeWhaP50QvzEcg" IsSketchy="true" Name="Retrieve journal data" visualID="_ni6M4Y6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="333,76" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njKEgI6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni6M4Y6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom weaveOrigin="_ZW2MQI6uEeWhaP50QvzEcg"/>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#62f3b1b8-e3b6-4a76-b8a4-0b95b070f3c4"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="195,41" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_scI6vEeWhaP50QvzEcg" IsSketchy="true" Name="Auxiliary device updates journal" visualID="_ni6z8Y6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="195,41" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_scI6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni6z8Y6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom>
                 <weaveOrigin xsi:type="usecase:VisualUseCaseElement" href="WeaveTempFile.red#_naJ5gY6vEeWhaP50QvzEcg"/>
               </weaveFrom>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#1fb595cc-039d-4ad1-b2d9-0e0db41f2e25"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="108,330" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njEk8I6vEeWhaP50QvzEcg" IsSketchy="true" Name="Edit journal" visualID="_ni8CEY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="108,330" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njEk8I6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni8CEY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom>
                 <weaveOrigin xsi:type="usecase:VisualUseCaseElement" href="WeaveTempFile.red#_naKgkY6vEeWhaP50QvzEcg"/>
               </weaveFrom>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#1ecd6dcb-72e1-4434-bfe4-4a6671edeae8"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="149,204" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njA6kI6vEeWhaP50QvzEcg _njBhoI6vEeWhaP50QvzEcg _njFMAI6vEeWhaP50QvzEcg _njIPUI6vEeWhaP50QvzEcg _njI2YI6vEeWhaP50QvzEcg _njKEgI6vEeWhaP50QvzEcg" IsSketchy="true" Name="Find patient" visualID="_ni8pIY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="149,204" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njA6kI6vEeWhaP50QvzEcg _njBhoI6vEeWhaP50QvzEcg _njFMAI6vEeWhaP50QvzEcg _njIPUI6vEeWhaP50QvzEcg _njI2YI6vEeWhaP50QvzEcg _njKEgI6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni8pIY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom>
                 <weaveOrigin xsi:type="usecase:VisualUseCaseElement" href="WeaveTempFile.red#_naLusY6vEeWhaP50QvzEcg"/>
               </weaveFrom>
               <weaveFrom weaveOrigin="_ZDfLYI6uEeWhaP50QvzEcg"/>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="63,257" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_scY6vEeWhaP50QvzEcg _njCvwI6vEeWhaP50QvzEcg _njDW0I6vEeWhaP50QvzEcg" IsSketchy="true" Name="Record Action" visualID="_ni9QMY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="63,257" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_ni_scY6vEeWhaP50QvzEcg _njCvwI6vEeWhaP50QvzEcg _njDW0I6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni9QMY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom>
                 <weaveOrigin xsi:type="usecase:VisualUseCaseElement" href="WeaveTempFile.red#_naMVwY6vEeWhaP50QvzEcg"/>
               </weaveFrom>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#7c8f71de-505b-4ab4-9b0e-dd0be3670d65"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="351,136" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njGaII6vEeWhaP50QvzEcg" IsSketchy="true" Name="Grant Access to journal" visualID="_ni93QY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="351,136" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njGaII6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni93QY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom>
                 <weaveOrigin xsi:type="usecase:VisualUseCaseElement" href="WeaveTempFile.red#_naM80Y6vEeWhaP50QvzEcg"/>
               </weaveFrom>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#09ff7c0d-3f6d-4ac4-a04e-a3660ac25e58"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="351,333" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njHBMI6vEeWhaP50QvzEcg" IsSketchy="true" Name="Remove access to journal" visualID="_ni-eUY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="351,333" Bounds="150,50" Parent="_ni3wpY6vEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.0/@VisualDiagram" Connections="_njHBMI6vEeWhaP50QvzEcg" IsSketchy="true" visualID="_ni-eUY6vEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveFrom>
                 <weaveOrigin xsi:type="usecase:VisualUseCaseElement" href="WeaveTempFile.red#_naOK8Y6vEeWhaP50QvzEcg"/>
               </weaveFrom>
@@ -334,15 +315,15 @@
         <benefit name="Cost" kind=""/>
         <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.1/@contents.3/@VisualDiagram" DiagramType="UseCase">
           <Elements xsi:type="usecase:VisualSystemBoundaryElement" Location="338,117" Bounds="303,316" Parent="//@contents.0/@contents.1/@contents.3/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.3/@VisualDiagram" IsSketchy="true" Name="Hospital Interface" visualID="_f2UDsI6mEeW5IIFrVx2Ujw">
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="80,96" Bounds="150,50" Parent="_f2UDsI6mEeW5IIFrVx2Ujw" Diagram="//@contents.0/@contents.1/@contents.3/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.3/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" Name="Record Action" visualID="_1oPpgI6nEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="80,96" Bounds="150,50" Parent="_f2UDsI6mEeW5IIFrVx2Ujw" Diagram="//@contents.0/@contents.1/@contents.3/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.3/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" visualID="_1oPpgI6nEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveTo href="WeaveTempFile.red#//@contents.1/@VisualDiagram/@Elements.3/@Elements.3/@weaveFrom.1"/>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#7c8f71de-505b-4ab4-9b0e-dd0be3670d65"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="128,209" Bounds="150,50" Parent="_f2UDsI6mEeW5IIFrVx2Ujw" Diagram="//@contents.0/@contents.1/@contents.3/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.3/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" Name="Find patient" visualID="_2QTIAI6nEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="128,209" Bounds="150,50" Parent="_f2UDsI6mEeW5IIFrVx2Ujw" Diagram="//@contents.0/@contents.1/@contents.3/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.3/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" visualID="_2QTIAI6nEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveTo href="WeaveTempFile.red#//@contents.1/@VisualDiagram/@Elements.3/@Elements.2/@weaveFrom.1"/>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="72,160" Bounds="150,50" Parent="_f2UDsI6mEeW5IIFrVx2Ujw" Diagram="//@contents.0/@contents.1/@contents.3/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.3/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" Name="Connect journal to auxiliary device" visualID="_4J0OYI6nEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="72,160" Bounds="150,50" Parent="_f2UDsI6mEeW5IIFrVx2Ujw" Diagram="//@contents.0/@contents.1/@contents.3/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.3/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" visualID="_4J0OYI6nEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveTo href="WeaveTempFile.red#//@contents.1/@VisualDiagram/@Elements.3/@Elements.0/@weaveFrom.0"/>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#76b75723-f9ec-4f71-8a47-f53b79264896"/>
             </Elements>
@@ -377,11 +358,11 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
         <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.1/@contents.4/@VisualDiagram" DiagramType="UseCase">
-          <Elements xsi:type="usecase:VisualActorElement" Location="223,156" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.4/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.4/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.4/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" Name="Doctors" visualID="_HzDXoI6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="223,156" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.4/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.4/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.4/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" visualID="_HzDXoI6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <weaveTo href="WeaveTempFile.red#//@contents.2/@VisualDiagram/@Elements.2/@weaveFrom.0"/>
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#e017bc5d-7203-4e99-bb01-74fdb028fc76"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="501,161" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.4/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.4/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.4/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" Name="Medical Professionals" visualID="_IP2BUI6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="501,161" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.4/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.4/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.4/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" visualID="_IP2BUI6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <weaveTo href="WeaveTempFile.red#//@contents.2/@VisualDiagram/@Elements.3/@weaveFrom.0"/>
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#18deae08-2713-4698-8841-2af12615c6a5"/>
           </Elements>
@@ -405,17 +386,17 @@
         <benefit name="Cost" kind=""/>
         <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.1/@contents.5/@VisualDiagram" DiagramType="UseCase">
           <Elements xsi:type="usecase:VisualSystemBoundaryElement" Location="399,148" Bounds="200,200" Parent="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.5/@VisualDiagram" IsSketchy="true" Name="Hospital Interface" visualID="_2ahJEI6pEeWhaP50QvzEcg">
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="60,100" Bounds="150,50" Parent="_2ahJEI6pEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.5/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" Name="Connect journal to auxiliary device" visualID="_4cEKEI6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="60,100" Bounds="150,50" Parent="_2ahJEI6pEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.5/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" visualID="_4cEKEI6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveTo href="WeaveTempFile.red#//@contents.3/@VisualDiagram/@Elements.4/@Elements.0/@weaveFrom.0"/>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#76b75723-f9ec-4f71-8a47-f53b79264896"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="62,153" Bounds="150,50" Parent="_2ahJEI6pEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.5/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" Name="Auxiliary device updates journal" visualID="_4y3ggI6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="62,153" Bounds="150,50" Parent="_2ahJEI6pEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.5/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" visualID="_4y3ggI6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <weaveTo href="WeaveTempFile.red#//@contents.3/@VisualDiagram/@Elements.4/@Elements.1/@weaveFrom.0"/>
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#1fb595cc-039d-4ad1-b2d9-0e0db41f2e25"/>
             </Elements>
             <weaveTo href="WeaveTempFile.red#//@contents.3/@VisualDiagram/@Elements.4/@weaveFrom.0"/>
           </Elements>
-          <Elements xsi:type="usecase:VisualActorElement" Location="164,261" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.5/@VisualDiagram/@DiagramConnections.0 //@contents.0/@contents.1/@contents.5/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" Name="Auxiliary Device" visualID="_7pdTII6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+          <Elements xsi:type="usecase:VisualActorElement" Location="164,261" Bounds="80,150" Parent="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.5/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.5/@VisualDiagram/@DiagramConnections.0 //@contents.0/@contents.1/@contents.5/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" visualID="_7pdTII6pEeWhaP50QvzEcg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
             <weaveTo href="WeaveTempFile.red#//@contents.3/@VisualDiagram/@Elements.0/@weaveFrom.0"/>
             <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#d6d81ff4-d96e-4796-8d36-64a8fbb67415"/>
           </Elements>
@@ -441,16 +422,16 @@
         <benefit name="Cost" kind=""/>
         <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" DiagramType="UseCase">
           <Elements xsi:type="usecase:VisualSystemBoundaryElement" Location="301,72" Bounds="401,402" Parent="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" IsSketchy="true" Name="Hospital Interface" visualID="_dz8mgI6qEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@weaveFrom.0">
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="48,64" Bounds="150,50" Parent="_dz8mgI6qEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" Name="Connect journal to auxiliary device" visualID="_XVjC4I6uEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@Elements.0/@weaveFrom.0" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="48,64" Bounds="150,50" Parent="_dz8mgI6qEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" visualID="_XVjC4I6uEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@Elements.0/@weaveFrom.0" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#76b75723-f9ec-4f71-8a47-f53b79264896"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="221,255" Bounds="150,50" Parent="_dz8mgI6qEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" Name="Request access to journal" visualID="_YOdA0I6uEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@Elements.1/@weaveFrom.0" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="221,255" Bounds="150,50" Parent="_dz8mgI6qEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" visualID="_YOdA0I6uEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@Elements.1/@weaveFrom.0" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#43d529f8-8031-47f5-b4d8-30bb98d9ef04"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="103,155" Bounds="150,50" Parent="_dz8mgI6qEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.0 //@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.1 //@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" Name="Find patient" visualID="_ZDfLYI6uEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@Elements.5/@weaveFrom.1" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="103,155" Bounds="150,50" Parent="_dz8mgI6qEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.0 //@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.1 //@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" visualID="_ZDfLYI6uEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@Elements.5/@weaveFrom.1" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#36c09f22-d1f9-4e62-8649-6c19b8cda9dc"/>
             </Elements>
-            <Elements xsi:type="usecase:VisualUseCaseElement" Location="232,86" Bounds="150,50" Parent="_dz8mgI6qEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" Name="Retrieve journal data" visualID="_ZW2MQI6uEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@Elements.2/@weaveFrom.0" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
+            <Elements xsi:type="usecase:VisualUseCaseElement" Location="232,86" Bounds="150,50" Parent="_dz8mgI6qEeWhaP50QvzEcg" Diagram="//@contents.0/@contents.1/@contents.6/@VisualDiagram" Connections="//@contents.0/@contents.1/@contents.6/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" visualID="_ZW2MQI6uEeWhaP50QvzEcg" weaveTo="//@contents.0/@contents.1/@contents.0/@VisualDiagram/@Elements.4/@Elements.2/@weaveFrom.0" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.usecase.Usecase">
               <SpecificationElement xsi:type="usecase_1:Usecase" href="Use%20Cases.red#62f3b1b8-e3b6-4a76-b8a4-0b95b070f3c4"/>
             </Elements>
           </Elements>
